@@ -142,7 +142,7 @@
   <div class="header-logo">RUSH</div>
   <div class="header-title">
     <h1>Research Impact Dashboard</h1>
-    <p>Research Working Group — Steering Committee</p>
+    <p>Research Working Group &mdash; Steering Committee</p>
   </div>
   <div class="header-meta">Rush University Medical Center<br>Data: OpenAlex · May 2026<br>n = 1,688 faculty</div>
 </div>
@@ -161,36 +161,36 @@
   <div class="how-to-read">
     <h3>How to Read This Dashboard</h3>
     <ul>
-      <li><strong>H-Index</strong> — A researcher with h-index <em>h</em> has published at least <em>h</em> papers, each cited at least <em>h</em> times. It measures sustained research impact over a career.</li>
-      <li><strong>Rush 5yr</strong> — Number of publications from 2021–2026 where at least one author lists Rush as their affiliation. Measures recent research activity at this institution.</li>
-      <li><strong>2yr Citedness</strong> — Average citations received by a researcher's papers published in the last 2 years. Measures how much attention recent work is getting.</li>
-      <li><strong>Important:</strong> H-indices are <u>not comparable across disciplines</u>. An h-index of 15 in nursing reflects a different achievement than h=15 in molecular biology. Cross-department comparisons should account for field-specific citation norms.</li>
-      <li><strong>Data source:</strong> Faculty names from the Rush University directory (rushu.rush.edu). Publication metrics from OpenAlex, an open scholarly database. Some faculty may be unmatched or misattributed — see Methodology on the Faculty Directory tab for details.</li>
+      <li><strong>H-Index</strong> &mdash; A researcher with h-index <em>h</em> has published at least <em>h</em> papers, each cited at least <em>h</em> times. It captures sustained impact over a career, not just volume.</li>
+      <li><strong>Rush 5yr</strong> &mdash; Publications from 2021&ndash;2026 where at least one author lists a Rush affiliation. This is the best available measure of recent institutional research activity.</li>
+      <li><strong>2yr Citedness</strong> &mdash; Average citations per paper published in the last two years. Captures how much attention a researcher&rsquo;s recent work is attracting from the field.</li>
+      <li><strong>Important:</strong> H-indices are <u>not comparable across disciplines</u>. An h-index of 15 in nursing represents a different level of achievement than h&nbsp;=&nbsp;15 in molecular biology. Any cross-department comparison should account for field-specific citation norms.</li>
+      <li><strong>Data source:</strong> Faculty names from the Rush University directory (rushu.rush.edu). Publication metrics from OpenAlex, an open scholarly database. Some faculty may be unmatched or misattributed&mdash;see Methodology on the Faculty Directory tab for details.</li>
     </ul>
   </div>
 
   <div class="two-col">
     <div class="chart-card">
-      <div class="chart-title">H-Index Distribution Across All Faculty</div>
-      <div class="chart-sub">1,688 faculty grouped by career impact tier. The h-index measures how many papers a researcher has published that each received at least that many citations.</div>
+      <div class="chart-title">Most Rush Faculty Have Published Fewer Than 10 Papers&mdash;but a Small Group Has Exceptional Impact</div>
+      <div class="chart-sub">1,688 faculty grouped by career impact tier</div>
       <div id="chart-hdist" style="height:340px"></div>
-      <div class="chart-interpret"><strong>How to read this:</strong> Each bar shows the number of faculty in an h-index range. An h-index of 20 means a researcher has at least 20 papers cited 20+ times each. Most faculty have h-indices below 10, which is common at clinical-focused academic medical centers where patient care is the primary mission. Faculty with h=0 may be primarily clinical, early career, or not yet indexed in OpenAlex.</div>
+      <div class="chart-interpret"><strong>How to read this:</strong> Each bar shows how many faculty fall in an h-index range. An h-index of 20 means at least 20 papers cited 20+ times each. The heavy left skew is typical of clinical-focused academic medical centers where most faculty prioritize patient care. Faculty with h&nbsp;=&nbsp;0 may be primarily clinical, early career, or not yet indexed in OpenAlex.</div>
       <div class="chart-source">Source: OpenAlex (openalex.org) · Rush faculty directory · May 2026</div>
     </div>
     <div class="chart-card">
-      <div class="chart-title">H-Index by College</div>
-      <div class="chart-sub">Distribution of h-indices among faculty with at least one publication. Box shows the middle 50% (interquartile range); line inside the box is the median.</div>
+      <div class="chart-title">Rush Medical College Faculty Publish Substantially More Than Nursing or Health Sciences</div>
+      <div class="chart-sub">H-index distribution among faculty with at least one publication, by college</div>
       <div id="chart-college-box" style="height:340px"></div>
-      <div class="chart-interpret"><strong>How to read this:</strong> Each box shows where the middle 50% of faculty fall. The line in the box is the median — half of faculty are above, half below. Dots beyond the whiskers are statistical outliers. Differences between colleges reflect disciplinary publishing norms (e.g., citation rates vary by field), not research quality. Do not compare h-indices directly across disciplines.</div>
+      <div class="chart-interpret"><strong>How to read this:</strong> Each box spans the middle 50% of faculty; the line inside is the median. Dots beyond the whiskers are outliers. The gap between colleges reflects disciplinary publishing norms&mdash;citation rates vary by field&mdash;not research quality. An h-index of 15 in nursing and h&nbsp;=&nbsp;15 in molecular biology represent very different levels of achievement.</div>
       <div class="chart-source">Source: OpenAlex · May 2026</div>
     </div>
   </div>
 
   <div class="chart-card">
-    <div class="chart-title">Department Research Profile — Five Metrics Compared</div>
-    <div class="chart-sub">Departments sorted by composite score. Darker green = higher relative performance on that metric. Each cell shows the actual value; color reflects normalized rank across departments.</div>
+    <div class="chart-title">No Department Leads on Every Metric&mdash;Each Has a Distinct Research Profile</div>
+    <div class="chart-sub">Departments sorted by composite score. Darker green = stronger relative performance. Each cell shows the actual value.</div>
     <div id="chart-heatmap" style="height:680px"></div>
-    <div class="chart-interpret"><strong>How to read this:</strong> Each row is a department; each column is a research metric. Darker green cells indicate a department performs relatively well on that metric compared to other Rush departments. White cells indicate lower relative performance. "Research Active %" is the share of faculty with any publications. "Research Equity" (1 minus Gini) measures how evenly research output is distributed — higher means output is spread across more faculty rather than concentrated in a few.</div>
+    <div class="chart-interpret"><strong>How to read this:</strong> Each row is a department; each column is a research metric. Darker green means a department ranks higher among Rush departments on that metric; white means lower. &ldquo;Research Active %&rdquo; is the share of faculty with any publications. &ldquo;Research Equity&rdquo; (1&nbsp;&minus;&nbsp;Gini) measures how evenly output is distributed&mdash;higher means research is spread across more faculty rather than concentrated in a few stars.</div>
     <div class="chart-source">Source: OpenAlex · Rush faculty directory · May 2026</div>
   </div>
 
@@ -200,16 +200,16 @@
 <!-- PAGE 2: DEPARTMENT ANALYTICS -->
 <div class="page" id="page-1">
   <div class="chart-card hero-chart">
-    <div class="chart-title">Department Quadrant: Breadth vs. Depth</div>
-    <div class="chart-sub">X = Research Active % (breadth) · Y = Median H-Index among publishing faculty (depth) · Bubble size = &radic;(faculty count) · Quadrant lines at institutional medians</div>
+    <div class="chart-title">A Handful of Departments Stand Out for Both Research Depth and Breadth</div>
+    <div class="chart-sub">Horizontal = Research Active % (breadth) &middot; Vertical = Median H-Index among publishing faculty (depth) &middot; Bubble size = faculty count &middot; Dashed lines at institutional medians</div>
     <div id="chart-quadrant" style="height:500px"></div>
-    <div class="chart-interpret"><strong>How to read this:</strong> Departments in the <strong>upper-right</strong> ("Research Culture") have both high participation in research and high individual impact. <strong>Upper-left</strong> ("Star-Dependent") departments have high-impact individuals but limited participation. <strong>Lower-right</strong> ("Emerging") departments have broad participation at lower impact levels. <strong>Lower-left</strong> ("Teaching-Focused") departments have lower participation and impact — which may be appropriate for their clinical mission. Bubble colors represent college: green = Rush Medical College, teal = College of Health Sciences, light green = College of Nursing.</div>
+    <div class="chart-interpret"><strong>How to read this:</strong> <strong>Upper-right</strong> (&ldquo;Research Culture&rdquo;): both high participation and high individual impact. <strong>Upper-left</strong> (&ldquo;Star-Dependent&rdquo;): a few high-impact individuals but limited broad participation. <strong>Lower-right</strong> (&ldquo;Emerging&rdquo;): many faculty are publishing, but at lower impact levels so far. <strong>Lower-left</strong> (&ldquo;Teaching-Focused&rdquo;): lower participation and impact&mdash;which may be entirely appropriate for a department&rsquo;s clinical or teaching mission. Bubble colors: green = Rush Medical College, teal = Health Sciences, light green = Nursing.</div>
     <div class="chart-source">Source: OpenAlex · Rush faculty directory · May 2026</div>
   </div>
 
   <div class="chart-card">
     <div class="chart-title">Department Rankings by Research Metrics</div>
-    <div class="chart-sub">Click any column header to sort. Green cells = top quartile for that metric; yellow = middle quartiles; red = bottom quartile. Rankings reflect bibliometric indicators only and should be interpreted alongside departmental mission and field norms.</div>
+    <div class="chart-sub">Click any column header to re-sort. Green = top quartile, yellow = middle, red = bottom quartile. Rankings reflect bibliometric indicators only&mdash;interpret alongside each department&rsquo;s mission and field norms.</div>
     <div class="data-table-wrap">
       <table class="data-table" id="dept-table">
         <thead><tr>
@@ -229,11 +229,11 @@
   </div>
 
   <div class="chart-card">
-    <div class="chart-title">Multi-Metric Radar: Compare Up to 4 Departments</div>
-    <div class="chart-sub">Select 2–4 departments to overlay their profiles. Each axis is normalized 0–100 relative to the highest-performing department on that metric. A larger shape means stronger performance across metrics.</div>
+    <div class="chart-title">Compare Any Departments Side by Side</div>
+    <div class="chart-sub">Select 2&ndash;4 departments to overlay their profiles. Each axis is normalized 0&ndash;100 relative to the top department on that metric.</div>
     <div class="radar-controls" id="radar-controls"></div>
     <div id="chart-radar" style="height:420px"></div>
-    <div class="chart-interpret"><strong>How to read this:</strong> Each spoke represents a different research metric, scaled to 100 (= the best department on that metric). A department's colored shape shows where it falls on all five metrics at once. A larger, more even shape means the department performs well across multiple dimensions. A spike on one axis with dips on others suggests strength in one area but gaps elsewhere.</div>
+    <div class="chart-interpret"><strong>How to read this:</strong> Each spoke is a research metric, scaled so 100 = the top department. A larger, more even shape means balanced strength across dimensions. A spike on one axis with dips elsewhere signals a lopsided profile&mdash;strong in one area but with gaps.</div>
     <div class="chart-source">Source: OpenAlex · Rush faculty directory · May 2026</div>
   </div>
 
@@ -243,33 +243,33 @@
 <!-- PAGE 3: RESEARCH PIPELINE -->
 <div class="page" id="page-2">
   <div class="chart-card">
-    <div class="chart-title">Career Stage Distribution by Department</div>
-    <div class="chart-sub">Stacked bars show H-index career tier breakdown. Sorted by % in Established+ tiers (h &#8805; 20).</div>
+    <div class="chart-title">Most Departments Rely on Emerging Researchers&mdash;Few Have Deep Benches of Established Scholars</div>
+    <div class="chart-sub">Faculty broken into career tiers by h-index. Sorted by share in Established+ tiers (h&nbsp;&ge;&nbsp;20).</div>
     <div id="chart-pipeline" style="height:640px"></div>
-    <div class="chart-interpret"><strong>How to read this:</strong> Each bar shows one department's faculty broken into career tiers: <strong>No Publications</strong> (gray, h=0), <strong>Emerging</strong> (light green, h=1–9), <strong>Developing</strong> (medium green, h=10–19), <strong>Established</strong> (green, h=20–39), <strong>Research Leader</strong> (teal, h=40–59), and <strong>Eminent Scholar</strong> (dark teal, h≥60). Longer green/teal segments mean a deeper bench of experienced researchers. Departments at the top of the chart have more established research programs. These tiers are approximate — h-index ranges reflect different achievement levels across disciplines.</div>
+    <div class="chart-interpret"><strong>How to read this:</strong> Each bar shows one department&rsquo;s faculty across six tiers: <strong>No Publications</strong> (gray, h=0), <strong>Emerging</strong> (light green, h=1&ndash;9), <strong>Developing</strong> (medium green, h=10&ndash;19), <strong>Established</strong> (green, h=20&ndash;39), <strong>Research Leader</strong> (teal, h=40&ndash;59), and <strong>Eminent Scholar</strong> (dark teal, h&ge;60). Longer green and teal segments mean a deeper bench. Departments near the top have more senior research capacity. These tiers are approximate&mdash;the same h-index range reflects different achievement levels across disciplines.</div>
     <div class="chart-source">Source: OpenAlex · May 2026</div>
   </div>
 
   <div class="two-col">
     <div class="chart-card">
-      <div class="chart-title">Research Output Concentration</div>
-      <div class="chart-sub">Select a department to see how evenly publications are distributed among its faculty. The diagonal line represents perfectly equal distribution.</div>
+      <div class="chart-title">In Most Departments, a Handful of Faculty Produce the Majority of Research</div>
+      <div class="chart-sub">Select a department. The diagonal line = perfectly equal distribution.</div>
       <select class="styled-select" id="lorenz-select" onchange="drawLorenz(this.value)" style="margin-bottom:12px"></select>
       <div id="chart-lorenz" style="height:400px"></div>
       <div class="lorenz-info" id="lorenz-info"></div>
-      <div class="chart-interpret"><strong>How to read this:</strong> The green curve shows the cumulative share of publications produced by faculty, from least to most productive. If every faculty member published equally, the curve would follow the straight diagonal line. The more the curve bows below the diagonal, the more research output is concentrated in a few individuals. The Gini coefficient (0 to 1) quantifies this: 0 = perfectly equal, 1 = one person produces everything. Most academic departments have Gini values between 0.4 and 0.8.</div>
+      <div class="chart-interpret"><strong>How to read this:</strong> The green curve traces cumulative publications from least to most productive faculty. If output were perfectly equal, the curve would follow the diagonal. The more it bows downward, the more concentrated output is in a few people. The Gini coefficient quantifies this: 0&nbsp;=&nbsp;equal, 1&nbsp;=&nbsp;one person produces everything. Most academic departments fall between 0.4 and 0.8.</div>
     </div>
     <div class="chart-card">
-      <div class="chart-title">Department Investment Opportunity Matrix</div>
-      <div class="chart-sub">Each bubble is a department. Horizontal position = current research output (median h-index + participation rate). Vertical position = recent momentum (Rush 5yr publications + citation velocity). Dashed lines at the midpoint divide departments into four quadrants.</div>
+      <div class="chart-title">Where Should Rush Invest? Departments With High Momentum but Low Current Output Represent Growth Opportunities</div>
+      <div class="chart-sub">Horizontal = current output (median h-index + participation rate). Vertical = recent momentum (Rush 5yr + citation velocity). Dashed lines at the midpoint.</div>
       <div id="chart-invest" style="height:420px"></div>
-      <div class="chart-interpret"><strong>How to read this:</strong> <strong>Sustain &amp; Scale</strong> (upper-right): high current output and strong momentum — these departments are research leaders. <strong>Invest Now</strong> (lower-right): strong current output but slowing momentum — may benefit from targeted investment to maintain trajectory. <strong>At Risk</strong> (upper-left): gaining momentum from a lower base — emerging programs worth watching. <strong>Mission Review</strong> (lower-left): low output and low momentum — may have a primarily clinical or teaching mission. Bubble size reflects faculty count; colors represent college affiliation.</div>
+      <div class="chart-interpret"><strong>How to read this:</strong> <strong>Sustain &amp; Scale</strong> (upper-right): high output and strong momentum&mdash;research leaders. <strong>Invest Now</strong> (lower-right): strong legacy output but slowing momentum&mdash;may need targeted investment. <strong>At Risk</strong> (upper-left): gaining momentum from a low base&mdash;emerging programs worth watching. <strong>Mission Review</strong> (lower-left): low on both axes&mdash;may be primarily clinical or teaching-focused, which is a legitimate mission. Bubble size = faculty count.</div>
     </div>
   </div>
 
   <div class="chart-card">
-    <div class="chart-title">Career Impact vs. Recent Activity — Individual Faculty</div>
-    <div class="chart-sub">Each dot is one faculty member. Horizontal position = lifetime h-index (career impact). Vertical position = publications with Rush affiliation in the last 5 years (recent activity). Use the dropdown to filter by department.</div>
+    <div class="chart-title">Senior Researchers Don&rsquo;t Always Have the Most Recent Output&mdash;and Vice Versa</div>
+    <div class="chart-sub">Each dot is one faculty member. Horizontal = lifetime h-index. Vertical = Rush-affiliated publications in the last 5 years. Use the dropdown to filter by department.</div>
     <div style="margin-bottom:10px">
       <label style="font-size:12px;color:var(--rush-gray);font-weight:600">Filter by department: </label>
       <select class="styled-select" id="momentum-dept-select" onchange="drawMomentum(this.value)">
@@ -277,15 +277,15 @@
       </select>
     </div>
     <div id="chart-momentum" style="height:440px"></div>
-    <div class="chart-interpret"><strong>How to read this:</strong> Faculty in the <strong>upper-right</strong> have both high lifetime impact and strong recent publishing — active senior researchers. Faculty in the <strong>upper-left</strong> are publishing actively at Rush but are earlier in their careers (lower h-index so far). Faculty in the <strong>lower-right</strong> have established reputations but fewer recent Rush-affiliated publications — they may be nearing retirement, have shifted roles, or publish through other affiliations. Hover over any dot to see the faculty member's name and department.</div>
+    <div class="chart-interpret"><strong>How to read this:</strong> <strong>Upper-right</strong>: active senior researchers with both high career impact and strong recent output. <strong>Upper-left</strong>: publishing actively at Rush but earlier in their careers. <strong>Lower-right</strong>: established reputations but fewer recent Rush-affiliated publications&mdash;may be nearing retirement, shifted roles, or publishing through other affiliations. Hover over any dot for details.</div>
     <div class="chart-source">Source: OpenAlex · Rush faculty directory · May 2026</div>
   </div>
 
   <div class="chart-card">
-    <div class="chart-title">Top 20 Most Active Researchers by Recent Rush-Affiliated Publications</div>
-    <div class="chart-sub">Faculty ranked by number of publications listing Rush affiliation from 2021–2026. Department shown for context.</div>
+    <div class="chart-title">The 20 Most Prolific Rush Researchers in the Last Five Years</div>
+    <div class="chart-sub">Faculty ranked by Rush-affiliated publications, 2021&ndash;2026</div>
     <div id="chart-top20" style="height:520px"></div>
-    <div class="chart-interpret"><strong>How to read this:</strong> Each bar represents one faculty member's Rush-affiliated publication count over the last 5 years. This measures recent institutional research productivity — faculty who are actively publishing work credited to Rush. High counts may reflect large collaborative research programs, prolific individual output, or both. The department label helps identify which programs drive the most recent output.</div>
+    <div class="chart-interpret"><strong>How to read this:</strong> Each bar is one faculty member&rsquo;s Rush-affiliated publication count over the last five years. High counts may reflect large collaborative programs, prolific individual output, or both. The department label shows which programs drive the most recent output.</div>
     <div class="chart-source">Source: OpenAlex · Rush faculty directory · May 2026</div>
   </div>
 
@@ -296,7 +296,7 @@
 <div class="page" id="page-3">
   <div class="chart-card">
     <div class="chart-title">Faculty Directory</div>
-    <div class="chart-sub">All 1,688 faculty across 26 departments. Use the search box, filter pills, and department dropdown to find specific faculty. Click any column header to sort. Default view shows faculty with at least one publication, sorted by h-index (highest first).</div>
+    <div class="chart-sub">All 1,688 faculty across 26 departments. Search by name or department, filter by h-index tier, or select a department from the dropdown. Click any column header to sort. Default: faculty with publications, sorted by h-index.</div>
     <div class="filter-row">
       <input type="text" class="search-box" id="dir-search" placeholder="Search name or department..." oninput="applyDirectoryFilters()">
       <div class="pill" id="pill-all" onclick="setPill('all')">All</div>
@@ -487,35 +487,35 @@ const methodologyHTML = `
     </ul>
     <h3>Important Disclaimers</h3>
     <ul>
-      <li><strong>Not for individual evaluation.</strong> This dashboard is for strategic planning and departmental benchmarking only. Bibliometric indicators are supplements to, not substitutes for, expert judgment in evaluating research quality (Leiden Manifesto, 2015; DORA).</li>
-      <li><strong>Field normalization.</strong> H-indices and citation counts are NOT comparable across disciplines. An h-index of 15 in nursing reflects a different achievement level than h=15 in molecular biology. Cross-department comparisons should account for disciplinary citation norms.</li>
-      <li><strong>Temporal lag.</strong> Citation metrics reflect past impact. Recently published work has not yet accumulated citations. Departments with many early-career faculty will appear weaker on citation metrics by construction.</li>
-      <li><strong>Career stage thresholds are approximate.</strong> The "Emerging/Developing/Established" labels use h-index bins as a proxy for research maturity, not actual career stage. They are approximate and vary by discipline.</li>
-      <li><strong>Internal Medicine divisions.</strong> 473 IM faculty are grouped as one department because the Rush faculty directory does not expose division-level assignments. Division-level attribution would require scraping individual profile pages.</li>
-      <li><strong>Author disambiguation.</strong> OpenAlex author matching may have errors. Faculty with common names may be linked to wrong profiles. 19 collision-resolved entries, 10 corrected wrong-person matches, and 18 re-matched entries are flagged in the data.</li>
-      <li><strong>Gender and equity.</strong> Research consistently shows bibliometric indicators may disadvantage women, underrepresented minorities, and faculty with clinical/teaching loads.</li>
-      <li><strong>Data currency.</strong> Metrics reflect the OpenAlex snapshot as of May 2026. Individual faculty may request corrections if their profile is incomplete or mis-linked.</li>
+      <li><strong>Not for individual evaluation.</strong> This dashboard supports strategic planning and departmental benchmarking. Bibliometric indicators supplement&mdash;but do not substitute for&mdash;expert judgment in evaluating research quality (<a href="http://www.leidenmanifesto.org/" target="_blank">Leiden Manifesto</a>, 2015; <a href="https://sfdora.org/" target="_blank">DORA</a>).</li>
+      <li><strong>Field normalization.</strong> H-indices and citation counts are not comparable across disciplines. An h-index of 15 in nursing represents a different achievement level than h&nbsp;=&nbsp;15 in molecular biology. Any cross-department comparison should account for disciplinary citation norms.</li>
+      <li><strong>Temporal lag.</strong> Citations accumulate over time, so recently published work will appear less impactful than it is. Departments with many early-career faculty will look weaker on citation metrics by construction.</li>
+      <li><strong>Career stage thresholds are approximate.</strong> The &ldquo;Emerging / Developing / Established&rdquo; labels use h-index bins as a proxy for research maturity, not actual career stage. They are approximate and vary by discipline.</li>
+      <li><strong>Internal Medicine divisions.</strong> All 473 IM faculty are grouped as one department because the Rush directory does not expose division-level assignments.</li>
+      <li><strong>Author disambiguation.</strong> OpenAlex matching may link common names to wrong profiles. The data includes 19 collision-resolved entries, 10 corrected wrong-person matches, and 18 re-matched entries identified during a May 2026 audit.</li>
+      <li><strong>Gender and equity.</strong> Bibliometric indicators may systematically disadvantage women, underrepresented minorities, and faculty whose primary contributions are clinical or educational.</li>
+      <li><strong>Data currency.</strong> Metrics reflect the OpenAlex snapshot as of May 2026. Faculty may request corrections if their profile is incomplete or mis-linked.</li>
     </ul>
     <h3>Metric Definitions</h3>
     <ul>
-      <li><strong>H-Index:</strong> A researcher has h-index h if h of their papers have been cited at least h times each.</li>
-      <li><strong>Rush 5yr (Rush-Affiliated Publications, 5 Years):</strong> Count of publications from 2021&ndash;2026 where at least one author lists Rush University Medical Center as an affiliation. Sourced from OpenAlex works endpoint filtered by institution ID and publication date. Faculty matched via API name search (rather than direct profile match) may show 0 even if they have recent Rush publications &mdash; see &ldquo;Match Type Caveat&rdquo; below.</li>
-      <li><strong>Mean 2yr Citedness:</strong> Average number of citations received by a researcher&rsquo;s works published in the last 2 years, as reported by OpenAlex summary statistics. Measures recent citation velocity. Same API-search caveat applies.</li>
-      <li><strong>Research Active %:</strong> Faculty with h-index &gt; 0 / total faculty in department.</li>
-      <li><strong>Gini Coefficient:</strong> Measures research concentration (0 = equal output, 1 = one person does everything). Computed on works_count.</li>
-      <li><strong>Research Equity:</strong> 1 - Gini. Higher = more distributed research output.</li>
-      <li><strong>Career Stages:</strong> No Pubs (h=0), Emerging (h=1&ndash;9), Developing (h=10&ndash;19), Established (h=20&ndash;39), Research Leader (h=40&ndash;59), Eminent Scholar (h=60+).</li>
-      <li><strong>Composite Score (Department Rankings):</strong> Weighted average of normalized department metrics: 40% Median H-Index + 25% Research Active % + 20% Median Rush 5yr + 15% Mean 2yr Citedness. Weights emphasize established impact (h-index) while incorporating breadth of participation and recent momentum. These weights are preliminary and should be reviewed by the Research Working Group.</li>
+      <li><strong>H-Index:</strong> A researcher has h-index <em>h</em> if <em>h</em> of their papers have each been cited at least <em>h</em> times.</li>
+      <li><strong>Rush 5yr:</strong> Publications from 2021&ndash;2026 where at least one author lists Rush as their affiliation, sourced from OpenAlex filtered by institution ID and date. Faculty matched via API name search may show 0 even if they have recent Rush publications&mdash;see &ldquo;Match Type Caveat&rdquo; below.</li>
+      <li><strong>Mean 2yr Citedness:</strong> Average citations per work published in the last two years. Measures how much attention a researcher&rsquo;s recent output is receiving. Same API-search caveat applies.</li>
+      <li><strong>Research Active %:</strong> Share of faculty with h-index &gt; 0 in a department.</li>
+      <li><strong>Gini Coefficient:</strong> Measures research concentration (0&nbsp;=&nbsp;equal output, 1&nbsp;=&nbsp;one person produces everything). Computed on publication counts.</li>
+      <li><strong>Research Equity:</strong> 1&nbsp;&minus;&nbsp;Gini. Higher values mean output is spread across more faculty.</li>
+      <li><strong>Career Stages:</strong> No Pubs (h=0), Emerging (1&ndash;9), Developing (10&ndash;19), Established (20&ndash;39), Research Leader (40&ndash;59), Eminent Scholar (60+).</li>
+      <li><strong>Composite Score:</strong> Weighted average of normalized department metrics: 40% Median H-Index + 25% Research Active % + 20% Median Rush 5yr + 15% Mean 2yr Citedness. These weights emphasize established impact while incorporating breadth and recent momentum. <em>They are preliminary and should be reviewed by the Research Working Group.</em></li>
     </ul>
     <h3>Match Type Caveat</h3>
     <ul>
-      <li>Faculty were matched to OpenAlex profiles via two methods: <strong>direct match</strong> (name + Rush affiliation filter, higher confidence) and <strong>API search</strong> (fallback for unmatched names, lower confidence). Of the latter group, some were verified against the wrong person and corrected; others remain with potentially incomplete Rush 5yr and 2yr Citedness values (showing 0). These gaps affect departmental medians for recent-activity metrics.</li>
-      <li><strong>API-search data gap:</strong> 109 faculty matched via API search have Rush 5yr = 0 and 2yr Citedness = 0 because the API search method retrieves career-level metrics (h-index, total works) but cannot reliably filter publications by Rush affiliation or recent time window. These zeroes are data gaps, not indicators of inactivity, and affect department-level rankings for recent-activity metrics.</li>
-      <li>Misattributed profiles (primarily names with apostrophes or common names) were identified and corrected during a May 2026 audit. 1 wrong-person match was zeroed out; 18 previously unmatched faculty were recovered via a re-matching pipeline.</li>
+      <li>Faculty were matched to OpenAlex via two methods: <strong>direct match</strong> (name + Rush affiliation filter, higher confidence) and <strong>API search</strong> (name-only fallback, lower confidence). Of the latter group, some were verified against the wrong person and corrected; others retain career metrics (h-index, total works) but have incomplete Rush-specific data.</li>
+      <li><strong>API-search data gap:</strong> 109 faculty matched via API search show Rush 5yr&nbsp;=&nbsp;0 and 2yr Citedness&nbsp;=&nbsp;0. The API search method retrieves career-level metrics but cannot reliably filter by Rush affiliation or recent time window. <em>These zeroes are data gaps, not indicators of inactivity</em>, and they pull down department-level rankings on recent-activity metrics.</li>
+      <li>A May 2026 audit identified and corrected misattributed profiles (primarily names with apostrophes or common names). One wrong-person match was zeroed out; 18 previously unmatched faculty were recovered via a re-matching pipeline.</li>
     </ul>
     <h3>&ldquo;Unclassified&rdquo; Department</h3>
     <ul>
-      <li>A small number of faculty (5) appear as &ldquo;Unclassified&rdquo; because their Rush faculty directory page does not list a department. These are typically cross-appointed, interdisciplinary, or administrative faculty. They are included in institutional totals but excluded from department-level analytics.</li>
+      <li>Five faculty appear as &ldquo;Unclassified&rdquo; because their Rush directory page does not list a department. They are included in institutional totals but excluded from department-level analytics.</li>
     </ul>
     <div class="methodology-footer">Rush University Medical Center &mdash; Research Working Group &mdash; May 2026 &mdash; Data: OpenAlex (openalex.org)</div>
   </div>
@@ -536,10 +536,10 @@ document.querySelector('#methodology-3 .methodology-toggle').style.display = 'no
   const withPubs = RAW.filter(r=>r.h>0);
   const hVals = withPubs.map(r=>r.h);
   const kpis = [
-    {label:'Total Faculty', value: fmt(RAW.length), sub:'Across 3 colleges'},
-    {label:'With Publications', value: fmt(withPubs.length), sub:`${pct(withPubs.length,RAW.length)}% of faculty`},
-    {label:'Median H-Index', value: fmt(median(hVals),1), sub:'Among publishing faculty'},
-    {label:'Mean H-Index', value: fmt(mean(hVals),1), sub:'Among publishing faculty'},
+    {label:'Total Faculty', value: fmt(RAW.length), sub:'across 3 colleges, 26 departments'},
+    {label:'With Publications', value: fmt(withPubs.length), sub:`${pct(withPubs.length,RAW.length)}% of all faculty`},
+    {label:'Median H-Index', value: fmt(median(hVals),1), sub:'among publishing faculty'},
+    {label:'Mean H-Index', value: fmt(mean(hVals),1), sub:'among publishing faculty'},
     {label:'H-Index ≥ 10', value: fmt(RAW.filter(r=>r.h>=10).length), sub:`${pct(RAW.filter(r=>r.h>=10).length,RAW.length)}% of all faculty`},
     {label:'H-Index ≥ 20', value: fmt(RAW.filter(r=>r.h>=20).length), sub:`${pct(RAW.filter(r=>r.h>=20).length,RAW.length)}% of all faculty`},
     {label:'H-Index ≥ 50', value: fmt(RAW.filter(r=>r.h>=50).length), sub:`${pct(RAW.filter(r=>r.h>=50).length,RAW.length)}% of all faculty`},
