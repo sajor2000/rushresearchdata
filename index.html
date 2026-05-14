@@ -20,8 +20,9 @@
   body { font-family: Arial, Helvetica, sans-serif; background: #f5f5f5; color: var(--rush-dark); font-size: 14px; }
 
   /* HEADER */
-  .header { background: var(--rush-dark); color: white; padding: 16px 32px; display: flex; align-items: center; gap: 20px; }
-  .header-logo { background: var(--rush-green); color: white; font-weight: 700; font-size: 22px; padding: 6px 14px; border-radius: 4px; letter-spacing: 1px; }
+  .header { background: var(--rush-dark); color: white; padding: 14px 32px; display: flex; align-items: center; gap: 20px; }
+  .header-logo { background: white; border-radius: 4px; padding: 6px 12px; display: flex; align-items: center; }
+  .header-logo img { height: 32px; display: block; }
   .header-title { flex: 1; }
   .header-title h1 { font-size: 18px; font-weight: 700; }
   .header-title p { font-size: 12px; color: #aaa; margin-top: 2px; }
@@ -139,7 +140,7 @@
 <body>
 
 <div class="header">
-  <div class="header-logo">RUSH</div>
+  <div class="header-logo"><img src="assets/rush-logo.png" alt="Rush University"></div>
   <div class="header-title">
     <h1>Research Impact Dashboard</h1>
     <p>Research Working Group &mdash; Steering Committee</p>
