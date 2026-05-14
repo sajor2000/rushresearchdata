@@ -303,7 +303,7 @@ Tae Woon Chong,21,30,85,1423,5,1.0833333333333333,Surgery,Rush Medical College,"
 Rima M. Dafer,21,33,123,2338,29,16.818181818181817,Neurological Sciences,Rush Medical College,"matched(ns=23,rw=29)",https://orcid.org/0000-0002-4832-5002,https://openalex.org/A5049659726
 Eunsil Hahm,21,23,60,1906,17,0.3333333333333333,Internal Medicine,Rush Medical College,"matched(ns=20,rw=17)",https://orcid.org/0000-0002-0343-7473,https://openalex.org/A5045365278
 Nikhil Joshi,21,50,225,1364,19,2.5,Radiation Oncology,Rush Medical College,"matched(ns=20,rw=19)",https://orcid.org/0000-0002-4821-9090,https://openalex.org/A5103265905
-Clark McKown,21,27,59,2539,7,2.0,Unclassified,Rush Medical College,"matched(ns=20,rw=7)",https://orcid.org/0000-0001-9694-1179,https://openalex.org/A5088523676
+Clark McKown,21,27,59,2539,7,2.0,Behavioral Sciences,Rush Medical College,"matched(ns=20,rw=7)",https://orcid.org/0000-0001-9694-1179,https://openalex.org/A5088523676
 Nicholas M. Moore,21,31,83,1823,22,3.3636363636363638,College of Health Sciences,College of Health Sciences,"matched(ns=23,rw=22)",https://orcid.org/0000-0002-9734-8905,https://openalex.org/A5070487088
 Ahmet Oktay,21,36,141,2059,8,3.0,Internal Medicine,Rush Medical College,"matched(ns=20,rw=8)",https://orcid.org/0000-0002-4015-0420,https://openalex.org/A5052916871
 Koosha Paydary,21,29,78,1554,3,0.5714285714285714,Internal Medicine,Rush Medical College,"matched(ns=20,rw=3)",,https://openalex.org/A5083316465
@@ -778,7 +778,7 @@ Henry D. Swoboda,5,5,13,234,3,2.0,Emergency Medicine,Rush Medical College,"match
 Aimee J. Szewka,5,4,25,236,3,0.0,Neurological Sciences,Rush Medical College,"matched(ns=10,rw=3)",https://orcid.org/0000-0002-5016-9483,https://openalex.org/A5036757717
 Csaba Szilagyi,5,2,18,85,5,2.0,College of Health Sciences,College of Health Sciences,"matched(ns=20,rw=5)",https://orcid.org/0000-0002-0413-3025,https://openalex.org/A5016021226
 Robert B. Wright,5,5,7,80,0,0,Neurological Sciences,Rush Medical College,api_search,,https://openalex.org/A5110670669
-Xinhai R. Zhang,5,5,24,120,5,2.75,Unclassified,Rush Medical College,"matched(ns=23,rw=5)",https://orcid.org/0000-0001-7524-2547,https://openalex.org/A5068141074
+Xinhai R. Zhang,5,5,24,120,5,2.75,Pathology,Rush Medical College,"matched(ns=23,rw=5)",https://orcid.org/0000-0001-7524-2547,https://openalex.org/A5068141074
 Rana Abraham,4,2,27,96,3,0.0,Internal Medicine,Rush Medical College,"matched(ns=20,rw=3)",,https://openalex.org/A5108273712
 Sara Adams,4,2,13,54,1,0.0,College of Nursing,College of Nursing,"matched(ns=10,rw=1)",https://orcid.org/0000-0002-5422-1613,https://openalex.org/A5042813238
 Kristin Al-Ghoul,4,3,4,99,0,0,Anatomy & Cell Biology,Rush Medical College,api_search,,https://openalex.org/A5029098329
@@ -808,7 +808,7 @@ Mitesh Kabadi,4,1,7,43,0,0,Internal Medicine,Rush Medical College,api_search,,ht
 Ravi E. Kasi,4,4,18,152,3,2.0,Physical Medicine & Rehabilitation,Rush Medical College,"matched(ns=10,rw=3)",,https://openalex.org/A5082271203
 John P. Kerchberger,4,3,4,129,0,0,Anesthesiology,Rush Medical College,api_search,,https://openalex.org/A5051213908
 Sonali Khandelwal,4,1,14,109,4,0.0,Internal Medicine,Rush Medical College,"matched(ns=20,rw=4)",,https://openalex.org/A5088288846
-Stanley Lapidos,4,3,4,76,0,0,Unclassified,Rush Medical College,api_search,,https://openalex.org/A5048711341
+Stanley Lapidos,4,3,4,76,0,0,Preventive Medicine,Rush Medical College,api_search,,https://openalex.org/A5048711341
 Rebecca Liebman,4,3,5,382,0,0,Unclassified,Rush Medical College,api_search,,https://openalex.org/A5001604011
 Jeanne Little,4,2,11,65,1,0.0,College of Nursing,College of Nursing,"matched(ns=20,rw=1)",https://orcid.org/0000-0002-2355-8248,https://openalex.org/A5071731366
 Susan Lopez,4,2,19,51,2,0.0,Internal Medicine,Rush Medical College,"matched(ns=20,rw=2)",https://orcid.org/0000-0002-1067-0441,https://openalex.org/A5008993449
@@ -892,9 +892,8 @@ Tristan Banks,2,0,8,8,1,1.0,College of Nursing,College of Nursing,"matched(ns=20
 Michael J. Barbee,2,1,5,24,1,0.0,Internal Medicine,Rush Medical College,"matched(ns=10,rw=1)",,https://openalex.org/A5088317444
 Savannah Benko,2,1,5,23,0,0,Emergency Medicine,Rush Medical College,api_search,,https://openalex.org/A5029025534
 Fred Brown,2,0,8,11,1,0.0,College of Nursing,College of Nursing,"matched(ns=7,rw=1)",,https://openalex.org/A5113445487
-Susan Buehler,2,1,7,52,1,2.5,Unclassified,Rush Medical College,"matched(ns=20,rw=1)",,https://openalex.org/A5081585813
+Susan Buehler,2,1,7,52,1,2.5,Behavioral Sciences,Rush Medical College,"matched(ns=20,rw=1)",,https://openalex.org/A5081585813
 David Burstein,2,1,9,24,5,0.3333333333333333,Internal Medicine,Rush Medical College,collision_resolved,https://orcid.org/0000-0003-4136-7397,https://openalex.org/A5021318622
-David S. Burstein,2,1,9,24,5,0.3333333333333333,Internal Medicine,Rush Medical College,rematch_p1(score=47),0000-0003-4136-7397,https://openalex.org/A5021318622
 Nathaniel Camden,2,0,6,13,4,0.0,Radiation Oncology,Rush Medical College,"matched(ns=10,rw=4)",https://orcid.org/0000-0001-9305-2851,https://openalex.org/A5001847228
 Upneet Chawla,2,0,20,17,1,0.0,Internal Medicine,Rush Medical College,"matched(ns=20,rw=1)",,https://openalex.org/A5091186180
 Dmitriy Cherny,2,1,2,36,2,0.0,Internal Medicine,Rush Medical College,"matched(ns=20,rw=2)",,https://openalex.org/A5030113521
@@ -1526,7 +1525,7 @@ Maria L. Reyes,0,0,0,0,0,0,Pediatrics,Rush Medical College,none,,
 Jannet Manuela Reyna-Quito,0,0,1,0,1,0.0,Internal Medicine,Rush Medical College,"matched(ns=23,rw=1)",https://orcid.org/0009-0008-7171-3637,https://openalex.org/A5120658678
 Kelly Rhodes,0,0,0,0,0,0,Psychiatry & Behavioral Sciences,Rush Medical College,none,,
 Melissa M. Rice,0,0,0,0,0,0,Emergency Medicine,Rush Medical College,none,,
-Dejuran Richardson,0,0,0,0,0,0,Unclassified,Rush Medical College,none,,
+Dejuran Richardson,0,0,0,0,0,0,Preventive Medicine,Rush Medical College,none,,
 Fred Richardson,0,0,0,0,0,0,Family & Preventive Medicine,Rush Medical College,none,,
 Harry M. Richter,0,0,0,0,0,0,Surgery,Rush Medical College,none,,
 Lynette Richter,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
