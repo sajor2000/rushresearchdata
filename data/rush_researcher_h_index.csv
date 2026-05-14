@@ -433,7 +433,7 @@ Teresa A. Lillis,15,22,52,683,5,2.2,Psychiatry & Behavioral Sciences,Rush Medica
 Steve Mangos,15,16,40,1497,10,0.3333333333333333,Internal Medicine,Rush Medical College,"matched(ns=20,rw=10)",https://orcid.org/0000-0003-1402-1008,https://openalex.org/A5027854711
 Charles J. Marcuccilli,15,15,33,1076,1,5.0,Pediatrics,Rush Medical College,"matched(ns=23,rw=1)",,https://openalex.org/A5110031037
 Ira J. Miller,15,16,71,3677,19,0.4444444444444444,Pathology,Rush Medical College,"matched(ns=10,rw=19)",,https://openalex.org/A5110227647
-Shannon O'Shea,15,25,152,805,0,0,College of Nursing,College of Nursing,api_search,,https://openalex.org/A5047939094
+Shannon O'Shea,0,0,0,0,0,0,College of Nursing,College of Nursing,api_search_wrong_person,,
 Philip Omotosho,15,23,61,1060,16,1.6666666666666667,Surgery,Rush Medical College,"matched(ns=20,rw=16)",https://orcid.org/0000-0001-8648-2802,https://openalex.org/A5020847614
 Parag D. Patel,0,0,1,0,9,0.2,Anesthesiology,Rush Medical College,collision_resolved,,https://openalex.org/A5074827356
 Payal Patel,15,22,82,1440,9,0.2,Internal Medicine,Rush Medical College,collision_resolved,https://orcid.org/0000-0002-1612-3887,https://openalex.org/A5090628603
@@ -894,7 +894,7 @@ Savannah Benko,2,1,5,23,0,0,Emergency Medicine,Rush Medical College,api_search,,
 Fred Brown,2,0,8,11,1,0.0,College of Nursing,College of Nursing,"matched(ns=7,rw=1)",,https://openalex.org/A5113445487
 Susan Buehler,2,1,7,52,1,2.5,Unclassified,Rush Medical College,"matched(ns=20,rw=1)",,https://openalex.org/A5081585813
 David Burstein,2,1,9,24,5,0.3333333333333333,Internal Medicine,Rush Medical College,collision_resolved,https://orcid.org/0000-0003-4136-7397,https://openalex.org/A5021318622
-David S. Burstein,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
+David S. Burstein,2,1,9,24,5,0.3333333333333333,Internal Medicine,Rush Medical College,rematch_p1(score=47),0000-0003-4136-7397,https://openalex.org/A5021318622
 Nathaniel Camden,2,0,6,13,4,0.0,Radiation Oncology,Rush Medical College,"matched(ns=10,rw=4)",https://orcid.org/0000-0001-9305-2851,https://openalex.org/A5001847228
 Upneet Chawla,2,0,20,17,1,0.0,Internal Medicine,Rush Medical College,"matched(ns=20,rw=1)",,https://openalex.org/A5091186180
 Dmitriy Cherny,2,1,2,36,2,0.0,Internal Medicine,Rush Medical College,"matched(ns=20,rw=2)",,https://openalex.org/A5030113521
@@ -1056,7 +1056,7 @@ Aviva Ariel-Donges,0,0,0,0,0,0,Psychiatry & Behavioral Sciences,Rush Medical Col
 Joel J. Augustin,0,0,0,0,0,0,Family & Preventive Medicine,Rush Medical College,none,,
 Aris Austin,0,0,0,0,0,0,Anesthesiology,Rush Medical College,none,,
 Tonja Austin,0,0,0,0,0,0,Family & Preventive Medicine,Rush Medical College,none,,
-Artem Ayuyan,0,0,0,0,0,0,Physiology & Biophysics,Rush Medical College,none,,
+Artem Ayuyan,6,5,19,411,6,2.0,Physiology & Biophysics,Rush Medical College,rematch_p1(score=45),,https://openalex.org/A5066771748
 Gabriela Baeza,0,0,0,0,0,0,Family & Preventive Medicine,Rush Medical College,none,,
 Sara Baghikhar,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 David Baldwin,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
@@ -1067,14 +1067,14 @@ Elisabeth Barrett,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
 Meghan Barrett-Englert,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Gail M. Basch,0,0,0,0,0,0,Psychiatry & Behavioral Sciences,Rush Medical College,none,,
 Shruti Bassi,0,0,0,0,0,0,Anesthesiology,Rush Medical College,none,,
-Margaret Bavis,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
+Margaret Bavis,0,0,1,0,1,0.0,College of Nursing,College of Nursing,rematch_p1(score=45),,https://openalex.org/A5119457665
 Stefani Beard,0,0,0,0,0,0,Family & Preventive Medicine,Rush Medical College,none,,
-Paula Jo Belice,0,0,0,0,0,0,College of Health Sciences,College of Health Sciences,none,,
+Paula Jo Belice,5,5,8,218,0,0.0,College of Health Sciences,College of Health Sciences,rematch_p1(score=50),,https://openalex.org/A5004473518
 Renee Bergtold,0,0,0,0,0,0,College of Health Sciences,College of Health Sciences,none,,
 Samantha Berman,0,0,0,0,0,0,Emergency Medicine,Rush Medical College,none,,
 Thomas M. Betlej,0,0,0,0,0,0,Pathology,Rush Medical College,none,,
 Sushma N. Bharadwaj,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
-Ashish Bhatia,0,0,0,0,0,0,Dermatology,Rush Medical College,none,,
+Ashish Bhatia,22,30,109,1668,3,0.5833333333333334,Dermatology,Rush Medical College,rematch_p1(score=45),0000-0003-2937-3129,https://openalex.org/A5051648925
 Joel R. Biala,0,0,0,0,0,0,Anesthesiology,Rush Medical College,none,,
 Daniel Bianchi,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Jessica C. Bishop-Royse,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
@@ -1083,7 +1083,7 @@ Renata M. Block,0,0,0,0,0,0,College of Health Sciences,College of Health Science
 Joshua A. Blomgren,0,0,1,0,1,0.0,Orthopedic Surgery,Rush Medical College,"matched(ns=23,rw=1)",,https://openalex.org/A5043393129
 Sophia Bodnar,0,0,0,0,0,0,Emergency Medicine,Rush Medical College,none,,
 Elizabeth L. Bolen,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
-Beth Nachtsheim Bolick,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
+Beth Nachtsheim Bolick,7,7,14,472,1,0.0,College of Nursing,College of Nursing,rematch_p1(score=50),,https://openalex.org/A5013662650
 Christine Borgstrom,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
 Scott M. Bornstein,0,0,0,0,0,0,Ophthalmology,Rush Medical College,none,,
 Jillian Boroniec,0,0,0,0,0,0,Family & Preventive Medicine,Rush Medical College,none,,
@@ -1107,9 +1107,9 @@ Benjamin Bryant,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Kevin Buell,0,0,2,0,2,0.0,Internal Medicine,Rush Medical College,"matched(ns=10,rw=2)",,https://openalex.org/A5121749728
 Daniel Bunzol,0,0,0,0,0,0,Physical Medicine & Rehabilitation,Rush Medical College,none,,
 Carol S. Burke,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
-"Kia ""Ashley"" Burks",0,0,0,0,0,0,College of Health Sciences,College of Health Sciences,none,,
+"Kia ""Ashley"" Burks",2,0,3,9,2,0.0,College of Health Sciences,College of Health Sciences,rematch_p1(score=42),,https://openalex.org/A5012451032
 Brian Bush,0,0,0,0,0,0,Emergency Medicine,Rush Medical College,none,,
-Charles A. Bush-Joseph,0,0,0,0,0,0,Orthopedic Surgery,Rush Medical College,none,,
+Charles A. Bush-Joseph,59,149,251,11243,15,0.6363636363636364,Orthopedic Surgery,Rush Medical College,rematch_p1(score=42),,https://openalex.org/A5010800815
 Katharina M. Busl,0,0,0,0,0,0,Neurological Sciences,Rush Medical College,none,,
 John Nicholas Butos,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 David R. Buyer,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
@@ -1124,7 +1124,7 @@ Paul M. Carvey,0,0,0,0,0,0,Physiology & Biophysics,Rush Medical College,none,,
 James Castle,0,0,0,0,0,0,Neurological Sciences,Rush Medical College,none,,
 Cathy Catrambone,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
 Stephanie V. Cavanaugh,0,0,0,0,0,0,Psychiatry & Behavioral Sciences,Rush Medical College,none,,
-Yasmin Cavenagh,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
+Yasmin Cavenagh,3,0,7,18,4,1.5,College of Nursing,College of Nursing,rematch_p1(score=48),0000-0003-2182-0377,https://openalex.org/A5090155235
 Naina Chandan,0,0,0,0,0,0,Family & Preventive Medicine,Rush Medical College,none,,
 Sonal Chandra,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Wei Chang,0,0,1,0,0,0,Diagnostic Radiology & Nuclear Medicine,Rush Medical College,api_search,,https://openalex.org/A5101161912
@@ -1136,7 +1136,7 @@ Nicole Cho,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Natalie Choi,0,0,0,0,0,0,Family & Preventive Medicine,Rush Medical College,none,,
 Chelsea Cieslak,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
 Juan Cintrón-García,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
-Joseph M. Civantos,0,0,0,0,0,0,Ophthalmology,Rush Medical College,none,,
+Joseph M. Civantos,7,7,18,607,1,0.5,Ophthalmology,Rush Medical College,rematch_p1(score=50),,https://openalex.org/A5079644743
 Cedric Coleman,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Fareed Collado,0,0,6,0,3,0.0,Internal Medicine,Rush Medical College,"matched(ns=10,rw=3)",,https://openalex.org/A5035230258
 Maggie Collison,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
@@ -1149,9 +1149,9 @@ Mark Cordes,0,0,0,0,0,0,Anesthesiology,Rush Medical College,none,,
 Anna Culhane,0,0,0,0,0,0,Emergency Medicine,Rush Medical College,none,,
 Kimberlee Curnyn,0,0,0,0,0,0,Ophthalmology,Rush Medical College,none,,
 Hina Dalal,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
-Manju Daniel,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
+Manju Daniel,8,8,34,223,11,0.0,College of Nursing,College of Nursing,rematch_p1(score=50),0000-0002-9151-2137,https://openalex.org/A5004028783
 Henry I. Danko,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
-Tyler Davis-Sandfoss,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
+Tyler Davis-Sandfoss,2,0,2,15,2,7.0,College of Nursing,College of Nursing,rematch_p1(score=47),,https://openalex.org/A5027322275
 Serge N. de Bustros,0,0,0,0,0,0,Ophthalmology,Rush Medical College,none,,
 Monica De Iorio,0,0,0,0,0,0,Psychiatry & Behavioral Sciences,Rush Medical College,none,,
 Robert P. DeCresce,0,0,0,0,0,0,Pathology,Rush Medical College,none,,
@@ -1187,7 +1187,7 @@ Ryan Durkin,0,0,0,0,0,0,College of Health Sciences,College of Health Sciences,no
 Suparna Dutta,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Richard Dwyer,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Jennifer S. Earvolino,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
-Jennifer Eastwood,0,0,0,0,0,0,Anatomy & Cell Biology,Rush Medical College,none,,
+Jennifer Eastwood,11,11,35,601,1,1.0,Anatomy & Cell Biology,Rush Medical College,rematch_p1(score=45),,https://openalex.org/A5024501203
 Jennifer Edidin,0,0,0,0,0,0,Psychiatry & Behavioral Sciences,Rush Medical College,none,,
 Marwa El Mourabet,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Karim Elalfy,0,0,0,0,0,0,Anatomy & Cell Biology,Rush Medical College,none,,
@@ -1203,7 +1203,7 @@ Joshlean Fair,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 M. Hafeez Faridi,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Greg Fenton,0,0,0,0,0,0,Neurological Sciences,Rush Medical College,none,,
 Peter Ferjancic,0,0,0,0,0,0,Radiation Oncology,Rush Medical College,none,,
-Raechel Ferry-Rooney,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
+Raechel Ferry-Rooney,2,0,6,10,3,0.0,College of Nursing,College of Nursing,rematch_p1(score=47),,https://openalex.org/A5021814767
 John P. Field,0,0,0,0,0,0,Emergency Medicine,Rush Medical College,none,,
 Peter M. Fink,0,0,0,0,0,0,Psychiatry & Behavioral Sciences,Rush Medical College,none,,
 Lucas Fishman,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
@@ -1219,19 +1219,19 @@ Timothy Gallagher,0,0,0,0,0,0,Emergency Medicine,Rush Medical College,none,,
 Steven R. Gallo,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Amie J. Gamino,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Raymond V. Garay,0,0,0,0,0,0,Pediatrics,Rush Medical College,none,,
-Krzysztof Garbarz,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
+Krzysztof Garbarz,1,0,2,2,2,0.0,College of Nursing,College of Nursing,rematch_p1(score=46),,https://openalex.org/A5086803606
 Joseph B. Garber,0,0,0,0,0,0,Ophthalmology,Rush Medical College,none,,
 Deepali Garg,0,0,0,0,0,0,Anesthesiology,Rush Medical College,none,,
 Kittu Garg,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Lisa Garland,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
-Alice Geis,0,0,0,0,0,0,College of Nursing,College of Nursing,none,,
+Alice Geis,2,0,2,7,2,0.0,College of Nursing,College of Nursing,rematch_p1(score=47),,https://openalex.org/A5078148299
 Chelsey Geurkink,0,0,0,0,0,0,College of Health Sciences,College of Health Sciences,none,,
 Leda Ghannad,0,0,0,0,0,0,Physical Medicine & Rehabilitation,Rush Medical College,none,,
-Steven Gianakas,0,0,0,0,0,0,College of Health Sciences,College of Health Sciences,none,,
+Steven Gianakas,5,3,18,91,2,3.857142857142857,College of Health Sciences,College of Health Sciences,rematch_p1(score=45),0000-0002-8135-6599,https://openalex.org/A5024570262
 Benedict L. Gierl,0,0,0,0,0,0,Psychiatry & Behavioral Sciences,Rush Medical College,none,,
-Laurie Gillard,0,0,0,0,0,0,College of Health Sciences,College of Health Sciences,none,,
+Laurie Gillard,2,1,26,32,3,0.5,College of Health Sciences,College of Health Sciences,rematch_p1(score=40),0000-0003-0153-6758,https://openalex.org/A5016315222
 Christopher C. Gillis,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
-Lisa Giordano,0,0,0,0,0,0,Pediatrics,Rush Medical College,none,,
+Lisa Giordano,9,8,30,259,3,0.0,Pediatrics,Rush Medical College,rematch_p1(score=50),,https://openalex.org/A5067431213
 Monica Gireud-Goss,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,
 Zachary Glaser,0,0,0,0,0,0,Urology,Rush Medical College,none,,
 Jennifer Goldfarb,0,0,0,0,0,0,Internal Medicine,Rush Medical College,none,,

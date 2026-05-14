@@ -1,0 +1,130 @@
+timestamp,phase,name,dept,action,old_h,new_h,old_r5,new_r5,old_match_type,new_match_type,openalex_id,notes
+2026-05-14T08:53:24.849736,1-recover,David S. Burstein,Internal Medicine,recovered,0,2,0,5,none,rematch_p1(score=47),https://openalex.org/A5021318622,"name_sim=1.00, oa_name=David S. Burstein"
+2026-05-14T08:53:33.455132,1-recover,Artem Ayuyan,Physiology & Biophysics,recovered,0,6,0,6,none,rematch_p1(score=45),https://openalex.org/A5066771748,"name_sim=0.67, oa_name=Artem G. Ayuyan"
+2026-05-14T08:53:37.452625,1-recover,Margaret Bavis,College of Nursing,recovered,0,0,0,1,none,rematch_p1(score=45),https://openalex.org/A5119457665,"name_sim=1.00, oa_name=Margaret Bavis"
+2026-05-14T08:53:38.482060,1-recover,Paula Jo Belice,College of Health Sciences,recovered,0,5,0,0,none,rematch_p1(score=50),https://openalex.org/A5004473518,"name_sim=1.00, oa_name=Paula Jo Belice"
+2026-05-14T08:53:40.569377,1-recover,Ashish Bhatia,Dermatology,recovered,0,22,0,3,none,rematch_p1(score=45),https://openalex.org/A5051648925,"name_sim=0.67, oa_name=Ashish C. Bhatia"
+2026-05-14T08:53:43.881839,1-recover,Beth Nachtsheim Bolick,College of Nursing,recovered,0,7,0,1,none,rematch_p1(score=50),https://openalex.org/A5013662650,"name_sim=1.00, oa_name=Beth Nachtsheim Bolick"
+2026-05-14T08:53:51.194844,1-recover,"Kia ""Ashley"" Burks",College of Health Sciences,recovered,0,2,0,2,none,rematch_p1(score=42),https://openalex.org/A5012451032,"name_sim=0.67, oa_name=Kia Ashley Burks"
+2026-05-14T08:53:52.480925,1-recover,Charles A. Bush-Joseph,Orthopedic Surgery,recovered,0,59,0,15,none,rematch_p1(score=42),https://openalex.org/A5010800815,"name_sim=0.50, oa_name=Charles A. Bush‐Joseph"
+2026-05-14T08:53:57.588433,1-recover,Yasmin Cavenagh,College of Nursing,recovered,0,3,0,4,none,rematch_p1(score=48),https://openalex.org/A5090155235,"name_sim=1.00, oa_name=Yasmin Cavenagh"
+2026-05-14T08:54:03.484841,1-recover,Joseph M. Civantos,Ophthalmology,recovered,0,7,0,1,none,rematch_p1(score=50),https://openalex.org/A5079644743,"name_sim=1.00, oa_name=Joseph M. Civantos"
+2026-05-14T08:54:08.172966,1-recover,Manju Daniel,College of Nursing,recovered,0,8,0,11,none,rematch_p1(score=50),https://openalex.org/A5004028783,"name_sim=1.00, oa_name=Manju Daniel"
+2026-05-14T08:54:09.299908,1-recover,Tyler Davis-Sandfoss,College of Nursing,recovered,0,2,0,2,none,rematch_p1(score=47),https://openalex.org/A5027322275,"name_sim=1.00, oa_name=Tyler Davis-Sandfoss"
+2026-05-14T08:54:21.311165,1-recover,Jennifer Eastwood,Anatomy & Cell Biology,recovered,0,11,0,1,none,rematch_p1(score=45),https://openalex.org/A5024501203,"name_sim=0.67, oa_name=Jennifer L. Eastwood"
+2026-05-14T08:54:26.146483,1-recover,Raechel Ferry-Rooney,College of Nursing,recovered,0,2,0,3,none,rematch_p1(score=47),https://openalex.org/A5021814767,"name_sim=1.00, oa_name=Raechel Ferry-Rooney"
+2026-05-14T08:54:31.750784,1-recover,Krzysztof Garbarz,College of Nursing,recovered,0,1,0,2,none,rematch_p1(score=46),https://openalex.org/A5086803606,"name_sim=1.00, oa_name=Krzysztof Garbarz"
+2026-05-14T08:54:33.867375,1-recover,Alice Geis,College of Nursing,recovered,0,2,0,2,none,rematch_p1(score=47),https://openalex.org/A5078148299,"name_sim=1.00, oa_name=Alice Geis"
+2026-05-14T08:54:35.245623,1-recover,Steven Gianakas,College of Health Sciences,recovered,0,5,0,2,none,rematch_p1(score=45),https://openalex.org/A5024570262,"name_sim=0.67, oa_name=Steven P. Gianakas"
+2026-05-14T08:54:36.391930,1-recover,Laurie Gillard,College of Health Sciences,recovered,0,2,0,3,none,rematch_p1(score=40),https://openalex.org/A5016315222,"name_sim=0.50, oa_name=L. Gillard"
+2026-05-14T08:54:37.514184,1-recover,Lisa Giordano,Pediatrics,recovered,0,9,0,3,none,rematch_p1(score=50),https://openalex.org/A5067431213,"name_sim=1.00, oa_name=Lisa Giordano"
+2026-05-14T08:56:33.114469,2-verify,Kenneth J. Tuman,Anesthesiology,flagged_wrong_person,41,41,0,0,api_search,api_search,https://openalex.org/A5112830668,high_h_zero_r5
+2026-05-14T08:56:33.386380,2-verify,Gordon M. Trenholme,Internal Medicine,flagged_wrong_person,35,35,0,0,api_search,api_search,https://openalex.org/A5035181444,high_h_zero_r5
+2026-05-14T08:56:33.701081,2-verify,Hanne Albert,Orthopedic Surgery,flagged_wrong_person,33,33,0,0,api_search,api_search,https://openalex.org/A5021730476,high_h_zero_r5
+2026-05-14T08:56:33.978996,2-verify,Richard J. Wiet,Otorhinolaryngology - Head & Neck Surgery,flagged_wrong_person,33,33,0,0,api_search,api_search,https://openalex.org/A5018374886,high_h_zero_r5
+2026-05-14T08:56:34.249151,2-verify,David D. Caldarelli,Otorhinolaryngology - Head & Neck Surgery,verified,30,30,0,0,api_search,api_search,https://openalex.org/A5103543527,ok
+2026-05-14T08:56:34.504065,2-verify,Sohrab Mobarhan,Internal Medicine,verified,30,30,0,0,api_search,api_search,https://openalex.org/A5075533960,ok
+2026-05-14T08:56:34.762164,2-verify,Gabriella Cs-Szabo,Orthopedic Surgery,flagged_wrong_person,27,27,0,0,api_search,api_search,https://openalex.org/A5009770523,"name_mismatch(sim=0.33,oa=Gabriella Cs‐Szabó)"
+2026-05-14T08:56:35.018396,2-verify,Jacob H. Fox,Neurological Sciences,verified,27,27,0,0,api_search,api_search,https://openalex.org/A5104032035,ok
+2026-05-14T08:56:35.276606,2-verify,Alexander Doolas,Surgery,verified,26,26,0,0,api_search,api_search,https://openalex.org/A5050528393,ok
+2026-05-14T08:56:35.539176,2-verify,James Williams,Anatomy & Cell Biology,verified,25,25,0,0,api_search,api_search,https://openalex.org/A5103807292,ok
+2026-05-14T08:56:35.791939,2-verify,Nicole M. Russo-Ponsaran,Psychiatry & Behavioral Sciences,verified,23,23,0,0,api_search,api_search,https://openalex.org/A5014603197,ok
+2026-05-14T08:56:36.065790,2-verify,Julius V. Turian,Radiation Oncology,flagged_wrong_person,20,20,0,0,api_search,api_search,https://openalex.org/A5042959186,"name_mismatch(sim=0.33,oa=J Turian)"
+2026-05-14T08:56:36.330375,2-verify,Steven D. Bines,Surgery,verified,19,19,0,0,api_search,api_search,https://openalex.org/A5066776512,ok
+2026-05-14T08:56:36.609883,2-verify,Wojciech Blogowski,Internal Medicine,verified,17,17,0,0,api_search,api_search,https://openalex.org/A5026301794,ok
+2026-05-14T08:56:36.903701,2-verify,Gaurav Marwaha,Radiation Oncology,verified,16,16,0,0,api_search,api_search,https://openalex.org/A5110272103,ok
+2026-05-14T08:56:37.427779,2-verify,John L. Showel,Internal Medicine,verified,16,16,0,0,api_search,api_search,https://openalex.org/A5111635259,ok
+2026-05-14T08:56:37.687138,2-verify,Shannon O'Shea,College of Nursing,flagged_wrong_person,0,0,0,0,api_search_wrong_person,api_search_wrong_person,https://openalex.org/A5047939094,"no_rush_affiliation; name_mismatch(sim=0.00,oa=Randall O. Gauntt)"
+2026-05-14T08:56:37.950245,2-verify,Sebastian W. Pollandt,Neurological Sciences,verified,14,14,0,0,api_search,api_search,https://openalex.org/A5037451277,ok
+2026-05-14T08:56:38.214001,2-verify,Josefina Ramos-Franco,Physiology & Biophysics,flagged_wrong_person,14,14,0,0,api_search,api_search,https://openalex.org/A5011534256,"name_mismatch(sim=0.33,oa=Josefina Ramos‐Franco)"
+2026-05-14T08:56:38.470910,2-verify,Richard I. Abrams,Internal Medicine,verified,12,12,0,0,api_search,api_search,https://openalex.org/A5082903583,ok
+2026-05-14T08:56:38.744422,2-verify,Ken Tatebe,Radiation Oncology,verified,12,12,0,0,api_search,api_search,https://openalex.org/A5072921772,ok
+2026-05-14T08:56:39.045873,2-verify,Jay M. Dutton,Otorhinolaryngology - Head & Neck Surgery,verified,11,11,0,0,api_search,api_search,https://openalex.org/A5055006307,ok
+2026-05-14T08:56:39.303385,2-verify,Ed Blazek,Radiation Oncology,verified,10,10,0,0,api_search,api_search,https://openalex.org/A5012045404,ok
+2026-05-14T08:56:39.554396,2-verify,Sharon Foley,College of Health Sciences,verified,9,9,0,0,api_search,api_search,https://openalex.org/A5110806994,ok
+2026-05-14T08:56:39.826660,2-verify,Jonathan B. Rubenstein,Ophthalmology,verified,8,8,0,0,api_search,api_search,https://openalex.org/A5001097235,ok
+2026-05-14T08:56:40.086977,2-verify,Tibor Boco,Neurological Surgery,verified,7,7,0,0,api_search,api_search,https://openalex.org/A5056723426,ok
+2026-05-14T08:56:40.342830,2-verify,Kelsey Gonring,Pediatrics,verified,7,7,0,0,api_search,api_search,https://openalex.org/A5039533998,ok
+2026-05-14T08:56:40.607424,2-verify,Paula Grabler,Diagnostic Radiology & Nuclear Medicine,verified,7,7,0,0,api_search,api_search,https://openalex.org/A5060047295,ok
+2026-05-14T08:56:40.859343,2-verify,Zachary Grelewicz,Radiation Oncology,verified,7,7,0,0,api_search,api_search,https://openalex.org/A5066701930,ok
+2026-05-14T08:56:41.125013,2-verify,Norman L. Wool,Surgery,verified,7,7,0,0,api_search,api_search,https://openalex.org/A5002576704,ok
+2026-05-14T08:56:41.378381,2-verify,Renad Abu-Sawwa,Anatomy & Cell Biology,flagged_wrong_person,6,6,0,0,api_search,api_search,https://openalex.org/A5049874012,"name_mismatch(sim=0.33,oa=Renad Abu‐Sawwa)"
+2026-05-14T08:56:41.637005,2-verify,Roger A. Billhardt,Internal Medicine,verified,6,6,0,0,api_search,api_search,https://openalex.org/A5084886636,ok
+2026-05-14T08:56:41.894037,2-verify,Carolyn H. Jones,Pediatrics,verified,6,6,0,0,api_search,api_search,https://openalex.org/A5103760867,ok
+2026-05-14T08:56:42.139104,2-verify,Sabrina Kendrick,Internal Medicine,verified,6,6,0,0,api_search,api_search,https://openalex.org/A5087054323,ok
+2026-05-14T08:56:42.426330,2-verify,Zac B. Ravage,Ophthalmology,verified,6,6,0,0,api_search,api_search,https://openalex.org/A5039505011,ok
+2026-05-14T08:56:42.678670,2-verify,Mary K. Sturaitis,Anesthesiology,verified,6,6,0,0,api_search,api_search,https://openalex.org/A5069352186,ok
+2026-05-14T08:56:42.926996,2-verify,David M. Tabriz,Diagnostic Radiology & Nuclear Medicine,flagged_wrong_person,6,6,0,0,api_search,api_search,https://openalex.org/A5086009292,"name_mismatch(sim=0.33,oa=D. Tabriz)"
+2026-05-14T08:56:43.190206,2-verify,Jordan L. Topel,Neurological Sciences,verified,6,6,0,0,api_search,api_search,https://openalex.org/A5066919427,ok
+2026-05-14T08:56:43.446053,2-verify,Gilat Zisman,Anesthesiology,verified,6,6,0,0,api_search,api_search,https://openalex.org/A5036266019,ok
+2026-05-14T08:56:43.823440,2-verify,Ira S. Halper,Psychiatry & Behavioral Sciences,verified,5,5,0,0,api_search,api_search,https://openalex.org/A5013820915,ok
+2026-05-14T08:56:44.092841,2-verify,Haley Herman,Internal Medicine,verified,5,5,0,0,api_search,api_search,https://openalex.org/A5108723312,ok
+2026-05-14T08:56:44.369005,2-verify,Jerome Hoeksema,Surgery,verified,5,5,0,0,api_search,api_search,https://openalex.org/A5074829721,ok
+2026-05-14T08:56:44.638467,2-verify,Louis J. Kraus,Psychiatry & Behavioral Sciences,verified,5,5,0,0,api_search,api_search,https://openalex.org/A5113972497,ok
+2026-05-14T08:56:44.890670,2-verify,Stuart W. Rosenbush,Internal Medicine,verified,5,5,0,0,api_search,api_search,https://openalex.org/A5080240469,ok
+2026-05-14T08:56:45.145381,2-verify,Dmitry S. Ruban,Neurological Surgery,verified,5,5,0,0,api_search,api_search,https://openalex.org/A5090755842,ok
+2026-05-14T08:56:45.407468,2-verify,Jamie Slade,Pathology,verified,5,5,0,0,api_search,api_search,https://openalex.org/A5083226285,ok
+2026-05-14T08:56:45.669991,2-verify,Robert B. Wright,Neurological Sciences,verified,5,5,0,0,api_search,api_search,https://openalex.org/A5110670669,ok
+2026-05-14T08:56:45.923148,2-verify,Kristin Al-Ghoul,Anatomy & Cell Biology,verified,4,4,0,0,api_search,api_search,https://openalex.org/A5029098329,ok
+2026-05-14T08:56:46.182317,2-verify,Wayne Chen,Physiology & Biophysics,verified,4,4,0,0,api_search,api_search,https://openalex.org/A5056234922,ok
+2026-05-14T08:56:46.437946,2-verify,Elizabeth M. Comiskey,Diagnostic Radiology & Nuclear Medicine,verified,4,4,0,0,api_search,api_search,https://openalex.org/A5080865812,ok
+2026-05-14T08:56:46.690209,2-verify,Janice J. Dieschbourg,Diagnostic Radiology & Nuclear Medicine,verified,4,4,0,0,api_search,api_search,https://openalex.org/A5054467870,ok
+2026-05-14T08:56:46.949997,2-verify,Marilyn M. Hallock,Emergency Medicine,verified,4,4,0,0,api_search,api_search,https://openalex.org/A5068243285,ok
+2026-05-14T08:56:47.233268,2-verify,Mitesh Kabadi,Internal Medicine,verified,4,4,0,0,api_search,api_search,https://openalex.org/A5111162636,ok
+2026-05-14T08:56:47.490028,2-verify,John P. Kerchberger,Anesthesiology,verified,4,4,0,0,api_search,api_search,https://openalex.org/A5051213908,ok
+2026-05-14T08:56:47.753779,2-verify,Stanley Lapidos,Unclassified,verified,4,4,0,0,api_search,api_search,https://openalex.org/A5048711341,ok
+2026-05-14T08:56:48.011970,2-verify,Rebecca Liebman,Unclassified,verified,4,4,0,0,api_search,api_search,https://openalex.org/A5001604011,ok
+2026-05-14T08:56:48.264119,2-verify,Arthur Maydell,Diagnostic Radiology & Nuclear Medicine,verified,4,4,0,0,api_search,api_search,https://openalex.org/A5114255221,ok
+2026-05-14T08:56:48.516858,2-verify,William A. Schwer,Family & Preventive Medicine,verified,4,4,0,0,api_search,api_search,https://openalex.org/A5003147444,ok
+2026-05-14T08:56:48.780994,2-verify,Vanee V. Virasch,Ophthalmology,verified,4,4,0,0,api_search,api_search,https://openalex.org/A5027489676,ok
+2026-05-14T08:56:49.045284,2-verify,Amy Winston,College of Health Sciences,verified,4,4,0,0,api_search,api_search,https://openalex.org/A5044988683,ok
+2026-05-14T08:56:49.308017,2-verify,Joseph P. Allegretti,Otorhinolaryngology - Head & Neck Surgery,verified,3,3,0,0,api_search,api_search,https://openalex.org/A5012427196,ok
+2026-05-14T08:56:49.556366,2-verify,Anna Demopoulos,Internal Medicine,verified,3,3,0,0,api_search,api_search,https://openalex.org/A5071194881,ok
+2026-05-14T08:56:49.821356,2-verify,Sarah L. Everakes,Internal Medicine,verified,3,3,0,0,api_search,api_search,https://openalex.org/A5047705675,ok
+2026-05-14T08:56:50.088171,2-verify,Matthew P. Jaycox,Anesthesiology,verified,3,3,0,0,api_search,api_search,https://openalex.org/A5084352049,ok
+2026-05-14T08:56:50.347874,2-verify,Kimberly L. Kesner,Anesthesiology,verified,3,3,0,0,api_search,api_search,https://openalex.org/A5042842062,ok
+2026-05-14T08:56:50.607348,2-verify,Narendra Khare,Surgery,verified,3,3,0,0,api_search,api_search,https://openalex.org/A5054866473,ok
+2026-05-14T08:56:50.904601,2-verify,Rebecca Lahey,College of Health Sciences,verified,3,3,0,0,api_search,api_search,https://openalex.org/A5048829715,ok
+2026-05-14T08:56:51.154601,2-verify,Shital Shah,College of Health Sciences,verified,3,3,0,0,api_search,api_search,https://openalex.org/A5069182174,ok
+2026-05-14T08:56:51.419594,2-verify,Savannah Benko,Emergency Medicine,verified,2,2,0,0,api_search,api_search,https://openalex.org/A5029025534,ok
+2026-05-14T08:56:51.686725,2-verify,Jordan Dale,Internal Medicine,verified,2,2,0,0,api_search,api_search,https://openalex.org/A5063233429,ok
+2026-05-14T08:56:51.982605,2-verify,Jessica Kuppy,Internal Medicine,verified,2,2,0,0,api_search,api_search,https://openalex.org/A5009683608,ok
+2026-05-14T08:56:52.240761,2-verify,Vikram Nandhan,Pediatrics,verified,2,2,0,0,api_search,api_search,https://openalex.org/A5069179916,ok
+2026-05-14T08:56:52.505051,2-verify,Chiranjeev Saha,Anesthesiology,verified,2,2,0,0,api_search,api_search,https://openalex.org/A5021425505,ok
+2026-05-14T08:56:52.821587,2-verify,Binjon Sriratana,Anesthesiology,verified,2,2,0,0,api_search,api_search,https://openalex.org/A5011913071,ok
+2026-05-14T08:56:53.090131,2-verify,Cheryl Wolfe,Obstetrics & Gynecology,verified,2,2,0,0,api_search,api_search,https://openalex.org/A5039937168,ok
+2026-05-14T08:56:53.344457,2-verify,David Young,Emergency Medicine,verified,2,2,0,0,api_search,api_search,https://openalex.org/A5105698166,ok
+2026-05-14T08:56:53.607862,2-verify,Mary L. Altenbaumer,College of Health Sciences,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5047008549,ok
+2026-05-14T08:56:53.868155,2-verify,Michael K. Bice,Internal Medicine,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5067521072,ok
+2026-05-14T08:56:54.121524,2-verify,Brian W. Birmingham,Anesthesiology,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5044950307,ok
+2026-05-14T08:56:54.740453,2-verify,Theresa Burkhart,College of Health Sciences,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5044586000,ok
+2026-05-14T08:56:55.002774,2-verify,Meri E. Chen,Diagnostic Radiology & Nuclear Medicine,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5091365241,ok
+2026-05-14T08:56:55.260997,2-verify,Rupel Dedhia,Internal Medicine,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5040755678,ok
+2026-05-14T08:56:55.506509,2-verify,Aditya Dholakia,Internal Medicine,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5078773188,ok
+2026-05-14T08:56:55.764169,2-verify,Elia DiSavino,Neurological Sciences,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5027562256,ok
+2026-05-14T08:56:56.020647,2-verify,Maribeth Flaws,College of Health Sciences,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5077757347,ok
+2026-05-14T08:56:56.300210,2-verify,Jennifer Glueck,Internal Medicine,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5089541304,ok
+2026-05-14T08:56:56.566706,2-verify,Nadim Hafez,Emergency Medicine,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5080298361,ok
+2026-05-14T08:56:56.812687,2-verify,Brian J. Jacobs,Ophthalmology,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5112017637,ok
+2026-05-14T08:56:57.085167,2-verify,Daniel T. Kebed,Internal Medicine,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5073024218,ok
+2026-05-14T08:56:57.340790,2-verify,Keri Kwarta,College of Health Sciences,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5048515341,ok
+2026-05-14T08:56:57.653604,2-verify,Nadine Lerret,College of Health Sciences,flagged_wrong_person,1,1,0,0,api_search,api_search,https://openalex.org/A5033188778,"name_mismatch(sim=0.33,oa=L Dudek Nadine)"
+2026-05-14T08:56:57.919345,2-verify,Robert Leven,Anatomy & Cell Biology,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5018199780,ok
+2026-05-14T08:56:58.190213,2-verify,Angela Lorbeck,Psychiatry & Behavioral Sciences,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5039966824,ok
+2026-05-14T08:56:58.442861,2-verify,Erik McIntosh,College of Nursing,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5009000400,ok
+2026-05-14T08:56:58.697516,2-verify,Samantha Patel,Psychiatry & Behavioral Sciences,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5022995507,ok
+2026-05-14T08:56:58.947268,2-verify,Ewa Radwanska,Obstetrics & Gynecology,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5081629570,ok
+2026-05-14T08:56:59.207257,2-verify,Andrew D. Ruthberg,Internal Medicine,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5024325070,ok
+2026-05-14T08:56:59.542890,2-verify,Shuvani Sanyal,Internal Medicine,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5115514565,ok
+2026-05-14T08:56:59.797312,2-verify,Robin Stoner,College of Health Sciences,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5025626955,ok
+2026-05-14T08:57:00.060958,2-verify,Byung-Ho Yu,Internal Medicine,verified,1,1,0,0,api_search,api_search,https://openalex.org/A5071724537,ok
+2026-05-14T08:57:00.326603,2-verify,Wei Chang,Diagnostic Radiology & Nuclear Medicine,verified,0,0,0,0,api_search,api_search,https://openalex.org/A5101161912,ok
+2026-05-14T08:57:00.578516,2-verify,L. Penfield Faber,Cardiovascular & Thoracic Surgery,verified,0,0,0,0,api_search,api_search,https://openalex.org/A5116019202,ok
+2026-05-14T08:57:00.843967,2-verify,Kevin D. Lindgren,Internal Medicine,verified,0,0,0,0,api_search,api_search,https://openalex.org/A5065465974,ok
+2026-05-14T08:57:01.120220,2-verify,Michael J. Liptay,Cardiovascular & Thoracic Surgery,flagged_wrong_person,0,0,0,0,api_search,api_search,https://openalex.org/A5006769188,"name_mismatch(sim=0.33,oa=M. Liptay)"
+2026-05-14T08:57:01.382898,2-verify,Margaret A. McLaughlin,Internal Medicine,verified,0,0,0,0,api_search,api_search,https://openalex.org/A5082965926,ok
+2026-05-14T08:57:01.643194,2-verify,Hreem Patel,Ophthalmology,verified,0,0,0,0,api_search,api_search,https://openalex.org/A5029289868,ok
+2026-05-14T08:57:01.891245,2-verify,Brady Scott,College of Health Sciences,verified,0,0,0,0,api_search,api_search,https://openalex.org/A5132702370,ok
+2026-05-14T08:57:02.151434,2-verify,Pinar Smith,Internal Medicine,verified,0,0,0,0,api_search,api_search,https://openalex.org/A5113410072,ok
+2026-05-14T08:57:02.405745,2-verify,Robin M. Voigt-Zuwala,Internal Medicine,verified,0,0,0,0,api_search,api_search,https://openalex.org/A5115823080,ok
+2026-05-14T08:57:02.653165,2-verify,Wanna Zhang,Internal Medicine,verified,0,0,0,0,api_search,api_search,https://openalex.org/A5021277847,ok

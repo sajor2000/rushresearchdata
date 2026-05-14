@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-05-14T08:57:03.049915",
+  "baseline": {
+    "total_faculty": 1689,
+    "h_positive": 1028,
+    "r5_active": 957,
+    "has_openalex_id": 1071
+  },
+  "final": {
+    "total_faculty": 1689,
+    "h_positive": 1045,
+    "h_positive_pct": 61.9,
+    "r5_active": 975,
+    "r5_active_pct": 57.7,
+    "has_openalex_id": 1089,
+    "match_rate_pct": 64.5
+  },
+  "improvement": {
+    "new_matches": 17,
+    "match_rate_delta": 1.1
+  },
+  "phase_results": {
+    "phase1": {
+      "recovered": 19,
+      "not_found": 596
+    },
+    "phase2": {
+      "verified": 98,
+      "flagged": 12
+    },
+    "phase3": {
+      "recovered": 0,
+      "still_zero": 2
+    }
+  }
+}
