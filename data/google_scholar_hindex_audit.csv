@@ -1,0 +1,21 @@
+rank,name,csv_openalex_h_index,google_scholar_h_index,h_index_delta_scholar_minus_openalex,scholar_match_status,scholar_match_score,scholar_name,scholar_affiliation,scholar_email_domain,scholar_id,openalex_id
+1,David A. Bennett,197,,,timeout,0.000,,,,,https://openalex.org/A5014075642
+2,Julie A. Schneider,150,,,timeout,0.000,,,,,https://openalex.org/A5022605809
+3,Christopher G. Goetz,116,,,timeout,0.000,,,,,https://openalex.org/A5011811351
+4,Brian J. Cole,108,,,timeout,0.000,,,,,https://openalex.org/A5064391561
+5,Joshua J. Jacobs,105,,,timeout,0.000,,,,,https://openalex.org/A5079465450
+6,Theodore P. Pincus,100,,,timeout,0.000,,,,,https://openalex.org/A5064101830
+7,Francine Grodstein,99,,,timeout,0.000,,,,,https://openalex.org/A5088908376
+8,Alan L. Landay,98,,,timeout,0.000,,,,,https://openalex.org/A5016102389
+9,Robert A. Weinstein,98,,,timeout,0.000,,,,,https://openalex.org/A5026024349
+10,Lisa Barnes,96,,,timeout,0.000,,,,,https://openalex.org/A5026996448
+11,Ali Keshavarzian,95,,,timeout,0.000,,,,,https://openalex.org/A5002619544
+12,Sue Leurgans,94,,,timeout,0.000,,,,,https://openalex.org/A5070294274
+13,Craig J. Della Valle,93,,,timeout,0.000,,,,,https://openalex.org/A5056944448
+14,Elizabeth M. Berry-Kravis,90,,,timeout,0.000,,,,,https://openalex.org/A5016953572
+15,Aron Buchman,87,,,timeout,0.000,,,,,https://openalex.org/A5020237298
+16,Howard S. An,84,,,timeout,0.000,,,,,https://openalex.org/A5069437689
+17,Richard A. Berger,81,,,timeout,0.000,,,,,https://openalex.org/A5102711003
+18,Robert J. McCarthy,80,,,timeout,0.000,,,,,https://openalex.org/A5043800653
+19,Raj C. Shah,79,,,timeout,0.000,,,,,https://openalex.org/A5022309484
+20,Shane J. Nho,75,,,timeout,0.000,,,,,https://openalex.org/A5014147462
