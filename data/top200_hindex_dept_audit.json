@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-05-15T11:12:08.047884",
+  "scope": "top 200 by CSV h_index",
+  "h_index_source": "OpenAlex author summary_stats.h_index by exact openalex_id",
+  "department_source": "Rush University public faculty directory; directory was discovered with Tavily MCP and scraped for repeatability",
+  "rush_directory_records": 1691,
+  "top_rows_checked": 200,
+  "h_index_mismatches": 0,
+  "department_mismatches": 0,
+  "missing_directory_matches": 35,
+  "outputs": {
+    "audit_csv": "data/top200_hindex_dept_audit.csv"
+  }
+}

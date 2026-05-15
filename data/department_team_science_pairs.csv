@@ -1,0 +1,152 @@
+department_a,department_b,cross_dept_works,rush_led_cross_dept_works
+Neurological Sciences,Pathology,308,172
+Internal Medicine,Neurological Sciences,233,172
+Diagnostic Radiology & Nuclear Medicine,Neurological Sciences,129,98
+Neurological Sciences,Psychiatry & Behavioral Sciences,111,80
+College of Health Sciences,Internal Medicine,90,65
+Diagnostic Radiology & Nuclear Medicine,Pathology,86,64
+Internal Medicine,Psychiatry & Behavioral Sciences,84,51
+Internal Medicine,Pathology,79,59
+Anatomy & Cell Biology,Internal Medicine,78,70
+College of Nursing,Internal Medicine,56,44
+Internal Medicine,Surgery,54,45
+Emergency Medicine,Internal Medicine,53,25
+Family & Preventive Medicine,Internal Medicine,53,46
+Internal Medicine,Orthopedic Surgery,48,38
+Diagnostic Radiology & Nuclear Medicine,Internal Medicine,42,36
+College of Nursing,Neurological Sciences,40,29
+Family & Preventive Medicine,Psychiatry & Behavioral Sciences,37,29
+Pathology,Psychiatry & Behavioral Sciences,36,28
+Orthopedic Surgery,Pathology,35,23
+College of Health Sciences,Family & Preventive Medicine,34,27
+Diagnostic Radiology & Nuclear Medicine,Psychiatry & Behavioral Sciences,34,29
+Anatomy & Cell Biology,Orthopedic Surgery,31,26
+Diagnostic Radiology & Nuclear Medicine,Orthopedic Surgery,31,28
+Orthopedic Surgery,Physical Medicine & Rehabilitation,31,26
+College of Health Sciences,College of Nursing,30,21
+College of Health Sciences,Neurological Sciences,30,26
+Diagnostic Radiology & Nuclear Medicine,Surgery,30,16
+Family & Preventive Medicine,Neurological Sciences,30,22
+Neurological Sciences,Orthopedic Surgery,29,25
+College of Nursing,Psychiatry & Behavioral Sciences,25,17
+Neurological Sciences,Neurological Surgery,24,16
+College of Health Sciences,Pediatrics,23,21
+Anatomy & Cell Biology,Cardiovascular & Thoracic Surgery,21,12
+Dermatology,Internal Medicine,21,15
+Orthopedic Surgery,Psychiatry & Behavioral Sciences,21,19
+Internal Medicine,Microbial Pathogens & Immunity,20,14
+Internal Medicine,Radiation Oncology,20,19
+Anatomy & Cell Biology,Surgery,19,19
+Cardiovascular & Thoracic Surgery,Internal Medicine,19,9
+College of Nursing,Family & Preventive Medicine,19,13
+Pediatrics,Psychiatry & Behavioral Sciences,19,12
+Internal Medicine,Otorhinolaryngology - Head & Neck Surgery,17,16
+Internal Medicine,Pediatrics,17,7
+College of Health Sciences,Psychiatry & Behavioral Sciences,16,12
+Otorhinolaryngology - Head & Neck Surgery,Pathology,15,13
+Anatomy & Cell Biology,Neurological Sciences,14,11
+Anatomy & Cell Biology,Microbial Pathogens & Immunity,13,12
+College of Health Sciences,Diagnostic Radiology & Nuclear Medicine,12,11
+Family & Preventive Medicine,Physical Medicine & Rehabilitation,12,12
+Cardiovascular & Thoracic Surgery,Diagnostic Radiology & Nuclear Medicine,11,8
+Behavioral Sciences,Psychiatry & Behavioral Sciences,10,7
+Diagnostic Radiology & Nuclear Medicine,Family & Preventive Medicine,10,8
+Neurological Surgery,Otorhinolaryngology - Head & Neck Surgery,10,8
+Obstetrics & Gynecology,Surgery,10,9
+Anesthesiology,Neurological Surgery,9,5
+Anesthesiology,Orthopedic Surgery,9,9
+Neurological Sciences,Pediatrics,9,5
+Orthopedic Surgery,Surgery,9,2
+Otorhinolaryngology - Head & Neck Surgery,Radiation Oncology,9,9
+Diagnostic Radiology & Nuclear Medicine,Pediatrics,8,8
+Neurological Surgery,Orthopedic Surgery,8,1
+Family & Preventive Medicine,Pediatrics,7,6
+Radiation Oncology,Surgery,7,3
+Anatomy & Cell Biology,College of Nursing,6,6
+Anatomy & Cell Biology,Diagnostic Radiology & Nuclear Medicine,6,5
+College of Nursing,Pediatrics,6,5
+Diagnostic Radiology & Nuclear Medicine,Otorhinolaryngology - Head & Neck Surgery,6,3
+Internal Medicine,Physiology & Biophysics,6,6
+Pathology,Surgery,6,5
+Pediatrics,Surgery,6,6
+Physical Medicine & Rehabilitation,Psychiatry & Behavioral Sciences,6,6
+Diagnostic Radiology & Nuclear Medicine,Radiation Oncology,5,3
+Internal Medicine,Obstetrics & Gynecology,5,3
+Orthopedic Surgery,Radiation Oncology,5,5
+Otorhinolaryngology - Head & Neck Surgery,Surgery,5,3
+Anatomy & Cell Biology,Pathology,4,4
+Anatomy & Cell Biology,Pediatrics,4,4
+Anesthesiology,Internal Medicine,4,4
+Family & Preventive Medicine,Orthopedic Surgery,4,2
+Obstetrics & Gynecology,Pediatrics,4,3
+Anatomy & Cell Biology,College of Health Sciences,3,2
+Anatomy & Cell Biology,Physiology & Biophysics,3,3
+Anesthesiology,College of Health Sciences,3,3
+Anesthesiology,Psychiatry & Behavioral Sciences,3,0
+Cardiovascular & Thoracic Surgery,Surgery,3,1
+College of Health Sciences,Surgery,3,3
+College of Nursing,Pathology,3,2
+Diagnostic Radiology & Nuclear Medicine,Neurological Surgery,3,2
+Emergency Medicine,Surgery,3,3
+Internal Medicine,Neurological Surgery,3,2
+Internal Medicine,Urology,3,3
+Pathology,Radiation Oncology,3,3
+Surgery,Urology,3,2
+Anesthesiology,Neurological Sciences,2,2
+Anesthesiology,Pediatrics,2,2
+Anesthesiology,Surgery,2,2
+Cardiovascular & Thoracic Surgery,Family & Preventive Medicine,2,0
+Cardiovascular & Thoracic Surgery,Radiation Oncology,2,2
+College of Health Sciences,Emergency Medicine,2,1
+College of Health Sciences,Pathology,2,2
+College of Health Sciences,Physical Medicine & Rehabilitation,2,1
+College of Nursing,Diagnostic Radiology & Nuclear Medicine,2,2
+College of Nursing,Microbial Pathogens & Immunity,2,2
+Dermatology,Pathology,2,0
+Emergency Medicine,Neurological Sciences,2,1
+Emergency Medicine,Orthopedic Surgery,2,2
+Emergency Medicine,Pediatrics,2,2
+Emergency Medicine,Psychiatry & Behavioral Sciences,2,1
+Microbial Pathogens & Immunity,Neurological Sciences,2,2
+Microbial Pathogens & Immunity,Orthopedic Surgery,2,2
+Microbial Pathogens & Immunity,Pathology,2,2
+Microbial Pathogens & Immunity,Surgery,2,2
+Neurological Sciences,Ophthalmology,2,1
+Neurological Sciences,Otorhinolaryngology - Head & Neck Surgery,2,2
+Neurological Surgery,Ophthalmology,2,1
+Orthopedic Surgery,Otorhinolaryngology - Head & Neck Surgery,2,0
+Otorhinolaryngology - Head & Neck Surgery,Pediatrics,2,2
+Anatomy & Cell Biology,Physical Medicine & Rehabilitation,1,1
+Anesthesiology,Cardiovascular & Thoracic Surgery,1,1
+Anesthesiology,Family & Preventive Medicine,1,1
+Anesthesiology,Otorhinolaryngology - Head & Neck Surgery,1,0
+Behavioral Sciences,College of Health Sciences,1,1
+Cardiovascular & Thoracic Surgery,College of Health Sciences,1,1
+Cardiovascular & Thoracic Surgery,Orthopedic Surgery,1,1
+Cardiovascular & Thoracic Surgery,Otorhinolaryngology - Head & Neck Surgery,1,1
+Cardiovascular & Thoracic Surgery,Pathology,1,1
+College of Health Sciences,Otorhinolaryngology - Head & Neck Surgery,1,1
+College of Nursing,Orthopedic Surgery,1,1
+College of Nursing,Physical Medicine & Rehabilitation,1,0
+Dermatology,Emergency Medicine,1,0
+Dermatology,Surgery,1,1
+Diagnostic Radiology & Nuclear Medicine,Microbial Pathogens & Immunity,1,1
+Emergency Medicine,Obstetrics & Gynecology,1,0
+Emergency Medicine,Physical Medicine & Rehabilitation,1,1
+Family & Preventive Medicine,Pathology,1,0
+Family & Preventive Medicine,Surgery,1,0
+Internal Medicine,Ophthalmology,1,0
+Neurological Surgery,Pathology,1,1
+Neurological Surgery,Pediatrics,1,1
+Neurological Surgery,Radiation Oncology,1,1
+Obstetrics & Gynecology,Otorhinolaryngology - Head & Neck Surgery,1,1
+Obstetrics & Gynecology,Radiation Oncology,1,0
+Obstetrics & Gynecology,Urology,1,1
+Ophthalmology,Otorhinolaryngology - Head & Neck Surgery,1,1
+Ophthalmology,Pathology,1,0
+Ophthalmology,Physical Medicine & Rehabilitation,1,1
+Orthopedic Surgery,Pediatrics,1,1
+Pathology,Pediatrics,1,0
+Pediatrics,Physical Medicine & Rehabilitation,1,1
+Physical Medicine & Rehabilitation,Urology,1,0
+Radiation Oncology,Urology,1,1
