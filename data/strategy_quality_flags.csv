@@ -1,0 +1,4 @@
+severity,check,detail,faculty_name,rush_dept,work_id,project_num
+review,missing_openalex_topic,105 work rows lack OpenAlex primary topic,,,,
+review,missing_openalex_fwci,1224 work rows lack OpenAlex FWCI,,,,
+review,nih_active_project_denominator_difference,"department unique active projects=84, summed faculty active project attributions=93",,,,

@@ -228,7 +228,7 @@ def main():
         json.dump(report, f, indent=2)
 
     with FLAGS_PATH.open("w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["severity", "check", "detail", "faculty_name", "rush_dept", "openalex_id", "work_id"])
+        writer = csv.DictWriter(f, fieldnames=["severity", "check", "detail", "faculty_name", "rush_dept", "openalex_id", "work_id"], lineterminator="\n")
         writer.writeheader()
         writer.writerows(flags)
 

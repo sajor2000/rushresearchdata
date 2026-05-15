@@ -1,0 +1,1848 @@
+primary_topic,primary_field,primary_domain,works,rush_led_works,top10_impact_works,top10_impact_share,mean_fwci
+Dementia and Cognitive Impairment Research,Medicine,Health Sciences,529,205,162,0.306,4.011
+Spine and Intervertebral Disc Pathology,Medicine,Health Sciences,294,189,35,0.119,1.265
+Hip disorders and treatments,Medicine,Health Sciences,239,154,68,0.285,2.098
+Renal cell carcinoma treatment,Medicine,Health Sciences,202,12,29,0.144,1.981
+Alzheimer's disease research and treatments,Medicine,Health Sciences,185,35,77,0.416,4.750
+Bladder and Urothelial Cancer Treatments,Medicine,Health Sciences,181,20,49,0.271,3.751
+Osteoarthritis Treatment and Mechanisms,Medicine,Health Sciences,163,88,43,0.264,5.249
+Diversity and Career in Medicine,Social Sciences,Social Sciences,156,55,51,0.327,3.548
+Shoulder Injury and Treatment,Medicine,Health Sciences,154,86,31,0.201,1.517
+Sleep and related disorders,Psychology,Social Sciences,151,27,41,0.272,2.869
+Orthopaedic implants and arthroplasty,Medicine,Health Sciences,146,68,40,0.274,2.199
+Knee injuries and reconstruction techniques,Medicine,Health Sciences,133,54,36,0.271,2.195
+Acute Ischemic Stroke Management,Medicine,Health Sciences,128,32,32,0.250,5.195
+Parkinson's Disease Mechanisms and Treatments,Medicine,Health Sciences,124,56,33,0.266,2.775
+Genetics and Neurodevelopmental Disorders,"Biochemistry, Genetics and Molecular Biology",Life Sciences,117,25,40,0.342,3.503
+Total Knee Arthroplasty Outcomes,Medicine,Health Sciences,117,62,35,0.299,2.196
+Gut microbiota and health,"Biochemistry, Genetics and Molecular Biology",Life Sciences,112,13,29,0.259,2.068
+SARS-CoV-2 and COVID-19 Research,Medicine,Health Sciences,111,17,30,0.270,3.690
+Cervical and Thoracic Myelopathy,Medicine,Health Sciences,110,76,19,0.173,1.150
+Innovations in Medical Education,Medicine,Health Sciences,106,40,15,0.142,1.267
+Unclassified topic,Unclassified field,Unclassified domain,105,13,0,0.000,0.000
+Neuroinflammation and Neurodegeneration Mechanisms,Neuroscience,Life Sciences,103,16,22,0.214,5.267
+Lower Extremity Biomechanics and Pathologies,Engineering,Physical Sciences,93,59,4,0.043,0.537
+Nutritional Studies and Diet,Medicine,Health Sciences,92,45,30,0.326,7.074
+Health disparities and outcomes,Social Sciences,Social Sciences,89,29,28,0.315,3.444
+Cancer Immunotherapy and Biomarkers,Medicine,Health Sciences,88,19,21,0.239,2.274
+Respiratory Support and Mechanisms,Medicine,Health Sciences,87,48,20,0.230,2.656
+Pancreatic and Hepatic Oncology Research,Medicine,Health Sciences,86,14,9,0.105,1.382
+Obstructive Sleep Apnea Research,Medicine,Health Sciences,85,23,10,0.118,1.791
+Atrial Fibrillation Management and Outcomes,Medicine,Health Sciences,84,33,16,0.190,3.700
+Liver Disease Diagnosis and Treatment,Medicine,Health Sciences,84,19,13,0.155,2.042
+Lung Cancer Diagnosis and Treatment,Medicine,Health Sciences,84,38,21,0.250,3.345
+HIV-related health complications and treatments,Medicine,Health Sciences,83,9,25,0.301,3.379
+Long-Term Effects of COVID-19,Medicine,Health Sciences,83,26,29,0.349,4.165
+Head and Neck Cancer Studies,Medicine,Health Sciences,78,15,15,0.192,2.569
+Neurological disorders and treatments,Medicine,Health Sciences,78,24,15,0.192,2.435
+COVID-19 Clinical Research Studies,Medicine,Health Sciences,77,25,15,0.195,2.737
+Genetic Associations and Epidemiology,"Biochemistry, Genetics and Molecular Biology",Life Sciences,75,4,25,0.333,13.585
+Inflammatory Bowel Disease,"Biochemistry, Genetics and Molecular Biology",Life Sciences,74,5,13,0.176,2.196
+Autism Spectrum Disorder Research,Neuroscience,Life Sciences,70,19,11,0.157,2.119
+Circadian rhythm and melatonin,Neuroscience,Life Sciences,67,23,11,0.164,1.653
+Cancer Genomics and Diagnostics,"Biochemistry, Genetics and Molecular Biology",Life Sciences,65,3,8,0.123,1.263
+Palliative Care and End-of-Life Issues,Medicine,Health Sciences,65,29,7,0.108,1.548
+Sarcoma Diagnosis and Treatment,Medicine,Health Sciences,65,35,9,0.138,1.195
+Scoliosis diagnosis and treatment,Medicine,Health Sciences,64,13,14,0.219,1.902
+Artificial Intelligence in Healthcare and Education,Medicine,Health Sciences,62,29,13,0.210,1.626
+Lymphoma Diagnosis and Treatment,Medicine,Health Sciences,61,4,9,0.148,1.368
+Mechanical Circulatory Support Devices,Engineering,Physical Sciences,61,10,6,0.098,1.274
+"Religion, Spirituality, and Psychology",Social Sciences,Social Sciences,61,47,18,0.295,2.723
+Posttraumatic Stress Disorder Research,Psychology,Social Sciences,60,39,11,0.183,2.118
+Bariatric Surgery and Outcomes,Medicine,Health Sciences,59,14,8,0.136,3.125
+COVID-19 and healthcare impacts,Medicine,Health Sciences,58,20,6,0.103,1.247
+Botulinum Toxin and Related Neurological Disorders,Medicine,Health Sciences,56,18,7,0.125,1.241
+Autoimmune Bullous Skin Diseases,Medicine,Health Sciences,55,34,9,0.164,1.571
+Ultrasound in Clinical Applications,Medicine,Health Sciences,55,26,11,0.200,2.445
+Advanced Neuroimaging Techniques and Applications,Medicine,Health Sciences,54,24,4,0.074,0.635
+Cardiac Valve Diseases and Treatments,Medicine,Health Sciences,54,18,4,0.074,0.833
+Gastric Cancer Management and Outcomes,Medicine,Health Sciences,54,7,2,0.037,0.333
+Mast cells and histamine,Immunology and Microbiology,Life Sciences,53,4,5,0.094,0.982
+Antibiotic Resistance in Bacteria,"Biochemistry, Genetics and Molecular Biology",Life Sciences,52,9,4,0.077,1.669
+CAR-T cell therapy research,Medicine,Health Sciences,52,3,17,0.327,4.873
+Cardiovascular Health and Risk Factors,Medicine,Health Sciences,52,12,7,0.135,0.733
+Musculoskeletal pain and rehabilitation,Medicine,Health Sciences,52,19,20,0.385,2.767
+Advances in Oncology and Radiotherapy,Medicine,Health Sciences,50,6,1,0.020,0.427
+Anesthesia and Pain Management,Medicine,Health Sciences,50,24,11,0.220,2.171
+Cardiac Arrhythmias and Treatments,Medicine,Health Sciences,50,12,11,0.220,1.749
+Dermatology and Skin Diseases,Medicine,Health Sciences,50,0,10,0.200,1.727
+Epigenetics and DNA Methylation,"Biochemistry, Genetics and Molecular Biology",Life Sciences,50,10,21,0.420,3.723
+Sexual function and dysfunction studies,Medicine,Health Sciences,50,29,3,0.060,0.792
+Traumatic Brain Injury Research,Medicine,Health Sciences,50,10,18,0.360,2.722
+Epilepsy research and treatment,Medicine,Health Sciences,49,15,14,0.286,3.554
+Head and Neck Surgical Oncology,Medicine,Health Sciences,49,19,4,0.082,1.042
+"LGBTQ Health, Identity, and Policy",Psychology,Social Sciences,49,16,25,0.510,13.770
+Physical Activity and Health,Medicine,Health Sciences,49,13,1,0.020,0.594
+Colorectal Cancer Screening and Detection,Medicine,Health Sciences,48,6,9,0.188,0.773
+HIV/AIDS Research and Interventions,Medicine,Health Sciences,48,3,3,0.062,0.916
+Intracerebral and Subarachnoid Hemorrhage Research,Medicine,Health Sciences,48,24,7,0.146,2.442
+Orthopedic Surgery and Rehabilitation,Medicine,Health Sciences,48,11,3,0.062,0.690
+Venous Thromboembolism Diagnosis and Management,Medicine,Health Sciences,48,19,11,0.229,1.953
+HIV Research and Treatment,Immunology and Microbiology,Life Sciences,47,14,8,0.170,1.798
+Telemedicine and Telehealth Implementation,Medicine,Health Sciences,47,20,11,0.234,1.809
+Lung Cancer Treatments and Mutations,Medicine,Health Sciences,46,12,3,0.065,0.869
+Diet and metabolism studies,Medicine,Health Sciences,45,14,7,0.156,2.401
+Esophageal Cancer Research and Treatment,Medicine,Health Sciences,45,10,9,0.200,1.452
+Intensive Care Unit Cognitive Disorders,Medicine,Health Sciences,45,21,10,0.222,2.734
+"Health, Environment, Cognitive Aging",Environmental Science,Physical Sciences,44,12,1,0.023,0.605
+Acute Myeloid Leukemia Research,Medicine,Health Sciences,43,7,14,0.326,6.180
+"Balance, Gait, and Falls Prevention",Health Professions,Health Sciences,43,16,24,0.558,6.552
+Nutrition and Health in Aging,Medicine,Health Sciences,43,17,7,0.163,1.888
+Sinusitis and nasal conditions,Medicine,Health Sciences,43,20,8,0.186,2.534
+Social Media in Health Education,Social Sciences,Social Sciences,43,18,4,0.093,0.847
+Hepatocellular Carcinoma Treatment and Prognosis,Medicine,Health Sciences,42,11,10,0.238,1.351
+Airway Management and Intubation Techniques,Medicine,Health Sciences,41,22,9,0.220,4.159
+Cervical Cancer and HPV Research,Medicine,Health Sciences,40,6,1,0.025,0.360
+Family and Patient Care in Intensive Care Units,Health Professions,Health Sciences,40,25,4,0.100,0.957
+Hepatitis C virus research,Medicine,Health Sciences,40,11,4,0.100,0.929
+Pelvic floor disorders treatments,Medicine,Health Sciences,40,13,6,0.150,1.169
+Thyroid Disorders and Treatments,Medicine,Health Sciences,40,3,8,0.200,1.324
+Asthma and respiratory diseases,Medicine,Health Sciences,39,6,9,0.231,1.549
+Cardiac Imaging and Diagnostics,Medicine,Health Sciences,39,16,7,0.179,1.139
+Diverse Scientific and Economic Studies,"Economics, Econometrics and Finance",Social Sciences,39,1,0,0.000,0.030
+Frailty in Older Adults,Medicine,Health Sciences,39,1,8,0.205,1.750
+Prostate Cancer Treatment and Research,Medicine,Health Sciences,39,4,6,0.154,0.797
+Cardiac Arrest and Resuscitation,Medicine,Health Sciences,38,22,12,0.316,2.449
+Cerebrospinal fluid and hydrocephalus,Neuroscience,Life Sciences,38,10,7,0.184,1.667
+Cutaneous Melanoma Detection and Management,Medicine,Health Sciences,38,6,9,0.237,6.859
+Cerebrovascular and Carotid Artery Diseases,Medicine,Health Sciences,37,8,6,0.162,1.967
+Global Cancer Incidence and Screening,Medicine,Health Sciences,37,9,5,0.135,1.720
+Lysosomal Storage Disorders Research,Medicine,Health Sciences,37,9,7,0.189,1.371
+Reconstructive Surgery and Microvascular Techniques,Medicine,Health Sciences,37,13,9,0.243,0.937
+Sepsis Diagnosis and Treatment,Medicine,Health Sciences,37,17,10,0.270,3.760
+Spinal Fractures and Fixation Techniques,Medicine,Health Sciences,37,16,6,0.162,1.651
+Sports injuries and prevention,Medicine,Health Sciences,37,24,7,0.189,1.441
+HER2/EGFR in Cancer Research,Medicine,Health Sciences,36,3,7,0.194,1.739
+"Health Systems, Economic Evaluations, Quality of Life","Economics, Econometrics and Finance",Social Sciences,36,9,8,0.222,2.790
+Liver Disease and Transplantation,Medicine,Health Sciences,36,16,10,0.278,1.633
+Peripheral Artery Disease Management,Medicine,Health Sciences,36,12,4,0.111,1.191
+Retinal and Macular Surgery,Medicine,Health Sciences,36,9,5,0.139,0.853
+"Cardiac, Anesthesia and Surgical Outcomes",Medicine,Health Sciences,35,16,4,0.114,1.014
+Family and Disability Support Research,Psychology,Social Sciences,35,13,5,0.143,1.150
+Food Allergy and Anaphylaxis Research,Medicine,Health Sciences,35,7,4,0.114,1.132
+Homelessness and Social Issues,Health Professions,Health Sciences,35,12,10,0.286,3.584
+Management of metastatic bone disease,Medicine,Health Sciences,35,14,7,0.200,1.808
+Meningioma and schwannoma management,Medicine,Health Sciences,35,2,8,0.229,2.456
+Reproductive tract infections research,Immunology and Microbiology,Life Sciences,35,15,4,0.114,1.395
+Retinal Diseases and Treatments,Medicine,Health Sciences,35,5,19,0.543,4.727
+Tuberculosis Research and Epidemiology,Medicine,Health Sciences,35,2,3,0.086,1.053
+Breast Implant and Reconstruction,Medicine,Health Sciences,33,11,5,0.152,1.814
+Cardiac electrophysiology and arrhythmias,Medicine,Health Sciences,33,24,3,0.091,1.377
+Cardiac pacing and defibrillation studies,Medicine,Health Sciences,33,7,5,0.152,4.363
+Functional Brain Connectivity Studies,Neuroscience,Life Sciences,33,12,5,0.152,2.110
+Opioid Use Disorder Treatment,Medicine,Health Sciences,33,18,8,0.242,1.903
+Chronic Obstructive Pulmonary Disease (COPD) Research,Medicine,Health Sciences,32,10,4,0.125,1.347
+Genetic factors in colorectal cancer,Medicine,Health Sciences,32,2,1,0.031,0.348
+Hearing Loss and Rehabilitation,Neuroscience,Life Sciences,32,21,7,0.219,1.611
+Migraine and Headache Studies,Medicine,Health Sciences,32,8,5,0.156,1.275
+RNA modifications and cancer,"Biochemistry, Genetics and Molecular Biology",Life Sciences,32,3,1,0.031,0.353
+Blood Pressure and Hypertension Studies,Medicine,Health Sciences,31,4,6,0.194,1.890
+Immunotherapy and Immune Responses,Immunology and Microbiology,Life Sciences,31,3,4,0.129,0.955
+Stroke Rehabilitation and Recovery,Medicine,Health Sciences,31,11,7,0.226,1.078
+Bioinformatics and Genomic Networks,"Biochemistry, Genetics and Molecular Biology",Life Sciences,30,5,7,0.233,2.092
+Cannabis and Cannabinoid Research,Medicine,Health Sciences,30,5,12,0.400,4.252
+Geriatric Care and Nursing Homes,Health Professions,Health Sciences,30,13,3,0.100,0.651
+Glioma Diagnosis and Treatment,Medicine,Health Sciences,30,4,6,0.200,3.311
+Mitochondrial Function and Pathology,"Biochemistry, Genetics and Molecular Biology",Life Sciences,30,4,6,0.200,2.935
+Multiple Sclerosis Research Studies,Medicine,Health Sciences,30,4,4,0.133,1.668
+Single-cell and spatial transcriptomics,"Biochemistry, Genetics and Molecular Biology",Life Sciences,30,5,10,0.333,8.706
+Antibiotic Use and Resistance,Immunology and Microbiology,Life Sciences,29,8,7,0.241,2.451
+COVID-19 and Mental Health,Psychology,Social Sciences,29,10,6,0.207,1.468
+Digital Mental Health Interventions,Psychology,Social Sciences,29,8,6,0.207,1.284
+Food Security and Health in Diverse Populations,Health Professions,Health Sciences,29,12,8,0.276,3.621
+Health and Medical Research Impacts,Medicine,Health Sciences,29,10,2,0.069,0.812
+Healthcare Policy and Management,"Economics, Econometrics and Finance",Social Sciences,29,8,10,0.345,2.497
+Rheumatoid Arthritis Research and Therapies,Medicine,Health Sciences,29,15,1,0.034,0.764
+COVID-19 epidemiological studies,Mathematics,Physical Sciences,28,2,1,0.036,1.166
+Cancer Treatment and Pharmacology,Medicine,Health Sciences,28,1,0,0.000,0.110
+Cancer-related molecular mechanisms research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,28,6,3,0.107,1.326
+Hemophilia Treatment and Research,Medicine,Health Sciences,28,6,3,0.107,1.253
+Hernia repair and management,Medicine,Health Sciences,28,3,8,0.286,5.196
+Radiomics and Machine Learning in Medical Imaging,Medicine,Health Sciences,28,4,1,0.036,0.460
+Renal Diseases and Glomerulopathies,Medicine,Health Sciences,28,9,5,0.179,1.926
+Acute Myocardial Infarction Research,Medicine,Health Sciences,27,7,5,0.185,1.428
+Cardiac Health and Mental Health,Medicine,Health Sciences,27,11,4,0.148,1.111
+Cholangiocarcinoma and Gallbladder Cancer Studies,Medicine,Health Sciences,27,4,9,0.333,9.699
+Climate Change and Health Impacts,Environmental Science,Physical Sciences,27,10,3,0.111,2.309
+Colorectal Cancer Surgical Treatments,Medicine,Health Sciences,27,9,3,0.111,1.546
+Eosinophilic Esophagitis,Medicine,Health Sciences,27,4,1,0.037,0.091
+Menopause: Health Impacts and Treatments,Medicine,Health Sciences,27,5,3,0.111,1.596
+MicroRNA in disease regulation,"Biochemistry, Genetics and Molecular Biology",Life Sciences,27,2,2,0.074,0.779
+"Obesity, Physical Activity, Diet",Medicine,Health Sciences,27,15,1,0.037,0.665
+Orthopedic Infections and Treatments,Medicine,Health Sciences,27,8,9,0.333,3.455
+Pain Mechanisms and Treatments,Medicine,Health Sciences,27,19,8,0.296,2.750
+Prostate Cancer Diagnosis and Treatment,Medicine,Health Sciences,27,7,8,0.296,1.372
+Antifungal resistance and susceptibility,Medicine,Health Sciences,26,9,7,0.269,4.186
+Breast Cancer Treatment Studies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,26,12,4,0.154,0.323
+Central Venous Catheters and Hemodialysis,Health Professions,Health Sciences,26,12,6,0.231,1.234
+Inhalation and Respiratory Drug Delivery,Medicine,Health Sciences,26,18,4,0.154,1.726
+Simulation-Based Education in Healthcare,Medicine,Health Sciences,26,14,1,0.038,0.520
+Surgical Simulation and Training,Medicine,Health Sciences,26,7,5,0.192,1.712
+Systemic Lupus Erythematosus Research,Medicine,Health Sciences,26,14,1,0.038,0.580
+Advanced Breast Cancer Therapies,Medicine,Health Sciences,25,6,1,0.040,0.391
+Chemotherapy-induced cardiotoxicity and mitigation,Medicine,Health Sciences,25,9,12,0.480,7.222
+Heart Failure Treatment and Management,Medicine,Health Sciences,25,8,3,0.120,1.304
+Multiple Myeloma Research and Treatments,Medicine,Health Sciences,25,3,1,0.040,0.427
+Neuroendocrine Tumor Research Advances,Medicine,Health Sciences,25,2,6,0.240,0.824
+Nonmelanoma Skin Cancer Studies,Medicine,Health Sciences,25,6,0,0.000,0.231
+Pancreatitis Pathology and Treatment,Medicine,Health Sciences,25,3,5,0.200,2.507
+Brain Metastases and Treatment,Medicine,Health Sciences,24,5,2,0.083,1.012
+Chronic Lymphocytic Leukemia Research,Medicine,Health Sciences,24,6,5,0.208,1.500
+Ferroptosis and cancer prognosis,Medicine,Health Sciences,24,0,5,0.208,3.040
+Metabolomics and Mass Spectrometry Studies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,24,1,4,0.167,1.723
+Occupational Therapy Practice and Research,Health Professions,Health Sciences,24,16,9,0.375,2.374
+Polyomavirus and related diseases,Medicine,Health Sciences,24,6,2,0.083,0.487
+Racial and Ethnic Identity Research,Social Sciences,Social Sciences,24,10,9,0.375,2.326
+Streptococcal Infections and Treatments,Medicine,Health Sciences,24,9,7,0.292,2.196
+Traumatic Brain Injury and Neurovascular Disturbances,Medicine,Health Sciences,24,11,6,0.250,1.555
+Tryptophan and brain disorders,Neuroscience,Life Sciences,24,2,3,0.125,1.515
+Wound Healing and Treatments,Medicine,Health Sciences,24,6,4,0.167,1.980
+Appendicitis Diagnosis and Management,Medicine,Health Sciences,23,4,8,0.348,3.930
+BRCA gene mutations in cancer,"Biochemistry, Genetics and Molecular Biology",Life Sciences,23,9,3,0.130,1.037
+Bone Tumor Diagnosis and Treatments,Medicine,Health Sciences,23,12,1,0.043,0.777
+Breastfeeding Practices and Influences,Medicine,Health Sciences,23,16,6,0.261,1.769
+Cancer survivorship and care,Medicine,Health Sciences,23,6,5,0.217,1.745
+Childhood Cancer Survivors' Quality of Life,Medicine,Health Sciences,23,7,9,0.391,2.825
+Diabetic Foot Ulcer Assessment and Management,Medicine,Health Sciences,23,5,4,0.174,1.996
+Elbow and Forearm Trauma Treatment,Medicine,Health Sciences,23,4,0,0.000,0.318
+Fibromyalgia and Chronic Fatigue Syndrome Research,Medicine,Health Sciences,23,17,2,0.087,0.925
+Health Sciences Research and Education,Health Professions,Health Sciences,23,7,7,0.304,2.279
+Tracheal and airway disorders,Medicine,Health Sciences,23,9,1,0.043,0.709
+Advanced MRI Techniques and Applications,Medicine,Health Sciences,22,9,0,0.000,0.143
+Aging and Gerontology Research,Psychology,Social Sciences,22,10,4,0.182,1.151
+Cancer Cells and Metastasis,Medicine,Health Sciences,22,3,4,0.182,1.345
+Child Abuse and Trauma,Psychology,Social Sciences,22,6,8,0.364,2.166
+Intracranial Aneurysms: Treatment and Complications,Medicine,Health Sciences,22,5,5,0.227,1.271
+Meta-analysis and systematic reviews,Decision Sciences,Social Sciences,22,10,6,0.273,2.180
+Neonatal Respiratory Health Research,Medicine,Health Sciences,22,8,4,0.182,2.095
+Poxvirus research and outbreaks,Immunology and Microbiology,Life Sciences,22,2,10,0.455,3.056
+Statistical Methods and Inference,Mathematics,Physical Sciences,22,0,7,0.318,2.010
+Adipose Tissue and Metabolism,Medicine,Health Sciences,21,5,5,0.238,3.543
+"Amyloidosis: Diagnosis, Treatment, Outcomes","Biochemistry, Genetics and Molecular Biology",Life Sciences,21,8,1,0.048,0.262
+Cardiovascular Disease and Adiposity,Medicine,Health Sciences,21,4,1,0.048,0.560
+Cell Adhesion Molecules Research,Medicine,Health Sciences,21,8,1,0.048,0.260
+Delphi Technique in Research,Social Sciences,Social Sciences,21,5,10,0.476,5.499
+Health Literacy and Information Accessibility,Health Professions,Health Sciences,21,8,8,0.381,5.622
+Healthcare professionals’ stress and burnout,Health Professions,Health Sciences,21,11,6,0.286,4.265
+Lipoproteins and Cardiovascular Health,Medicine,Health Sciences,21,6,9,0.429,4.909
+Maternal Mental Health During Pregnancy and Postpartum,Medicine,Health Sciences,21,1,4,0.190,1.324
+Mobile Health and mHealth Applications,Health Professions,Health Sciences,21,4,8,0.381,3.509
+Neuroscience of respiration and sleep,Neuroscience,Life Sciences,21,11,3,0.143,0.768
+Antimicrobial Resistance in Staphylococcus,Medicine,Health Sciences,20,9,4,0.200,3.369
+Clostridium difficile and Clostridium perfringens research,Medicine,Health Sciences,20,5,4,0.200,2.501
+Cytomegalovirus and herpesvirus research,Medicine,Health Sciences,20,5,4,0.200,2.492
+Ethics in Clinical Research,Medicine,Health Sciences,20,7,9,0.450,3.213
+Medical Imaging and Analysis,Engineering,Physical Sciences,20,10,2,0.100,0.994
+Microtubule and mitosis dynamics,"Biochemistry, Genetics and Molecular Biology",Life Sciences,20,2,0,0.000,0.242
+PARP inhibition in cancer therapy,Medicine,Health Sciences,20,3,2,0.100,1.003
+Respiratory viral infections research,Medicine,Health Sciences,20,4,6,0.300,2.677
+Urinary Tract Infections Management,Medicine,Health Sciences,20,6,5,0.250,2.262
+Craniofacial Disorders and Treatments,"Biochemistry, Genetics and Molecular Biology",Life Sciences,19,3,0,0.000,0.433
+Endometrial and Cervical Cancer Treatments,Medicine,Health Sciences,19,1,6,0.316,2.320
+Facial Rejuvenation and Surgery Techniques,Medicine,Health Sciences,19,5,3,0.158,1.383
+Genomics and Rare Diseases,"Biochemistry, Genetics and Molecular Biology",Life Sciences,19,4,7,0.368,11.169
+Renal Transplantation Outcomes and Treatments,Medicine,Health Sciences,19,9,2,0.105,1.133
+SARS-CoV-2 detection and testing,Medicine,Health Sciences,19,5,6,0.316,2.380
+Salivary Gland Tumors Diagnosis and Treatment,Medicine,Health Sciences,19,11,1,0.053,0.543
+Alcohol Consumption and Health Effects,Medicine,Health Sciences,18,8,8,0.444,4.233
+Anatomy and Medical Technology,Engineering,Physical Sciences,18,5,1,0.056,0.808
+Child and Adolescent Psychosocial and Emotional Development,Psychology,Social Sciences,18,6,1,0.056,1.134
+Estrogen and related hormone effects,"Biochemistry, Genetics and Molecular Biology",Life Sciences,18,3,1,0.056,0.879
+Genetic Neurodegenerative Diseases,Neuroscience,Life Sciences,18,12,0,0.000,0.467
+Immune Cell Function and Interaction,Immunology and Microbiology,Life Sciences,18,3,1,0.056,0.901
+Infant Development and Preterm Care,Medicine,Health Sciences,18,9,5,0.278,2.806
+Interprofessional Education and Collaboration,Health Professions,Health Sciences,18,6,2,0.111,1.045
+Ion channel regulation and function,"Biochemistry, Genetics and Molecular Biology",Life Sciences,18,5,0,0.000,0.416
+Microscopic Colitis,Medicine,Health Sciences,18,12,1,0.056,0.607
+Minimally Invasive Surgical Techniques,Medicine,Health Sciences,18,0,13,0.722,4.682
+Mycobacterium research and diagnosis,Medicine,Health Sciences,18,2,5,0.278,1.892
+Olfactory and Sensory Function Studies,Neuroscience,Life Sciences,18,6,5,0.278,1.808
+Pain Management and Treatment,Medicine,Health Sciences,18,4,5,0.278,2.356
+Parathyroid Disorders and Treatments,Medicine,Health Sciences,18,10,1,0.056,0.395
+Pharmaceutical Practices and Patient Outcomes,Medicine,Health Sciences,18,5,0,0.000,0.504
+Resilience and Mental Health,Psychology,Social Sciences,18,3,3,0.167,1.207
+Thyroid Cancer Diagnosis and Treatment,Medicine,Health Sciences,18,3,4,0.222,1.503
+Trauma and Emergency Care Studies,Medicine,Health Sciences,18,6,4,0.222,1.293
+Vagus Nerve Stimulation Research,Neuroscience,Life Sciences,18,3,6,0.333,1.802
+Vascular Procedures and Complications,Medicine,Health Sciences,18,11,2,0.111,1.059
+"Adipokines, Inflammation, and Metabolic Diseases",Medicine,Health Sciences,17,0,3,0.176,1.768
+Bone and Joint Diseases,Medicine,Health Sciences,17,12,1,0.059,0.885
+"Cancer, Lipids, and Metabolism","Biochemistry, Genetics and Molecular Biology",Life Sciences,17,2,0,0.000,0.323
+Diabetes Treatment and Management,Medicine,Health Sciences,17,6,5,0.294,2.521
+Diverticular Disease and Complications,Medicine,Health Sciences,17,6,5,0.294,2.172
+Gastrointestinal Bleeding Diagnosis and Treatment,Medicine,Health Sciences,17,10,3,0.176,1.657
+Hematopoietic Stem Cell Transplantation,Medicine,Health Sciences,17,3,7,0.412,2.392
+Hepatitis B Virus Studies,Medicine,Health Sciences,17,3,3,0.176,1.026
+Infection Control and Ventilation,Medicine,Health Sciences,17,3,4,0.235,1.528
+Infectious Diseases and Tuberculosis,Medicine,Health Sciences,17,8,1,0.059,0.372
+Liver Diseases and Immunity,Medicine,Health Sciences,17,7,3,0.176,1.615
+Pleural and Pulmonary Diseases,Medicine,Health Sciences,17,4,3,0.176,1.247
+Psoriasis: Treatment and Pathogenesis,Immunology and Microbiology,Life Sciences,17,5,1,0.059,2.494
+Urban Green Space and Health,Environmental Science,Physical Sciences,17,0,4,0.235,1.198
+Vaccine Coverage and Hesitancy,Social Sciences,Social Sciences,17,3,2,0.118,0.807
+Air Quality and Health Impacts,Environmental Science,Physical Sciences,16,0,2,0.125,1.152
+Antiplatelet Therapy and Cardiovascular Diseases,Medicine,Health Sciences,16,1,6,0.375,6.079
+Atherosclerosis and Cardiovascular Diseases,Immunology and Microbiology,Life Sciences,16,0,3,0.188,1.158
+Autophagy in Disease and Therapy,Medicine,Health Sciences,16,3,8,0.500,3.527
+Cardiovascular Syncope and Autonomic Disorders,Medicine,Health Sciences,16,7,2,0.125,2.285
+Chronic Kidney Disease and Diabetes,Medicine,Health Sciences,16,2,2,0.125,2.074
+Climate variability and models,Environmental Science,Physical Sciences,16,0,4,0.250,3.239
+Dialysis and Renal Disease Management,Medicine,Health Sciences,16,3,3,0.188,2.402
+Extracellular vesicles in disease,"Biochemistry, Genetics and Molecular Biology",Life Sciences,16,2,3,0.188,2.860
+Gun Ownership and Violence Research,Social Sciences,Social Sciences,16,7,5,0.312,2.893
+Health Policy Implementation Science,Health Professions,Health Sciences,16,3,5,0.312,2.776
+Health and Lifestyle Studies,Health Professions,Health Sciences,16,4,0,0.000,0.081
+Infant Nutrition and Health,Nursing,Health Sciences,16,7,4,0.250,2.192
+Inflammatory Biomarkers in Disease Prognosis,Medicine,Health Sciences,16,7,0,0.000,0.761
+Lymphatic System and Diseases,Medicine,Health Sciences,16,6,1,0.062,0.593
+Neurological Disease Mechanisms and Treatments,Neuroscience,Life Sciences,16,2,1,0.062,0.629
+Sleep and Wakefulness Research,Neuroscience,Life Sciences,16,1,3,0.188,3.018
+"Trauma, Hemostasis, Coagulopathy, Resuscitation",Medicine,Health Sciences,16,4,0,0.000,0.486
+Adrenal and Paraganglionic Tumors,Medicine,Health Sciences,15,7,2,0.133,0.730
+Amyotrophic Lateral Sclerosis Research,Medicine,Health Sciences,15,2,7,0.467,6.400
+EEG and Brain-Computer Interfaces,Neuroscience,Life Sciences,15,1,3,0.200,2.384
+Gallbladder and Bile Duct Disorders,Medicine,Health Sciences,15,3,3,0.200,0.592
+Genomic variations and chromosomal abnormalities,"Biochemistry, Genetics and Molecular Biology",Life Sciences,15,2,7,0.467,3.597
+Global Health Workforce Issues,Health Professions,Health Sciences,15,11,3,0.200,1.701
+Inflammatory Myopathies and Dermatomyositis,Medicine,Health Sciences,15,8,2,0.133,1.663
+Lung Cancer Research Studies,Medicine,Health Sciences,15,2,3,0.200,2.676
+Medical Imaging Techniques and Applications,Medicine,Health Sciences,15,1,0,0.000,0.521
+Nursing Roles and Practices,Health Professions,Health Sciences,15,5,1,0.067,0.363
+Ocular Diseases and Behçet’s Syndrome,Medicine,Health Sciences,15,1,0,0.000,0.433
+Ocular Infections and Treatments,Medicine,Health Sciences,15,2,1,0.067,0.830
+Pituitary Gland Disorders and Treatments,Medicine,Health Sciences,15,1,2,0.133,1.028
+Primary Care and Health Outcomes,Health Professions,Health Sciences,15,4,5,0.333,2.049
+Retinal Imaging and Analysis,Medicine,Health Sciences,15,2,3,0.200,2.614
+"Science, Research, and Medicine",Medicine,Health Sciences,15,0,0,0.000,0.193
+Urinary Bladder and Prostate Research,Medicine,Health Sciences,15,3,4,0.267,3.485
+Vasculitis and related conditions,Medicine,Health Sciences,15,6,0,0.000,0.404
+3D Printing in Biomedical Research,Engineering,Physical Sciences,14,5,4,0.286,2.320
+Bacterial Identification and Susceptibility Testing,"Biochemistry, Genetics and Molecular Biology",Life Sciences,14,5,4,0.286,2.881
+Biomedical Ethics and Regulation,Medicine,Health Sciences,14,4,3,0.214,1.261
+"Birth, Development, and Health",Medicine,Health Sciences,14,4,4,0.286,3.081
+Bone health and osteoporosis research,Medicine,Health Sciences,14,5,2,0.143,2.379
+Cardiac tumors and thrombi,Medicine,Health Sciences,14,2,1,0.071,0.307
+Cardiovascular Issues in Pregnancy,Medicine,Health Sciences,14,6,7,0.500,3.066
+Drug-Induced Adverse Reactions,Medicine,Health Sciences,14,7,0,0.000,0.570
+Economic and Financial Impacts of Cancer,"Economics, Econometrics and Finance",Social Sciences,14,2,3,0.214,1.028
+Esophageal and GI Pathology,Medicine,Health Sciences,14,4,1,0.071,2.460
+Fetal and Pediatric Neurological Disorders,Medicine,Health Sciences,14,8,7,0.500,4.541
+Fungal Infections and Studies,Medicine,Health Sciences,14,3,2,0.143,0.745
+Glycosylation and Glycoproteins Research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,14,4,1,0.071,1.269
+Hedgehog Signaling Pathway Studies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,14,1,0,0.000,0.196
+Hospital Admissions and Outcomes,Medicine,Health Sciences,14,5,3,0.214,1.117
+Immune cells in cancer,Immunology and Microbiology,Life Sciences,14,3,4,0.286,2.635
+Infection Control in Healthcare,Medicine,Health Sciences,14,7,4,0.286,2.076
+Interpreting and Communication in Healthcare,Health Professions,Health Sciences,14,6,4,0.286,2.231
+Intraoperative Neuromonitoring and Anesthetic Effects,Medicine,Health Sciences,14,6,3,0.214,1.288
+Maternal and Perinatal Health Interventions,Medicine,Health Sciences,14,4,1,0.071,0.611
+Monoclonal and Polyclonal Antibodies Research,Medicine,Health Sciences,14,4,2,0.143,1.667
+Neurosurgical Procedures and Complications,Medicine,Health Sciences,14,4,2,0.143,6.514
+Nursing education and management,Nursing,Health Sciences,14,8,1,0.071,0.239
+Obesity and Health Practices,Health Professions,Health Sciences,14,5,1,0.071,0.769
+Renal and Vascular Pathologies,Medicine,Health Sciences,14,1,0,0.000,0.455
+Retinal and Optic Conditions,Medicine,Health Sciences,14,1,1,0.071,0.370
+Smoking Behavior and Cessation,Medicine,Health Sciences,14,3,3,0.214,2.201
+AI in cancer detection,Computer Science,Physical Sciences,13,2,6,0.462,4.242
+Acute Kidney Injury Research,Medicine,Health Sciences,13,1,3,0.231,2.132
+Advanced Radiotherapy Techniques,Physics and Astronomy,Physical Sciences,13,3,2,0.154,1.031
+Body Contouring and Surgery,Medicine,Health Sciences,13,2,2,0.154,1.329
+"Cancer, Hypoxia, and Metabolism","Biochemistry, Genetics and Molecular Biology",Life Sciences,13,2,3,0.231,2.198
+Cardiovascular Effects of Exercise,Medicine,Health Sciences,13,7,1,0.077,0.839
+Clinical Nutrition and Gastroenterology,Nursing,Health Sciences,13,4,1,0.077,3.937
+Colorectal Cancer Treatments and Studies,Medicine,Health Sciences,13,3,2,0.154,0.788
+Computational Drug Discovery Methods,Computer Science,Physical Sciences,13,2,3,0.231,5.140
+Coronary Interventions and Diagnostics,Medicine,Health Sciences,13,4,5,0.385,3.297
+Cultural Competency in Health Care,Social Sciences,Social Sciences,13,6,5,0.385,5.082
+"Diabetes, Cardiovascular Risks, and Lipoproteins",Medicine,Health Sciences,13,4,3,0.231,3.318
+Disaster Response and Management,Health Professions,Health Sciences,13,5,1,0.077,1.360
+Electronic Health Records Systems,Health Professions,Health Sciences,13,3,6,0.462,3.429
+Emergency and Acute Care Studies,Medicine,Health Sciences,13,4,2,0.154,1.162
+HIV/AIDS drug development and treatment,Medicine,Health Sciences,13,1,2,0.154,1.175
+Healthcare Systems and Public Health,Medicine,Health Sciences,13,3,1,0.077,1.677
+Hip and Femur Fractures,Medicine,Health Sciences,13,6,2,0.154,2.054
+Inflammasome and immune disorders,"Biochemistry, Genetics and Molecular Biology",Life Sciences,13,1,4,0.308,2.750
+Machine Learning in Healthcare,Computer Science,Physical Sciences,13,5,3,0.231,1.416
+Mesenchymal stem cell research,Medicine,Health Sciences,13,7,6,0.462,0.691
+"Optimism, Hope, and Well-being",Psychology,Social Sciences,13,1,2,0.154,1.133
+Patient-Provider Communication in Healthcare,Health Professions,Health Sciences,13,3,1,0.077,1.060
+Reproductive Health and Contraception,Medicine,Health Sciences,13,6,3,0.231,1.535
+Spinal Cord Injury Research,Medicine,Health Sciences,13,4,4,0.308,3.674
+Tendon Structure and Treatment,Medicine,Health Sciences,13,5,2,0.154,0.984
+Treatment of Major Depression,Medicine,Health Sciences,13,5,3,0.231,4.525
+Viral-associated cancers and disorders,Medicine,Health Sciences,13,4,2,0.154,1.415
+interferon and immune responses,Immunology and Microbiology,Life Sciences,13,3,2,0.154,3.243
+Acute Lymphoblastic Leukemia research,Medicine,Health Sciences,12,1,1,0.083,0.804
+Advanced biosensing and bioanalysis techniques,"Biochemistry, Genetics and Molecular Biology",Life Sciences,12,0,3,0.250,2.454
+Axon Guidance and Neuronal Signaling,Neuroscience,Life Sciences,12,1,1,0.083,0.620
+Breast Lesions and Carcinomas,Medicine,Health Sciences,12,2,1,0.083,0.878
+COVID-19 diagnosis using AI,Medicine,Health Sciences,12,1,2,0.167,1.286
+Cardiovascular Function and Risk Factors,Medicine,Health Sciences,12,5,3,0.250,1.594
+Cerebral Palsy and Movement Disorders,Medicine,Health Sciences,12,7,0,0.000,0.554
+Cytokine Signaling Pathways and Interactions,Medicine,Health Sciences,12,2,1,0.083,1.851
+Diabetes and associated disorders,"Biochemistry, Genetics and Molecular Biology",Life Sciences,12,8,1,0.083,1.670
+Dietary Effects on Health,Medicine,Health Sciences,12,4,3,0.250,1.788
+Diversity and Impact of Dance,Psychology,Social Sciences,12,1,0,0.000,0.538
+Ear Surgery and Otitis Media,Medicine,Health Sciences,12,1,0,0.000,0.361
+Fatty Acid Research and Health,Nursing,Health Sciences,12,4,1,0.083,1.132
+Health and Well-being Studies,Psychology,Social Sciences,12,2,0,0.000,0.081
+Herpesvirus Infections and Treatments,Medicine,Health Sciences,12,0,1,0.083,0.648
+Immunodeficiency and Autoimmune Disorders,Immunology and Microbiology,Life Sciences,12,4,0,0.000,0.136
+Infective Endocarditis Diagnosis and Management,Medicine,Health Sciences,12,7,1,0.083,2.022
+Intimate Partner and Family Violence,Social Sciences,Social Sciences,12,5,2,0.167,2.144
+Microfluidic and Bio-sensing Technologies,Engineering,Physical Sciences,12,0,2,0.167,1.402
+Myeloproliferative Neoplasms: Diagnosis and Treatment,Medicine,Health Sciences,12,2,4,0.333,1.720
+Neural and Behavioral Psychology Studies,Neuroscience,Life Sciences,12,1,1,0.083,0.554
+Neurobiology of Language and Bilingualism,Neuroscience,Life Sciences,12,4,0,0.000,0.223
+Noise Effects and Management,Health Professions,Health Sciences,12,4,1,0.083,1.211
+Nosocomial Infections in ICU,Medicine,Health Sciences,12,6,2,0.167,1.653
+Ocular Surface and Contact Lens,Medicine,Health Sciences,12,1,1,0.083,1.173
+Organ Transplantation Techniques and Outcomes,Medicine,Health Sciences,12,5,0,0.000,0.035
+Ovarian function and disorders,Medicine,Health Sciences,12,0,1,0.083,1.032
+Pancreatic function and diabetes,Medicine,Health Sciences,12,4,2,0.167,7.294
+Photoreceptor and optogenetics research,Neuroscience,Life Sciences,12,4,1,0.083,2.230
+Sex and Gender in Healthcare,Medicine,Health Sciences,12,6,2,0.167,3.120
+Surgical site infection prevention,Medicine,Health Sciences,12,3,4,0.333,2.241
+Systemic Sclerosis and Related Diseases,Medicine,Health Sciences,12,5,0,0.000,0.236
+Urological Disorders and Treatments,Medicine,Health Sciences,12,5,0,0.000,0.173
+Vascular Malformations Diagnosis and Treatment,Medicine,Health Sciences,12,4,0,0.000,0.284
+Virus-based gene therapy research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,12,2,5,0.417,5.676
+Advanced Causal Inference Techniques,Mathematics,Physical Sciences,11,1,1,0.091,0.819
+Blood transfusion and management,Medicine,Health Sciences,11,2,1,0.091,0.579
+Bone health and treatments,Medicine,Health Sciences,11,7,0,0.000,0.377
+Cancer Diagnosis and Treatment,Medicine,Health Sciences,11,8,0,0.000,0.148
+Cardiovascular and exercise physiology,Medicine,Health Sciences,11,1,4,0.364,2.032
+Cleft Lip and Palate Research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,11,1,1,0.091,0.590
+Congenital Heart Disease Studies,Medicine,Health Sciences,11,4,0,0.000,0.202
+Congenital heart defects research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,11,2,3,0.273,2.463
+Data-Driven Disease Surveillance,Medicine,Health Sciences,11,4,2,0.182,1.621
+Elder Abuse and Neglect,Social Sciences,Social Sciences,11,8,7,0.636,5.890
+Enhanced Recovery After Surgery,Medicine,Health Sciences,11,2,4,0.364,3.905
+Gastrointestinal disorders and treatments,Medicine,Health Sciences,11,4,2,0.182,0.831
+"Gout, Hyperuricemia, Uric Acid",Medicine,Health Sciences,11,4,0,0.000,0.440
+"Healthcare cost, quality, practices",Health Professions,Health Sciences,11,1,2,0.182,1.743
+Hemoglobinopathies and Related Disorders,Medicine,Health Sciences,11,2,1,0.091,0.653
+Medical Education and Admissions,Medicine,Health Sciences,11,6,1,0.091,0.632
+Medical Imaging and Pathology Studies,Medicine,Health Sciences,11,4,0,0.000,0.069
+Mental Health Research Topics,Psychology,Social Sciences,11,2,0,0.000,0.466
+Mentoring and Academic Development,Psychology,Social Sciences,11,4,2,0.182,1.174
+"Metabolism, Diabetes, and Cancer","Biochemistry, Genetics and Molecular Biology",Life Sciences,11,3,2,0.182,1.541
+"Migration, Health and Trauma",Psychology,Social Sciences,11,3,1,0.091,1.850
+Molecular Biology Techniques and Applications,"Biochemistry, Genetics and Molecular Biology",Life Sciences,11,3,0,0.000,0.150
+Neurogenesis and neuroplasticity mechanisms,Neuroscience,Life Sciences,11,4,0,0.000,0.872
+Neuroscience and Neuropharmacology Research,Neuroscience,Life Sciences,11,2,2,0.182,1.514
+Neutropenia and Cancer Infections,Medicine,Health Sciences,11,3,1,0.091,0.664
+Organ Donation and Transplantation,Medicine,Health Sciences,11,4,1,0.091,0.819
+Patient Dignity and Privacy,Medicine,Health Sciences,11,2,3,0.273,1.725
+Patient Satisfaction in Healthcare,Health Professions,Health Sciences,11,3,1,0.091,0.982
+Periodontal Regeneration and Treatments,Medicine,Health Sciences,11,3,3,0.273,3.219
+Pulmonary Hypertension Research and Treatments,Medicine,Health Sciences,11,9,2,0.182,0.942
+RNA regulation and disease,"Biochemistry, Genetics and Molecular Biology",Life Sciences,11,1,1,0.091,0.456
+Transplantation: Methods and Outcomes,Medicine,Health Sciences,11,1,2,0.182,2.458
+Vitamin D Research Studies,Medicine,Health Sciences,11,4,2,0.182,1.630
+Voice and Speech Disorders,Medicine,Health Sciences,11,3,0,0.000,0.355
+Anesthesia and Sedative Agents,Medicine,Health Sciences,10,3,2,0.200,0.773
+Anorectal Disease Treatments and Outcomes,Medicine,Health Sciences,10,3,3,0.300,5.961
+Antioxidant Activity and Oxidative Stress,Medicine,Health Sciences,10,5,1,0.100,1.687
+Bone Metabolism and Diseases,"Biochemistry, Genetics and Molecular Biology",Life Sciences,10,6,1,0.100,0.846
+CRISPR and Genetic Engineering,"Biochemistry, Genetics and Molecular Biology",Life Sciences,10,1,1,0.100,0.728
+Cancer Research and Treatments,"Biochemistry, Genetics and Molecular Biology",Life Sciences,10,2,1,0.100,1.309
+Cancer and Skin Lesions,Medicine,Health Sciences,10,4,0,0.000,0.527
+Cardiac Fibrosis and Remodeling,Medicine,Health Sciences,10,2,2,0.200,0.811
+Chemokine receptors and signaling,Medicine,Health Sciences,10,1,0,0.000,0.207
+Child Nutrition and Feeding Issues,Medicine,Health Sciences,10,2,0,0.000,0.203
+Child and Adolescent Health,Health Professions,Health Sciences,10,3,4,0.400,3.681
+Chronic Disease Management Strategies,Medicine,Health Sciences,10,4,1,0.100,2.796
+Clinical practice guidelines implementation,Medicine,Health Sciences,10,2,1,0.100,2.175
+Congenital Diaphragmatic Hernia Studies,Medicine,Health Sciences,10,1,2,0.200,1.331
+Cutaneous lymphoproliferative disorders research,Medicine,Health Sciences,10,0,5,0.500,2.854
+Down syndrome and intellectual disability research,Medicine,Health Sciences,10,3,5,0.500,2.948
+Eating Disorders and Behaviors,Psychology,Social Sciences,10,3,1,0.100,0.968
+Eosinophilic Disorders and Syndromes,Medicine,Health Sciences,10,4,0,0.000,0.546
+Genetic Syndromes and Imprinting,"Biochemistry, Genetics and Molecular Biology",Life Sciences,10,2,3,0.300,4.958
+Genital Health and Disease,Medicine,Health Sciences,10,5,3,0.300,1.609
+Gestational Diabetes Research and Management,Medicine,Health Sciences,10,1,0,0.000,0.337
+Global Health and Surgery,Medicine,Health Sciences,10,3,1,0.100,0.672
+Misinformation and Its Impacts,Social Sciences,Social Sciences,10,3,4,0.400,14.354
+Mosquito-borne diseases and control,Medicine,Health Sciences,10,4,0,0.000,1.075
+Muscle Physiology and Disorders,"Biochemistry, Genetics and Molecular Biology",Life Sciences,10,3,2,0.200,2.121
+Oral microbiology and periodontitis research,Dentistry,Health Sciences,10,1,6,0.600,8.948
+Parasites and Host Interactions,Immunology and Microbiology,Life Sciences,10,1,2,0.200,1.249
+Pneumocystis jirovecii pneumonia detection and treatment,Medicine,Health Sciences,10,3,0,0.000,0.271
+Pressure Ulcer Prevention and Management,Health Professions,Health Sciences,10,4,4,0.400,2.806
+Psychosomatic Disorders and Their Treatments,Medicine,Health Sciences,10,1,1,0.100,0.553
+Radiation Dose and Imaging,Medicine,Health Sciences,10,2,2,0.200,1.481
+S100 Proteins and Annexins,"Biochemistry, Genetics and Molecular Biology",Life Sciences,10,0,0,0.000,0.340
+Spaceflight effects on biology,Medicine,Health Sciences,10,2,1,0.100,1.150
+Vestibular and auditory disorders,Neuroscience,Life Sciences,10,4,2,0.200,2.173
+Abdominal Trauma and Injuries,Medicine,Health Sciences,9,0,0,0.000,0.995
+Adolescent and Pediatric Healthcare,Health Professions,Health Sciences,9,2,1,0.111,1.113
+Advanced X-ray and CT Imaging,Engineering,Physical Sciences,9,1,0,0.000,0.400
+Alcoholism and Thiamine Deficiency,Medicine,Health Sciences,9,7,3,0.333,2.115
+Amino Acid Enzymes and Metabolism,"Biochemistry, Genetics and Molecular Biology",Life Sciences,9,0,0,0.000,0.432
+Aortic Disease and Treatment Approaches,Medicine,Health Sciences,9,2,2,0.222,4.614
+Autoimmune Neurological Disorders and Treatments,Medicine,Health Sciences,9,1,2,0.222,0.828
+Behavioral and Psychological Studies,Psychology,Social Sciences,9,3,1,0.111,0.881
+Biomedical and Engineering Education,Engineering,Physical Sciences,9,2,0,0.000,0.034
+Bone Tissue Engineering Materials,Engineering,Physical Sciences,9,3,1,0.111,0.926
+Burn Injury Management and Outcomes,Medicine,Health Sciences,9,1,1,0.111,1.258
+Cancer-related Molecular Pathways,Medicine,Health Sciences,9,6,1,0.111,0.615
+Cardiac Structural Anomalies and Repair,Medicine,Health Sciences,9,6,2,0.222,0.836
+Cardiovascular Health and Disease Prevention,Medicine,Health Sciences,9,1,1,0.111,0.910
+Cardiovascular and Diving-Related Complications,Medicine,Health Sciences,9,3,2,0.222,2.228
+Diabetes Management and Research,Medicine,Health Sciences,9,0,1,0.111,1.368
+Electrostatics and Colloid Interactions,Chemistry,Physical Sciences,9,6,2,0.222,1.477
+Empathy and Medical Education,Medicine,Health Sciences,9,6,0,0.000,0.509
+Gastrointestinal Tumor Research and Treatment,Medicine,Health Sciences,9,1,0,0.000,0.182
+Genomics and Chromatin Dynamics,"Biochemistry, Genetics and Molecular Biology",Life Sciences,9,0,3,0.333,6.714
+Glaucoma and retinal disorders,Medicine,Health Sciences,9,1,3,0.333,2.083
+"Hearing, Cochlea, Tinnitus, Genetics",Neuroscience,Life Sciences,9,0,1,0.111,1.633
+Hemodynamic Monitoring and Therapy,Medicine,Health Sciences,9,1,1,0.111,3.738
+Hippo pathway signaling and YAP/TAZ,"Biochemistry, Genetics and Molecular Biology",Life Sciences,9,0,2,0.222,2.330
+Hormonal Regulation and Hypertension,Medicine,Health Sciences,9,1,0,0.000,0.437
+Interstitial Lung Diseases and Idiopathic Pulmonary Fibrosis,Medicine,Health Sciences,9,3,1,0.111,0.988
+Iron Metabolism and Disorders,Medicine,Health Sciences,9,2,1,0.111,0.902
+Kidney Stones and Urolithiasis Treatments,Medicine,Health Sciences,9,0,1,0.111,0.586
+Medical Malpractice and Liability Issues,Health Professions,Health Sciences,9,2,2,0.222,0.493
+Medication Adherence and Compliance,Medicine,Health Sciences,9,3,1,0.111,1.121
+Myasthenia Gravis and Thymoma,Medicine,Health Sciences,9,2,1,0.111,2.151
+Nanoplatforms for cancer theranostics,Engineering,Physical Sciences,9,0,3,0.333,3.986
+Nasal Surgery and Airway Studies,Medicine,Health Sciences,9,2,1,0.111,1.484
+Nausea and vomiting management,Medicine,Health Sciences,9,6,2,0.222,1.908
+Neurological Complications and Syndromes,Medicine,Health Sciences,9,5,0,0.000,0.607
+Neurological Disorders and Treatments,Neuroscience,Life Sciences,9,5,2,0.222,1.372
+Neurology and Historical Studies,Neuroscience,Life Sciences,9,4,1,0.111,0.156
+Patient Safety and Medication Errors,Health Professions,Health Sciences,9,3,2,0.222,1.454
+Pediatric Urology and Nephrology Studies,Medicine,Health Sciences,9,3,3,0.333,8.403
+"Perfectionism, Procrastination, Anxiety Studies",Psychology,Social Sciences,9,3,3,0.333,5.486
+Peripheral Nerve Disorders,Medicine,Health Sciences,9,4,0,0.000,0.402
+RNA Research and Splicing,"Biochemistry, Genetics and Molecular Biology",Life Sciences,9,0,1,0.111,1.027
+Sarcoidosis and Beryllium Toxicity Research,Medicine,Health Sciences,9,6,0,0.000,0.492
+Schizophrenia research and treatment,Medicine,Health Sciences,9,4,2,0.222,3.372
+Surgical Sutures and Adhesives,Medicine,Health Sciences,9,4,1,0.111,0.802
+Testicular diseases and treatments,Medicine,Health Sciences,9,3,1,0.111,0.516
+Urban Transport and Accessibility,Social Sciences,Social Sciences,9,1,2,0.222,0.719
+Viral Infections and Immunology Research,Medicine,Health Sciences,9,2,1,0.111,0.303
+Viral Infections and Outbreaks Research,Medicine,Health Sciences,9,6,0,0.000,0.584
+scientometrics and bibliometrics research,Decision Sciences,Social Sciences,9,4,2,0.222,0.893
+Academic Writing and Publishing,Arts and Humanities,Social Sciences,8,1,4,0.500,4.248
+Antibiotics Pharmacokinetics and Efficacy,Medicine,Health Sciences,8,1,1,0.125,1.798
+Aortic aneurysm repair treatments,Medicine,Health Sciences,8,5,2,0.250,28.856
+Autoimmune and Inflammatory Disorders,Medicine,Health Sciences,8,2,0,0.000,0.375
+Bipolar Disorder and Treatment,Medicine,Health Sciences,8,0,1,0.125,0.513
+Body Image and Dysmorphia Studies,Psychology,Social Sciences,8,2,1,0.125,0.599
+Brain Tumor Detection and Classification,Neuroscience,Life Sciences,8,0,0,0.000,0.249
+COVID-19 Impact on Reproduction,Medicine,Health Sciences,8,2,3,0.375,8.257
+Cancer Mechanisms and Therapy,Medicine,Health Sciences,8,1,0,0.000,0.000
+Cerebrovascular and genetic disorders,Medicine,Health Sciences,8,2,5,0.625,12.801
+Clinical Reasoning and Diagnostic Skills,Medicine,Health Sciences,8,5,3,0.375,1.637
+Disability Education and Employment,Social Sciences,Social Sciences,8,5,1,0.125,1.783
+Dysphagia Assessment and Management,Health Professions,Health Sciences,8,0,2,0.250,7.838
+Educational and Psychological Assessments,Psychology,Social Sciences,8,1,2,0.250,2.190
+Electrolyte and hormonal disorders,Medicine,Health Sciences,8,3,2,0.250,1.003
+Gastroesophageal reflux and treatments,Medicine,Health Sciences,8,3,1,0.125,0.367
+Growth Hormone and Insulin-like Growth Factors,Medicine,Health Sciences,8,3,1,0.125,1.238
+IgG4-Related and Inflammatory Diseases,Medicine,Health Sciences,8,4,0,0.000,0.780
+Inflammatory mediators and NSAID effects,Medicine,Health Sciences,8,5,0,0.000,0.326
+Intestinal and Peritoneal Adhesions,Medicine,Health Sciences,8,3,3,0.375,3.686
+Intraocular Surgery and Lenses,Medicine,Health Sciences,8,1,0,0.000,0.128
+Isotope Analysis in Ecology,Environmental Science,Physical Sciences,8,0,0,0.000,1.259
+Kawasaki Disease and Coronary Complications,Medicine,Health Sciences,8,5,4,0.500,8.578
+Microbial Community Ecology and Physiology,Environmental Science,Physical Sciences,8,2,2,0.250,1.984
+Musculoskeletal Disorders and Rehabilitation,Medicine,Health Sciences,8,3,0,0.000,0.209
+Musculoskeletal synovial abnormalities and treatments,Medicine,Health Sciences,8,6,0,0.000,0.262
+Music Therapy and Health,Psychology,Social Sciences,8,3,1,0.125,1.666
+"Nursing Education, Practice, and Leadership",Nursing,Health Sciences,8,5,1,0.125,0.400
+Online and Blended Learning,Social Sciences,Social Sciences,8,3,1,0.125,0.750
+Optical Imaging and Spectroscopy Techniques,Medicine,Health Sciences,8,3,1,0.125,1.562
+PI3K/AKT/mTOR signaling in cancer,"Biochemistry, Genetics and Molecular Biology",Life Sciences,8,3,2,0.250,1.667
+Parasitic Infections and Diagnostics,Immunology and Microbiology,Life Sciences,8,5,3,0.375,3.502
+Peripheral Neuropathies and Disorders,Medicine,Health Sciences,8,1,0,0.000,0.171
+Physical Education and Pedagogy,Health Professions,Health Sciences,8,8,7,0.875,0.000
+Pregnancy and Medication Impact,Medicine,Health Sciences,8,5,0,0.000,0.226
+Proteoglycans and glycosaminoglycans research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,8,2,3,0.375,5.617
+RNA Interference and Gene Delivery,"Biochemistry, Genetics and Molecular Biology",Life Sciences,8,0,1,0.125,1.986
+Renin-Angiotensin System Studies,Medicine,Health Sciences,8,1,2,0.250,1.041
+"Retirement, Disability, and Employment",Social Sciences,Social Sciences,8,2,2,0.250,0.463
+Sex work and related issues,Social Sciences,Social Sciences,8,3,3,0.375,3.972
+Stress Responses and Cortisol,Neuroscience,Life Sciences,8,1,1,0.125,1.266
+Suicide and Self-Harm Studies,Psychology,Social Sciences,8,1,2,0.250,1.094
+Thermal Regulation in Medicine,Medicine,Health Sciences,8,1,1,0.125,3.462
+Thyroid and Parathyroid Surgery,Medicine,Health Sciences,8,1,0,0.000,0.687
+Trigeminal Neuralgia and Treatments,Medicine,Health Sciences,8,1,1,0.125,0.840
+Academic Publishing and Open Access,Decision Sciences,Social Sciences,7,4,0,0.000,0.081
+Acne and Rosacea Treatments and Effects,Medicine,Health Sciences,7,0,1,0.143,1.169
+Artificial Intelligence in Healthcare,Health Professions,Health Sciences,7,1,2,0.286,0.825
+Behavioral Health and Interventions,Psychology,Social Sciences,7,3,1,0.143,1.283
+Biliary and Gastrointestinal Fistulas,Medicine,Health Sciences,7,2,0,0.000,0.332
+Blood Coagulation and Thrombosis Mechanisms,Medicine,Health Sciences,7,3,2,0.286,2.296
+Blood groups and transfusion,Medicine,Health Sciences,7,4,1,0.143,0.753
+Bone fractures and treatments,Medicine,Health Sciences,7,1,0,0.000,0.127
+CNS Lymphoma Diagnosis and Treatment,Medicine,Health Sciences,7,1,3,0.429,2.602
+Cancer-related gene regulation,"Biochemistry, Genetics and Molecular Biology",Life Sciences,7,0,0,0.000,0.286
+Cardiomyopathy and Myosin Studies,Medicine,Health Sciences,7,1,0,0.000,0.438
+Cerebral Venous Sinus Thrombosis,Medicine,Health Sciences,7,2,2,0.286,3.963
+Conferences and Exhibitions Management,Social Sciences,Social Sciences,7,5,4,0.571,3.840
+Connective tissue disorders research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,7,2,2,0.286,1.647
+Drug Transport and Resistance Mechanisms,Medicine,Health Sciences,7,1,2,0.286,1.989
+ECG Monitoring and Analysis,Medicine,Health Sciences,7,1,0,0.000,0.000
+Early Childhood Education and Development,Social Sciences,Social Sciences,7,4,3,0.429,8.551
+Eicosanoids and Hypertension Pharmacology,"Biochemistry, Genetics and Molecular Biology",Life Sciences,7,0,1,0.143,0.945
+Folate and B Vitamins Research,Medicine,Health Sciences,7,1,3,0.429,3.006
+Gastrointestinal motility and disorders,Medicine,Health Sciences,7,0,2,0.286,2.960
+"Genetics, Aging, and Longevity in Model Organisms","Biochemistry, Genetics and Molecular Biology",Life Sciences,7,2,1,0.143,1.082
+Global Health Care Issues,Health Professions,Health Sciences,7,2,0,0.000,0.148
+Global Maternal and Child Health,Medicine,Health Sciences,7,1,2,0.286,2.723
+Healthcare Operations and Scheduling Optimization,Health Professions,Health Sciences,7,3,1,0.143,2.357
+Healthcare Systems and Technology,"Business, Management and Accounting",Social Sciences,7,2,0,0.000,0.000
+Helicobacter pylori-related gastroenterology studies,Medicine,Health Sciences,7,0,2,0.286,1.408
+Histone Deacetylase Inhibitors Research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,7,2,1,0.143,0.630
+Hyperglycemia and glycemic control in critically ill and hospitalized patients,Medicine,Health Sciences,7,5,0,0.000,0.182
+"IL-33, ST2, and ILC Pathways",Immunology and Microbiology,Life Sciences,7,1,1,0.143,0.981
+Immune Response and Inflammation,Immunology and Microbiology,Life Sciences,7,6,0,0.000,0.412
+Infectious Encephalopathies and Encephalitis,Medicine,Health Sciences,7,4,0,0.000,0.084
+Landfill Environmental Impact Studies,Environmental Science,Physical Sciences,7,5,3,0.429,2.513
+Liver physiology and pathology,Medicine,Health Sciences,7,1,1,0.143,1.324
+Malaria Research and Control,Medicine,Health Sciences,7,0,2,0.286,2.458
+Melanoma and MAPK Pathways,"Biochemistry, Genetics and Molecular Biology",Life Sciences,7,0,1,0.143,1.626
+Menstrual Health and Disorders,Medicine,Health Sciences,7,3,3,0.429,2.334
+Multiple and Secondary Primary Cancers,Medicine,Health Sciences,7,1,1,0.143,0.065
+Nerve injury and regeneration,Neuroscience,Life Sciences,7,1,1,0.143,1.294
+Neurological and metabolic disorders,Medicine,Health Sciences,7,2,0,0.000,0.355
+Occupational and environmental lung diseases,Medicine,Health Sciences,7,2,1,0.143,1.442
+Ocular Oncology and Treatments,Medicine,Health Sciences,7,2,0,0.000,0.029
+Pain Management and Opioid Use,Medicine,Health Sciences,7,1,2,0.286,1.606
+Pelvic and Acetabular Injuries,Medicine,Health Sciences,7,2,1,0.143,1.099
+Peptidase Inhibition and Analysis,Medicine,Health Sciences,7,3,1,0.143,0.900
+Pharmaceutical studies and practices,Medicine,Health Sciences,7,0,0,0.000,0.496
+Phosphodiesterase function and regulation,"Biochemistry, Genetics and Molecular Biology",Life Sciences,7,0,1,0.143,1.543
+Pluripotent Stem Cells Research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,7,0,0,0.000,0.000
+Poisoning and overdose treatments,Medicine,Health Sciences,7,1,3,0.429,6.056
+Public Health Policies and Education,Health Professions,Health Sciences,7,4,0,0.000,0.291
+Radiopharmaceutical Chemistry and Applications,Medicine,Health Sciences,7,1,0,0.000,0.697
+Reading and Literacy Development,Psychology,Social Sciences,7,1,0,0.000,0.494
+Redox biology and oxidative stress,"Biochemistry, Genetics and Molecular Biology",Life Sciences,7,0,1,0.143,1.346
+Regulation of Appetite and Obesity,Neuroscience,Life Sciences,7,2,2,0.286,3.464
+Renal function and acid-base balance,Medicine,Health Sciences,7,3,0,0.000,0.300
+Salivary Gland Disorders and Functions,Medicine,Health Sciences,7,2,2,0.286,3.221
+Skin Protection and Aging,Medicine,Health Sciences,7,0,3,0.429,2.496
+Spinal Dysraphism and Malformations,Medicine,Health Sciences,7,4,0,0.000,0.435
+Sports Performance and Training,Medicine,Health Sciences,7,0,0,0.000,0.532
+Stuttering Research and Treatment,Psychology,Social Sciences,7,0,0,0.000,0.000
+Tactile and Sensory Interactions,Neuroscience,Life Sciences,7,0,0,0.000,0.281
+Temporomandibular Joint Disorders,Health Professions,Health Sciences,7,2,1,0.143,1.357
+Ubiquitin and proteasome pathways,"Biochemistry, Genetics and Molecular Biology",Life Sciences,7,2,3,0.429,2.859
+Vascular Malformations and Hemangiomas,Medicine,Health Sciences,7,1,0,0.000,0.679
+Adolescent Sexual and Reproductive Health,Health Professions,Health Sciences,6,2,1,0.167,1.444
+Advanced Battery Technologies Research,Engineering,Physical Sciences,6,0,0,0.000,0.983
+Advanced Chemical Sensor Technologies,Engineering,Physical Sciences,6,2,0,0.000,0.922
+Allergic Rhinitis and Sensitization,Medicine,Health Sciences,6,1,4,0.667,3.257
+Attention Deficit Hyperactivity Disorder,Medicine,Health Sciences,6,2,2,0.333,1.578
+Barrier Structure and Function Studies,Neuroscience,Life Sciences,6,0,0,0.000,0.444
+Berberine and alkaloids research,Medicine,Health Sciences,6,0,2,0.333,8.150
+Biblical Studies and Interpretation,Arts and Humanities,Social Sciences,6,0,0,0.000,0.000
+"Cancer, Stress, Anesthesia, and Immune Response",Medicine,Health Sciences,6,3,1,0.167,1.159
+Celiac Disease Research and Management,Medicine,Health Sciences,6,1,3,0.500,2.003
+Cell Image Analysis Techniques,"Biochemistry, Genetics and Molecular Biology",Life Sciences,6,1,1,0.167,2.215
+Cell death mechanisms and regulation,"Biochemistry, Genetics and Molecular Biology",Life Sciences,6,1,2,0.333,3.844
+Children's Physical and Motor Development,Psychology,Social Sciences,6,3,2,0.333,1.678
+Cholesterol and Lipid Metabolism,Medicine,Health Sciences,6,1,1,0.167,12.617
+Chronic Myeloid Leukemia Treatments,Medicine,Health Sciences,6,1,0,0.000,0.395
+"Coagulation, Bradykinin, Polyphosphates, and Angioedema",Medicine,Health Sciences,6,1,1,0.167,0.809
+Cognitive Science and Mapping,Computer Science,Physical Sciences,6,0,0,0.000,0.056
+Corneal surgery and disorders,Medicine,Health Sciences,6,2,1,0.167,1.758
+Criminal Justice and Corrections Analysis,Social Sciences,Social Sciences,6,1,1,0.167,0.452
+Dental Implant Techniques and Outcomes,Dentistry,Health Sciences,6,0,1,0.167,1.929
+Dermatological and COVID-19 studies,Medicine,Health Sciences,6,3,1,0.167,0.525
+Diabetes Management and Education,Medicine,Health Sciences,6,1,0,0.000,0.379
+Diagnosis and treatment of tuberculosis,Medicine,Health Sciences,6,0,2,0.333,1.172
+Digital Imaging in Medicine,Medicine,Health Sciences,6,0,1,0.167,1.783
+Digital Radiography and Breast Imaging,Medicine,Health Sciences,6,4,0,0.000,0.517
+Drug-Induced Hepatotoxicity and Protection,"Pharmacology, Toxicology and Pharmaceutics",Life Sciences,6,1,2,0.333,0.588
+Electrochemical Analysis and Applications,Chemistry,Physical Sciences,6,3,0,0.000,0.485
+Facial Nerve Paralysis Treatment and Research,Medicine,Health Sciences,6,2,0,0.000,0.478
+Food Safety and Hygiene,Agricultural and Biological Sciences,Life Sciences,6,0,0,0.000,0.059
+Food composition and properties,Nursing,Health Sciences,6,1,3,0.500,1.440
+Forensic Anthropology and Bioarchaeology Studies,Arts and Humanities,Social Sciences,6,0,4,0.667,6.651
+Gender Diversity and Inequality,Social Sciences,Social Sciences,6,1,0,0.000,0.345
+"Genetics, Bioinformatics, and Biomedical Research","Biochemistry, Genetics and Molecular Biology",Life Sciences,6,2,0,0.000,0.325
+Geological and Geochemical Analysis,Earth and Planetary Sciences,Physical Sciences,6,0,0,0.000,0.407
+Health and Wellbeing Research,Health Professions,Health Sciences,6,1,0,0.000,0.000
+Hearing Impairment and Communication,Psychology,Social Sciences,6,0,0,0.000,0.529
+Hidradenitis Suppurativa and Treatments,Medicine,Health Sciences,6,1,1,0.167,0.770
+Influenza Virus Research Studies,Medicine,Health Sciences,6,0,2,0.333,3.175
+Lipid metabolism and disorders,Medicine,Health Sciences,6,3,1,0.167,0.897
+Maternal and fetal healthcare,Medicine,Health Sciences,6,1,3,0.500,2.997
+Mindfulness and Compassion Interventions,Psychology,Social Sciences,6,2,3,0.500,3.935
+Muscle activation and electromyography studies,Engineering,Physical Sciences,6,2,1,0.167,0.966
+Muscle and Compartmental Disorders,Medicine,Health Sciences,6,4,1,0.167,5.061
+Myofascial pain diagnosis and treatment,"Biochemistry, Genetics and Molecular Biology",Life Sciences,6,2,0,0.000,0.537
+Nerve Injury and Rehabilitation,Medicine,Health Sciences,6,3,2,0.333,2.089
+Neuroblastoma Research and Treatments,Medicine,Health Sciences,6,4,1,0.167,1.482
+Neurotransmitter Receptor Influence on Behavior,Neuroscience,Life Sciences,6,4,1,0.167,1.477
+Nitric Oxide and Endothelin Effects,Medicine,Health Sciences,6,0,0,0.000,0.199
+Non-Invasive Vital Sign Monitoring,Engineering,Physical Sciences,6,0,1,0.167,5.150
+"Nutrition, Genetics, and Disease","Biochemistry, Genetics and Molecular Biology",Life Sciences,6,3,0,0.000,0.074
+Occupational Health and Performance,Health Professions,Health Sciences,6,4,3,0.500,3.604
+Otolaryngology and Infectious Diseases,Medicine,Health Sciences,6,5,0,0.000,0.735
+Ovarian cancer diagnosis and treatment,Medicine,Health Sciences,6,0,0,0.000,0.273
+Paraquat toxicity studies and treatments,Medicine,Health Sciences,6,0,0,0.000,1.199
+Pharmacological Effects and Toxicity Studies,Medicine,Health Sciences,6,1,0,0.000,0.480
+Planetary Science and Exploration,Physics and Astronomy,Physical Sciences,6,0,0,0.000,0.026
+Pneumonia and Respiratory Infections,Medicine,Health Sciences,6,2,2,0.333,1.889
+Potassium and Related Disorders,Medicine,Health Sciences,6,4,0,0.000,0.639
+Protease and Inhibitor Mechanisms,"Biochemistry, Genetics and Molecular Biology",Life Sciences,6,1,1,0.167,0.802
+Protein Tyrosine Phosphatases,"Biochemistry, Genetics and Molecular Biology",Life Sciences,6,2,0,0.000,0.573
+Psychological Well-being and Life Satisfaction,Psychology,Social Sciences,6,1,2,0.333,7.711
+Radiology practices and education,Medicine,Health Sciences,6,2,0,0.000,0.000
+Shoulder and Clavicle Injuries,Medicine,Health Sciences,6,3,0,0.000,0.625
+Skin Diseases and Diabetes,Medicine,Health Sciences,6,3,0,0.000,0.453
+Sleep and Work-Related Fatigue,Psychology,Social Sciences,6,2,2,0.333,6.825
+Soft Robotics and Applications,Engineering,Physical Sciences,6,1,1,0.167,0.616
+Stoma care and complications,Medicine,Health Sciences,6,1,1,0.167,0.981
+Substance Abuse Treatment and Outcomes,Medicine,Health Sciences,6,0,0,0.000,1.027
+Synthesis and biological activity,Chemistry,Physical Sciences,6,0,0,0.000,0.000
+Takotsubo Cardiomyopathy and Associated Phenomena,Medicine,Health Sciences,6,3,0,0.000,0.234
+Toxoplasma gondii Research Studies,Immunology and Microbiology,Life Sciences,6,0,1,0.167,1.390
+Transcranial Magnetic Stimulation Studies,Neuroscience,Life Sciences,6,1,0,0.000,0.338
+Uterine Myomas and Treatments,Medicine,Health Sciences,6,1,0,0.000,0.179
+Vascular anomalies and interventions,Medicine,Health Sciences,6,4,0,0.000,0.582
+Virology and Viral Diseases,Medicine,Health Sciences,6,2,2,0.333,1.187
+melanin and skin pigmentation,"Biochemistry, Genetics and Molecular Biology",Life Sciences,6,0,1,0.167,0.908
+AI in Service Interactions,Computer Science,Physical Sciences,5,1,0,0.000,0.110
+Abdominal vascular conditions and treatments,Medicine,Health Sciences,5,2,0,0.000,0.000
+Actinomycetales infections and treatment,Medicine,Health Sciences,5,3,0,0.000,0.876
+Advanced Glycation End Products research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,5,3,1,0.200,1.546
+Advanced Proteomics Techniques and Applications,Chemistry,Physical Sciences,5,0,1,0.200,3.770
+Advanced Thermodynamics and Statistical Mechanics,Physics and Astronomy,Physical Sciences,5,4,1,0.200,0.908
+Agriculture Sustainability and Environmental Impact,Environmental Science,Physical Sciences,5,2,2,0.400,8.359
+Angiogenesis and VEGF in Cancer,"Biochemistry, Genetics and Molecular Biology",Life Sciences,5,1,0,0.000,0.260
+Animal Nutrition and Physiology,Agricultural and Biological Sciences,Life Sciences,5,0,2,0.400,1.666
+Augmented Reality Applications,Computer Science,Physical Sciences,5,0,1,0.200,1.413
+Big Data and Business Intelligence,"Business, Management and Accounting",Social Sciences,5,0,0,0.000,0.498
+Biosimilars and Bioanalytical Methods,Immunology and Microbiology,Life Sciences,5,0,0,0.000,0.152
+"Bullying, Victimization, and Aggression",Psychology,Social Sciences,5,2,2,0.400,4.459
+Cancer-related cognitive impairment studies,Medicine,Health Sciences,5,1,1,0.200,1.469
+Cognitive Functions and Memory,Psychology,Social Sciences,5,0,1,0.200,2.401
+Coronary Artery Anomalies,Medicine,Health Sciences,5,1,0,0.000,0.126
+Dermatologic Treatments and Research,Medicine,Health Sciences,5,0,0,0.000,0.792
+Dermatological and Skeletal Disorders,"Biochemistry, Genetics and Molecular Biology",Life Sciences,5,3,0,0.000,0.000
+"Diet, Metabolism, and Disease",Medicine,Health Sciences,5,1,2,0.400,2.143
+Disability Rights and Representation,Social Sciences,Social Sciences,5,2,1,0.200,1.767
+Electroconvulsive Therapy Studies,Medicine,Health Sciences,5,2,1,0.200,0.717
+Erythrocyte Function and Pathophysiology,Medicine,Health Sciences,5,1,2,0.400,7.324
+Evaluation and Performance Assessment,Decision Sciences,Social Sciences,5,0,0,0.000,0.094
+Family Dynamics and Relationships,Social Sciences,Social Sciences,5,3,1,0.200,3.564
+Female Genital Mutilation/Cutting Issues,Medicine,Health Sciences,5,1,2,0.400,2.741
+Fibroblast Growth Factor Research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,5,0,1,0.200,0.680
+"Financial Literacy, Pension, Retirement Analysis","Business, Management and Accounting",Social Sciences,5,0,0,0.000,0.573
+Foot and Ankle Surgery,Medicine,Health Sciences,5,0,0,0.000,0.818
+Force Microscopy Techniques and Applications,Physics and Astronomy,Physical Sciences,5,1,0,0.000,0.373
+Foreign Body Medical Cases,Medicine,Health Sciences,5,1,1,0.200,1.124
+Genetic and rare skin diseases.,"Biochemistry, Genetics and Molecular Biology",Life Sciences,5,2,0,0.000,0.153
+Global Healthcare and Medical Tourism,Health Professions,Health Sciences,5,3,1,0.200,1.046
+Glycogen Storage Diseases and Myoclonus,Medicine,Health Sciences,5,0,0,0.000,1.072
+"Grief, Bereavement, and Mental Health",Psychology,Social Sciences,5,3,0,0.000,0.886
+Heat shock proteins research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,5,0,0,0.000,0.761
+Insect symbiosis and bacterial influences,Agricultural and Biological Sciences,Life Sciences,5,1,1,0.200,5.522
+Intergenerational Family Dynamics and Caregiving,Social Sciences,Social Sciences,5,2,3,0.600,3.857
+Medicinal Plants and Bioactive Compounds,"Biochemistry, Genetics and Molecular Biology",Life Sciences,5,0,0,0.000,0.281
+Medicine and Dermatology Studies History,Medicine,Health Sciences,5,0,0,0.000,0.469
+Memory and Neural Mechanisms,Neuroscience,Life Sciences,5,0,0,0.000,0.809
+Mental Health Treatment and Access,Psychology,Social Sciences,5,2,1,0.200,1.876
+Metabolism and Genetic Disorders,"Biochemistry, Genetics and Molecular Biology",Life Sciences,5,3,0,0.000,0.379
+Meteorological Phenomena and Simulations,Earth and Planetary Sciences,Physical Sciences,5,0,2,0.400,1.536
+Neonatal and Maternal Infections,Medicine,Health Sciences,5,2,2,0.400,3.982
+Neonatal and fetal brain pathology,Medicine,Health Sciences,5,2,2,0.400,5.790
+Nuclear Receptors and Signaling,Neuroscience,Life Sciences,5,2,1,0.200,4.946
+Nursing Diagnosis and Documentation,Nursing,Health Sciences,5,0,1,0.200,0.897
+"Nutrition, Health and Food Behavior",Nursing,Health Sciences,5,0,0,0.000,0.023
+Obsessive-Compulsive Spectrum Disorders,Psychology,Social Sciences,5,0,2,0.400,4.998
+Older Adults Driving Studies,Health Professions,Health Sciences,5,2,2,0.400,2.004
+Oral Health Pathology and Treatment,Dentistry,Health Sciences,5,1,2,0.400,0.638
+Pericarditis and Cardiac Tamponade,Medicine,Health Sciences,5,3,1,0.200,4.250
+Pharmacology and Obesity Treatment,Medicine,Health Sciences,5,2,0,0.000,0.000
+Pregnancy and preeclampsia studies,Medicine,Health Sciences,5,1,0,0.000,1.689
+Prenatal Substance Exposure Effects,Medicine,Health Sciences,5,0,1,0.200,2.808
+Psychedelics and Drug Studies,Psychology,Social Sciences,5,0,1,0.200,5.918
+Radical Photochemical Reactions,Chemistry,Physical Sciences,5,0,2,0.400,5.220
+Receptor Mechanisms and Signaling,"Biochemistry, Genetics and Molecular Biology",Life Sciences,5,2,0,0.000,0.747
+Renal and related cancers,"Biochemistry, Genetics and Molecular Biology",Life Sciences,5,1,0,0.000,0.468
+Salmonella and Campylobacter epidemiology,Agricultural and Biological Sciences,Life Sciences,5,0,2,0.400,3.367
+School Health and Nursing Education,Health Professions,Health Sciences,5,3,0,0.000,0.174
+Scientific Computing and Data Management,Decision Sciences,Social Sciences,5,0,0,0.000,0.539
+Skin and Cellular Biology Research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,5,1,0,0.000,0.986
+Spinal Hematomas and Complications,Medicine,Health Sciences,5,4,1,0.200,1.833
+Statistical Methods in Clinical Trials,Mathematics,Physical Sciences,5,1,1,0.200,0.897
+Survey Methodology and Nonresponse,Social Sciences,Social Sciences,5,2,3,0.600,8.291
+Technology Use by Older Adults,Social Sciences,Social Sciences,5,1,0,0.000,0.176
+"Telomeres, Telomerase, and Senescence",Medicine,Health Sciences,5,0,1,0.200,19.754
+Traditional Chinese Medicine Studies,Medicine,Health Sciences,5,1,2,0.400,1.340
+Traumatic Ocular and Foreign Body Injuries,Medicine,Health Sciences,5,1,0,0.000,0.000
+Tuberous Sclerosis Complex Research,Medicine,Health Sciences,5,0,1,0.200,0.260
+Ultrasound and Hyperthermia Applications,Engineering,Physical Sciences,5,0,1,0.200,1.362
+Ureteral procedures and complications,Medicine,Health Sciences,5,4,2,0.400,1.722
+Vascular Anomalies and Treatments,Medicine,Health Sciences,5,3,0,0.000,0.678
+Vascular Tumors and Angiosarcomas,Medicine,Health Sciences,5,4,0,0.000,0.358
+Adrenal Hormones and Disorders,Medicine,Health Sciences,4,0,2,0.500,22.928
+Animal Genetics and Reproduction,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,1,1,0.250,2.431
+Atmospheric chemistry and aerosols,Earth and Planetary Sciences,Physical Sciences,4,0,3,0.750,3.096
+Autoimmune and Inflammatory Disorders Research,Medicine,Health Sciences,4,4,0,0.000,0.679
+Bioactive Compounds in Plants,Agricultural and Biological Sciences,Life Sciences,4,0,0,0.000,0.065
+Blood disorders and treatments,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,0,0,0.000,0.131
+Blood donation and transfusion practices,"Business, Management and Accounting",Social Sciences,4,2,0,0.000,0.454
+"Brucella: diagnosis, epidemiology, treatment",Veterinary,Health Sciences,4,1,1,0.250,0.229
+Cancer Risks and Factors,Medicine,Health Sciences,4,0,1,0.250,0.912
+Cholinesterase and Neurodegenerative Diseases,Medicine,Health Sciences,4,0,0,0.000,1.062
+Clinical Laboratory Practices and Quality Control,Medicine,Health Sciences,4,1,2,0.500,7.001
+Coffee research and impacts,Medicine,Health Sciences,4,0,3,0.750,3.162
+Community Health and Development,Health Professions,Health Sciences,4,1,1,0.250,1.641
+Complement system in diseases,Immunology and Microbiology,Life Sciences,4,1,1,0.250,1.166
+Cystic Fibrosis Research Advances,Medicine,Health Sciences,4,1,0,0.000,0.000
+Dental Health and Care Utilization,Dentistry,Health Sciences,4,1,1,0.250,0.834
+Diagnosis and Treatment of Venous Diseases,Medicine,Health Sciences,4,1,0,0.000,0.152
+Education and Critical Thinking Development,Social Sciences,Social Sciences,4,2,1,0.250,2.626
+Electrospun Nanofibers in Biomedical Applications,Materials Science,Physical Sciences,4,0,0,0.000,1.203
+Endodontics and Root Canal Treatments,Dentistry,Health Sciences,4,0,0,0.000,0.389
+Fluoride Effects and Removal,Environmental Science,Physical Sciences,4,0,0,0.000,0.454
+Genetic and Clinical Aspects of Sex Determination and Chromosomal Abnormalities,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,1,2,0.500,3.664
+Genomics and Phylogenetic Studies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,1,0,0.000,0.393
+Ginseng Biological Effects and Applications,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,0,0,0.000,0.506
+Hair Growth and Disorders,Medicine,Health Sciences,4,0,1,0.250,1.494
+Head and Neck Anomalies,Medicine,Health Sciences,4,2,0,0.000,0.315
+"Health, psychology, and well-being",Health Professions,Health Sciences,4,1,1,0.250,1.598
+Healthcare Systems and Challenges,Health Professions,Health Sciences,4,2,0,0.000,0.000
+Heart Rate Variability and Autonomic Control,Medicine,Health Sciences,4,1,3,0.750,4.145
+Hematological disorders and diagnostics,Medicine,Health Sciences,4,1,1,0.250,2.308
+Hemostasis and retained surgical items,Medicine,Health Sciences,4,0,2,0.500,0.183
+Heparin-Induced Thrombocytopenia and Thrombosis,Medicine,Health Sciences,4,4,1,0.250,6.738
+History of Medical Practice,Medicine,Health Sciences,4,0,0,0.000,0.404
+Immune responses and vaccinations,Immunology and Microbiology,Life Sciences,4,0,2,0.500,5.228
+Infectious Disease Case Reports and Treatments,Medicine,Health Sciences,4,2,0,0.000,0.149
+Innovative Human-Technology Interaction,Computer Science,Physical Sciences,4,1,0,0.000,0.566
+Innovative Microfluidic and Catalytic Techniques Innovation,Engineering,Physical Sciences,4,0,1,0.250,1.541
+Innovative Teaching Methods,Social Sciences,Social Sciences,4,4,4,1.000,15.817
+Intestinal Malrotation and Obstruction Disorders,Medicine,Health Sciences,4,1,0,0.000,0.339
+Kruppel-like factors research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,0,0,0.000,0.550
+Language Development and Disorders,Psychology,Social Sciences,4,0,0,0.000,0.351
+Low-power high-performance VLSI design,Engineering,Physical Sciences,4,0,0,0.000,0.323
+Lymphatic Disorders and Treatments,Medicine,Health Sciences,4,2,0,0.000,0.271
+Male Reproductive Health Studies,Health Professions,Health Sciences,4,2,0,0.000,0.741
+Medical Image Segmentation Techniques,Computer Science,Physical Sciences,4,0,0,0.000,0.060
+Medicinal Plants and Neuroprotection,Medicine,Health Sciences,4,2,2,0.500,1.780
+Mental Health and Patient Involvement,Health Professions,Health Sciences,4,1,0,0.000,0.855
+Metastasis and carcinoma case studies,Medicine,Health Sciences,4,1,0,0.000,0.266
+Microbial Inactivation Methods,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,0,4,1.000,13.050
+Microbial Metabolism and Applications,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,0,1,0.250,1.048
+"Migration, Refugees, and Integration",Social Sciences,Social Sciences,4,0,1,0.250,1.783
+Nanopore and Nanochannel Transport Studies,Engineering,Physical Sciences,4,0,0,0.000,0.123
+Neuroscience and Neural Engineering,Neuroscience,Life Sciences,4,1,0,0.000,0.507
+"Neutrophil, Myeloperoxidase and Oxidative Mechanisms",Immunology and Microbiology,Life Sciences,4,1,1,0.250,8.572
+Nicotinic Acetylcholine Receptors Study,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,0,0,0.000,0.359
+Nuclear Physics and Applications,Physics and Astronomy,Physical Sciences,4,0,0,0.000,0.357
+Ophthalmology and Eye Disorders,Medicine,Health Sciences,4,0,0,0.000,0.300
+Oral and Maxillofacial Pathology,Dentistry,Health Sciences,4,0,0,0.000,0.520
+Orthodontics and Dentofacial Orthopedics,Dentistry,Health Sciences,4,1,0,0.000,0.666
+Pain Management and Placebo Effect,Neuroscience,Life Sciences,4,1,0,0.000,0.680
+Pectus Deformity Diagnosis and Treatment,Medicine,Health Sciences,4,1,0,0.000,0.000
+Pediatric Hepatobiliary Diseases and Treatments,Medicine,Health Sciences,4,1,1,0.250,2.832
+Pediatric Pain Management Techniques,Medicine,Health Sciences,4,2,1,0.250,0.565
+Pediatric health and respiratory diseases,Health Professions,Health Sciences,4,1,0,0.000,0.000
+Perovskite Materials and Applications,Engineering,Physical Sciences,4,0,0,0.000,0.809
+Pharmaceutical Economics and Policy,"Economics, Econometrics and Finance",Social Sciences,4,0,0,0.000,0.000
+Pharmacological Effects and Assays,Agricultural and Biological Sciences,Life Sciences,4,0,0,0.000,0.000
+Phytochemicals and Antioxidant Activities,Medicine,Health Sciences,4,2,2,0.500,3.452
+Plant Disease Resistance and Genetics,Agricultural and Biological Sciences,Life Sciences,4,0,0,0.000,0.000
+Plant Molecular Biology Research,Agricultural and Biological Sciences,Life Sciences,4,1,1,0.250,1.426
+Plant Pathogens and Fungal Diseases,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,0,0,0.000,0.548
+Plant and animal studies,Agricultural and Biological Sciences,Life Sciences,4,0,1,0.250,3.280
+Platelet Disorders and Treatments,Medicine,Health Sciences,4,2,2,0.500,1.794
+Relativity and Gravitational Theory,Physics and Astronomy,Physical Sciences,4,0,0,0.000,0.000
+Reproductive Health and Technologies,Medicine,Health Sciences,4,3,0,0.000,0.332
+Sexual Differentiation and Disorders,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,3,0,0.000,0.000
+"Sexuality, Behavior, and Technology",Psychology,Social Sciences,4,0,1,0.250,2.187
+Sodium Intake and Health,Nursing,Health Sciences,4,3,0,0.000,0.238
+Soft tissue tumor case studies,Medicine,Health Sciences,4,2,0,0.000,0.000
+Spectroscopy Techniques in Biomedical and Chemical Research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,2,1,0.250,1.261
+Sphingolipid Metabolism and Signaling,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,0,2,0.500,1.648
+Spondyloarthritis Studies and Treatments,Medicine,Health Sciences,4,2,0,0.000,0.798
+Statistical Methods and Bayesian Inference,Mathematics,Physical Sciences,4,2,0,0.000,0.548
+Sympathectomy and Hyperhidrosis Treatments,Medicine,Health Sciences,4,0,0,0.000,0.357
+Teratomas and Epidermoid Cysts,Medicine,Health Sciences,4,0,0,0.000,0.354
+Tissue Engineering and Regenerative Medicine,Medicine,Health Sciences,4,1,3,0.750,5.485
+Toxic Organic Pollutants Impact,Environmental Science,Physical Sciences,4,0,0,0.000,1.186
+Trauma Management and Diagnosis,Medicine,Health Sciences,4,3,0,0.000,0.202
+Tropical and Extratropical Cyclones Research,Earth and Planetary Sciences,Physical Sciences,4,0,1,0.250,1.379
+Urticaria and Related Conditions,Medicine,Health Sciences,4,0,1,0.250,1.455
+Viral Infections and Vectors,Medicine,Health Sciences,4,1,2,0.500,2.380
+Visual and Cognitive Learning Processes,Psychology,Social Sciences,4,2,1,0.250,2.220
+Vitamin C and Antioxidants Research,Nursing,Health Sciences,4,1,1,0.250,2.792
+Vitamin K Research Studies,Nursing,Health Sciences,4,2,1,0.250,1.707
+Wireless Power Transfer Systems,Engineering,Physical Sciences,4,0,1,0.250,1.269
+Zebrafish Biomedical Research Applications,"Biochemistry, Genetics and Molecular Biology",Life Sciences,4,2,1,0.250,13.981
+Zoonotic diseases and public health,Medicine,Health Sciences,4,0,1,0.250,1.750
+Adenosine and Purinergic Signaling,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,1,0,0.000,0.251
+Advanced Fluorescence Microscopy Techniques,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,2,1,0.333,6.696
+Advanced Materials and Mechanics,Engineering,Physical Sciences,3,0,1,0.333,1.285
+Advanced Sensor and Energy Harvesting Materials,Engineering,Physical Sciences,3,0,2,0.667,5.007
+Advancements in Photolithography Techniques,Engineering,Physical Sciences,3,0,0,0.000,0.178
+"Aging, Elder Care, and Social Issues",Health Professions,Health Sciences,3,2,0,0.000,0.000
+Air Quality Monitoring and Forecasting,Environmental Science,Physical Sciences,3,0,1,0.333,2.289
+Aluminum Alloys Composites Properties,Engineering,Physical Sciences,3,0,1,0.333,1.328
+Anesthesia and Neurotoxicity Research,Neuroscience,Life Sciences,3,0,0,0.000,0.124
+Anomaly Detection Techniques and Applications,Computer Science,Physical Sciences,3,0,0,0.000,0.809
+Art Therapy and Mental Health,Arts and Humanities,Social Sciences,3,0,0,0.000,0.000
+Astro and Planetary Science,Physics and Astronomy,Physical Sciences,3,0,0,0.000,0.000
+Astronomy and Astrophysical Research,Physics and Astronomy,Physical Sciences,3,0,0,0.000,0.183
+Astrophysics and Cosmic Phenomena,Physics and Astronomy,Physical Sciences,3,0,0,0.000,0.124
+Atmospheric and Environmental Gas Dynamics,Environmental Science,Physical Sciences,3,0,0,0.000,0.000
+Attachment and Relationship Dynamics,Psychology,Social Sciences,3,0,1,0.333,1.555
+Bacterial Infections and Vaccines,Immunology and Microbiology,Life Sciences,3,0,0,0.000,0.000
+Bayesian Methods and Mixture Models,Computer Science,Physical Sciences,3,1,1,0.333,0.971
+Beetle Biology and Toxicology Studies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,0,0,0.000,1.652
+Biochemical Analysis and Sensing Techniques,Nursing,Health Sciences,3,1,1,0.333,2.011
+Biomarkers in Disease Mechanisms,Immunology and Microbiology,Life Sciences,3,0,0,0.000,0.000
+Body Composition Measurement Techniques,Medicine,Health Sciences,3,2,0,0.000,0.561
+Brake Systems and Friction Analysis,Engineering,Physical Sciences,3,0,0,0.000,0.000
+COVID-19 Pandemic Impacts,"Economics, Econometrics and Finance",Social Sciences,3,0,0,0.000,0.000
+Calibration and Measurement Techniques,Engineering,Physical Sciences,3,0,0,0.000,0.000
+Cancer therapeutics and mechanisms,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,0,0,0.000,0.053
+Cardiac and Coronary Surgery Techniques,Medicine,Health Sciences,3,0,0,0.000,1.110
+Cardiovascular Conditions and Treatments,Medicine,Health Sciences,3,0,0,0.000,1.072
+Cellular transport and secretion,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,2,0,0.000,0.596
+Chemical Reactions and Isotopes,"Pharmacology, Toxicology and Pharmaceutics",Life Sciences,3,0,1,0.333,0.000
+Child Development and Digital Technology,Social Sciences,Social Sciences,3,1,1,0.333,2.305
+Child Nutrition and Water Access,Nursing,Health Sciences,3,1,1,0.333,1.572
+Chromosomal and Genetic Variations,Agricultural and Biological Sciences,Life Sciences,3,0,1,0.333,19.423
+Coal Properties and Utilization,Engineering,Physical Sciences,3,0,0,0.000,0.738
+Cognitive Abilities and Testing,Psychology,Social Sciences,3,0,0,0.000,0.000
+Complex Network Analysis Techniques,Physics and Astronomy,Physical Sciences,3,0,0,0.000,0.625
+Complex Systems and Decision Making,Decision Sciences,Social Sciences,3,0,0,0.000,0.000
+Congenital Ear and Nasal Anomalies,Medicine,Health Sciences,3,3,0,0.000,0.904
+Congenital gastrointestinal and neural anomalies,Medicine,Health Sciences,3,1,1,0.333,3.360
+Consumer Attitudes and Food Labeling,Medicine,Health Sciences,3,0,2,0.667,4.722
+Consumer Perception and Purchasing Behavior,"Business, Management and Accounting",Social Sciences,3,0,1,0.333,0.864
+Contact Dermatitis and Allergies,Medicine,Health Sciences,3,1,0,0.000,0.260
+Control Systems and Identification,Engineering,Physical Sciences,3,0,0,0.000,0.372
+Corporate Social Responsibility Reporting,"Business, Management and Accounting",Social Sciences,3,0,0,0.000,0.000
+Counseling Practices and Supervision,Psychology,Social Sciences,3,0,2,0.667,3.665
+Criminal Justice and Penology,Social Sciences,Social Sciences,3,0,0,0.000,0.000
+"Dental Education, Practice, Research",Health Professions,Health Sciences,3,1,0,0.000,0.000
+Dental materials and restorations,Dentistry,Health Sciences,3,0,1,0.333,2.573
+"Dietetics, Nutrition, and Education",Health Professions,Health Sciences,3,0,0,0.000,0.000
+Diverse Approaches in Healthcare and Education Studies,Medicine,Health Sciences,3,2,0,0.000,0.468
+Ear and Head Tumors,Medicine,Health Sciences,3,2,0,0.000,0.100
+Electrostatic Discharge in Electronics,Engineering,Physical Sciences,3,1,1,0.333,2.067
+Emotion and Mood Recognition,Psychology,Social Sciences,3,0,2,0.667,0.508
+Emotional Intelligence and Performance,Psychology,Social Sciences,3,0,0,0.000,0.000
+Employment and Welfare Studies,Health Professions,Health Sciences,3,2,1,0.333,6.130
+Endoplasmic Reticulum Stress and Disease,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,2,0,0.000,0.855
+Essential Oils and Antimicrobial Activity,Agricultural and Biological Sciences,Life Sciences,3,0,0,0.000,0.113
+Ethics and Legal Issues in Pediatric Healthcare,Medicine,Health Sciences,3,2,0,0.000,0.000
+Ethics in medical practice,Health Professions,Health Sciences,3,2,1,0.333,2.394
+Face Recognition and Perception,Neuroscience,Life Sciences,3,1,1,0.333,1.849
+Family Support in Illness,Social Sciences,Social Sciences,3,2,0,0.000,0.000
+Fluorine in Organic Chemistry,"Pharmacology, Toxicology and Pharmaceutics",Life Sciences,3,0,0,0.000,0.000
+Forensic Toxicology and Drug Analysis,"Pharmacology, Toxicology and Pharmaceutics",Life Sciences,3,2,0,0.000,0.391
+Fuel Cells and Related Materials,Engineering,Physical Sciences,3,0,0,0.000,0.198
+Galectins and Cancer Biology,Immunology and Microbiology,Life Sciences,3,0,0,0.000,0.237
+Gaze Tracking and Assistive Technology,Computer Science,Physical Sciences,3,0,0,0.000,0.477
+Global Educational Policies and Reforms,Social Sciences,Social Sciences,3,0,0,0.000,0.000
+"Grit, Self-Efficacy, and Motivation",Psychology,Social Sciences,3,1,1,0.333,1.028
+Gynecological conditions and treatments,Medicine,Health Sciences,3,0,0,0.000,0.731
+"HIV, Drug Use, Sexual Risk",Medicine,Health Sciences,3,1,1,0.333,2.095
+HIV/AIDS oral health manifestations,Medicine,Health Sciences,3,0,0,0.000,0.539
+Handwritten Text Recognition Techniques,Computer Science,Physical Sciences,3,0,1,0.333,0.273
+Healthcare Decision-Making and Restraints,Psychology,Social Sciences,3,2,0,0.000,1.279
+Heavy Metal Exposure and Toxicity,Environmental Science,Physical Sciences,3,1,1,0.333,6.559
+Hereditary Neurological Disorders,Neuroscience,Life Sciences,3,1,0,0.000,0.034
+High Altitude and Hypoxia,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,1,0,0.000,0.413
+Human Pose and Action Recognition,Computer Science,Physical Sciences,3,1,0,0.000,0.401
+Human auditory perception and evaluation,Engineering,Physical Sciences,3,0,0,0.000,0.000
+Impact of Technology on Adolescents,Social Sciences,Social Sciences,3,0,0,0.000,0.190
+Inclusion and Disability in Education and Sport,Social Sciences,Social Sciences,3,2,3,1.000,6.744
+Industrial Vision Systems and Defect Detection,Engineering,Physical Sciences,3,0,0,0.000,0.000
+Infections and bacterial resistance,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,0,1,0.333,3.731
+Infectious Aortic and Vascular Conditions,Medicine,Health Sciences,3,2,0,0.000,0.069
+International Science and Diplomacy,Social Sciences,Social Sciences,3,0,0,0.000,0.000
+IoT-based Smart Home Systems,Engineering,Physical Sciences,3,0,0,0.000,0.223
+Lanthanide and Transition Metal Complexes,Materials Science,Physical Sciences,3,1,0,0.000,0.000
+Leprosy Research and Treatment,Medicine,Health Sciences,3,0,0,0.000,0.085
+Light effects on plants,Agricultural and Biological Sciences,Life Sciences,3,0,1,0.333,8.950
+Lipid Membrane Structure and Behavior,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,1,0,0.000,0.075
+MRI in cancer diagnosis,Medicine,Health Sciences,3,0,0,0.000,0.147
+Magnetic properties of thin films,Physics and Astronomy,Physical Sciences,3,0,2,0.667,2.677
+Management and Marketing Education,"Business, Management and Accounting",Social Sciences,3,0,0,0.000,0.000
+Mass Spectrometry Techniques and Applications,Chemistry,Physical Sciences,3,2,0,0.000,0.166
+Mechanical and Optical Resonators,Physics and Astronomy,Physical Sciences,3,2,0,0.000,1.070
+Medical Coding and Health Information,Health Professions,Health Sciences,3,0,2,0.667,12.255
+Medical Device Sterilization and Disinfection,Immunology and Microbiology,Life Sciences,3,0,0,0.000,0.385
+Medical and Biological Sciences,Medicine,Health Sciences,3,1,1,0.333,2.121
+Mental Health via Writing,Psychology,Social Sciences,3,0,0,0.000,0.702
+Microgrid Control and Optimization,Engineering,Physical Sciences,3,0,0,0.000,1.161
+Microplastics and Plastic Pollution,Environmental Science,Physical Sciences,3,0,1,0.333,4.842
+"Migration, Aging, and Tourism Studies",Social Sciences,Social Sciences,3,0,0,0.000,0.518
+Moyamoya disease diagnosis and treatment,Medicine,Health Sciences,3,1,1,0.333,1.221
+Nanoparticle-Based Drug Delivery,Materials Science,Physical Sciences,3,1,0,0.000,0.732
+Natural Antidiabetic Agents Studies,Medicine,Health Sciences,3,2,0,0.000,0.827
+Neonatal Health and Biochemistry,Medicine,Health Sciences,3,1,0,0.000,0.000
+Neonatal skin health care,Health Professions,Health Sciences,3,3,1,0.333,1.781
+Neurofibromatosis and Schwannoma Cases,Medicine,Health Sciences,3,0,0,0.000,0.108
+Neurogenetic and Muscular Disorders Research,Medicine,Health Sciences,3,1,0,0.000,0.000
+Neurological diseases and metabolism,Neuroscience,Life Sciences,3,0,0,0.000,0.890
+Neuropeptides and Animal Physiology,Neuroscience,Life Sciences,3,1,1,0.333,2.871
+Nuts composition and effects,Nursing,Health Sciences,3,2,0,0.000,1.424
+Occupational Health and Safety Research,Health Professions,Health Sciences,3,0,0,0.000,0.239
+Ophthalmology and Visual Health Research,Medicine,Health Sciences,3,1,0,0.000,0.000
+Opinion Dynamics and Social Influence,Physics and Astronomy,Physical Sciences,3,0,0,0.000,0.056
+Oral health in cancer treatment,Medicine,Health Sciences,3,0,0,0.000,1.291
+Osteomyelitis and Bone Disorders Research,Medicine,Health Sciences,3,1,0,0.000,0.282
+Particle physics theoretical and experimental studies,Physics and Astronomy,Physical Sciences,3,0,0,0.000,0.000
+Peroxisome Proliferator-Activated Receptors,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,1,0,0.000,1.122
+Personality Traits and Psychology,Psychology,Social Sciences,3,2,2,0.667,2.383
+Pharmaceutical and Antibiotic Environmental Impacts,Environmental Science,Physical Sciences,3,1,0,0.000,0.215
+Pharmaceutical industry and healthcare,"Pharmacology, Toxicology and Pharmaceutics",Life Sciences,3,2,0,0.000,0.081
+Pharmacovigilance and Adverse Drug Reactions,"Pharmacology, Toxicology and Pharmaceutics",Life Sciences,3,0,1,0.333,1.579
+Photodynamic Therapy Research Studies,Medicine,Health Sciences,3,0,2,0.667,5.901
+Photosynthetic Processes and Mechanisms,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,0,0,0.000,0.549
+Phytochemicals and Medicinal Plants,Medicine,Health Sciences,3,2,0,0.000,0.272
+Political Philosophy and Ethics,Social Sciences,Social Sciences,3,0,1,0.333,5.518
+Preterm Birth and Chorioamnionitis,Medicine,Health Sciences,3,0,1,0.333,5.867
+Prion Diseases and Protein Misfolding,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,2,0,0.000,0.233
+Psychological Treatments and Assessments,Psychology,Social Sciences,3,2,0,0.000,0.202
+RNA and protein synthesis mechanisms,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,0,2,0.667,9.478
+Rabies epidemiology and control,Immunology and Microbiology,Life Sciences,3,1,1,0.333,1.272
+"Race, Genetics, and Society","Biochemistry, Genetics and Molecular Biology",Life Sciences,3,0,2,0.667,1.580
+"Race, History, and American Society",Social Sciences,Social Sciences,3,1,1,0.333,2.359
+Radiation Therapy and Dosimetry,Medicine,Health Sciences,3,0,0,0.000,0.000
+"Religion, Society, and Development",Social Sciences,Social Sciences,3,0,1,0.333,7.116
+Restless Legs Syndrome Research,Medicine,Health Sciences,3,0,0,0.000,0.000
+Restraint-Related Deaths,Medicine,Health Sciences,3,1,2,0.667,8.991
+Semantic Web and Ontologies,Computer Science,Physical Sciences,3,0,0,0.000,0.669
+Sexual Assault and Victimization Studies,Social Sciences,Social Sciences,3,1,1,0.333,1.957
+Silymarin and Mushroom Poisoning,Medicine,Health Sciences,3,1,0,0.000,0.000
+Sirtuins and Resveratrol in Medicine,Medicine,Health Sciences,3,0,2,0.667,4.001
+Smart Agriculture and AI,Agricultural and Biological Sciences,Life Sciences,3,0,0,0.000,0.726
+Solar and Space Plasma Dynamics,Physics and Astronomy,Physical Sciences,3,0,0,0.000,0.568
+Solid State Laser Technologies,Engineering,Physical Sciences,3,0,0,0.000,0.161
+Spatial Cognition and Navigation,Engineering,Physical Sciences,3,0,0,0.000,1.226
+Sports Dynamics and Biomechanics,Engineering,Physical Sciences,3,2,0,0.000,0.788
+Syphilis Diagnosis and Treatment,Medicine,Health Sciences,3,1,0,0.000,0.485
+T-cell and B-cell Immunology,Immunology and Microbiology,Life Sciences,3,0,0,0.000,0.544
+Tattoo and Body Piercing Complications,Social Sciences,Social Sciences,3,0,1,0.333,28.866
+Tea Polyphenols and Effects,Medicine,Health Sciences,3,0,2,0.667,1.345
+Thermoregulation and physiological responses,Medicine,Health Sciences,3,0,0,0.000,1.043
+Titanium Alloys Microstructure and Properties,Materials Science,Physical Sciences,3,1,0,0.000,0.884
+Urban Heat Island Mitigation,Environmental Science,Physical Sciences,3,0,1,0.333,1.314
+Vector-borne infectious diseases,Immunology and Microbiology,Life Sciences,3,0,0,0.000,0.000
+Veterinary Orthopedics and Neurology,Veterinary,Health Sciences,3,0,0,0.000,0.854
+Virtual Reality Applications and Impacts,Computer Science,Physical Sciences,3,1,0,0.000,0.606
+Wnt/β-catenin signaling in development and cancer,"Biochemistry, Genetics and Molecular Biology",Life Sciences,3,0,1,0.333,2.175
+Workplace Health and Well-being,Health Professions,Health Sciences,3,1,1,0.333,1.221
+Workplace Violence and Bullying,Social Sciences,Social Sciences,3,2,1,0.333,2.343
+Xenotransplantation and immune response,Medicine,Health Sciences,3,2,0,0.000,1.135
+Youth Development and Social Support,Social Sciences,Social Sciences,3,0,2,0.667,6.334
+Abdominal Surgery and Complications,Medicine,Health Sciences,2,0,1,0.500,1.746
+Additive Manufacturing Materials and Processes,Engineering,Physical Sciences,2,2,0,0.000,1.263
+Advanced Biosensing Techniques and Applications,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.000
+Advanced Frequency and Time Standards,Physics and Astronomy,Physical Sciences,2,0,0,0.000,0.000
+Advanced Neural Network Applications,Computer Science,Physical Sciences,2,0,0,0.000,0.193
+Advanced Statistical Methods and Models,Mathematics,Physical Sciences,2,0,0,0.000,0.000
+Advanced battery technologies research,Engineering,Physical Sciences,2,0,0,0.000,0.601
+Advanced materials and composites,Engineering,Physical Sciences,2,0,0,0.000,0.623
+Advancements in Battery Materials,Engineering,Physical Sciences,2,0,0,0.000,0.938
+Aeolian processes and effects,Earth and Planetary Sciences,Physical Sciences,2,0,0,0.000,1.710
+"Aging, Health, and Disability",Medicine,Health Sciences,2,0,0,0.000,0.000
+Agriculture and Farm Safety,Agricultural and Biological Sciences,Life Sciences,2,1,1,0.500,1.785
+Aluminum Alloy Microstructure Properties,Engineering,Physical Sciences,2,0,1,0.500,8.913
+Animal and Plant Science Education,Psychology,Social Sciences,2,1,0,0.000,1.413
+Antimicrobial Peptides and Activities,Immunology and Microbiology,Life Sciences,2,0,0,0.000,0.269
+"Anxiety, Depression, Psychometrics, Treatment, Cognitive Processes",Psychology,Social Sciences,2,1,1,0.500,1.974
+Aortic Thrombus and Embolism,Medicine,Health Sciences,2,0,0,0.000,0.000
+Asphalt Pavement Performance Evaluation,Engineering,Physical Sciences,2,0,1,0.500,3.832
+Assistive Technology in Communication and Mobility,Health Professions,Health Sciences,2,2,0,0.000,1.612
+Atmospheric aerosols and clouds,Environmental Science,Physical Sciences,2,0,0,0.000,0.000
+Automotive and Human Injury Biomechanics,Medicine,Health Sciences,2,0,0,0.000,0.073
+Autopsy Techniques and Outcomes,Medicine,Health Sciences,2,2,0,0.000,0.143
+BIM and Construction Integration,Engineering,Physical Sciences,2,0,0,0.000,1.033
+Bartonella species infections research,Immunology and Microbiology,Life Sciences,2,2,0,0.000,0.938
+Big Data Technologies and Applications,Decision Sciences,Social Sciences,2,0,0,0.000,0.239
+Biofield Effects and Biophysics,Medicine,Health Sciences,2,1,0,0.000,0.588
+Biomedical Text Mining and Ontologies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,1,0,0.000,0.149
+Bone and Dental Protein Studies,Medicine,Health Sciences,2,1,2,1.000,8.085
+Building Energy and Comfort Optimization,Engineering,Physical Sciences,2,0,0,0.000,0.000
+Calpain Protease Function and Regulation,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,1,0,0.000,0.000
+Canadian Identity and History,Social Sciences,Social Sciences,2,0,0,0.000,0.189
+Carcinogens and Genotoxicity Assessment,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,1,0.500,2.485
+Cardiac Ischemia and Reperfusion,Medicine,Health Sciences,2,0,0,0.000,1.111
+Career Development and Diversity,Social Sciences,Social Sciences,2,0,0,0.000,0.100
+Cellular Mechanics and Interactions,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.000
+Chemical Safety and Risk Management,Chemical Engineering,Physical Sciences,2,0,0,0.000,0.000
+Chemotherapy-related skin toxicity,Medicine,Health Sciences,2,2,0,0.000,0.253
+Child Welfare and Adoption,Social Sciences,Social Sciences,2,0,0,0.000,0.000
+Circular RNAs in diseases,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.328
+Cold Atom Physics and Bose-Einstein Condensates,Physics and Astronomy,Physical Sciences,2,0,0,0.000,0.673
+Colorectal and Anal Carcinomas,Medicine,Health Sciences,2,0,0,0.000,0.000
+Complementary and Alternative Medicine Studies,Medicine,Health Sciences,2,0,0,0.000,0.522
+Computational and Text Analysis Methods,Social Sciences,Social Sciences,2,1,1,0.500,11.691
+Congenital Anomalies and Fetal Surgery,Medicine,Health Sciences,2,0,0,0.000,0.859
+Context-Aware Activity Recognition Systems,Computer Science,Physical Sciences,2,1,0,0.000,1.292
+Cosmology and Gravitation Theories,Physics and Astronomy,Physical Sciences,2,0,0,0.000,0.000
+Crime Patterns and Interventions,Social Sciences,Social Sciences,2,1,0,0.000,0.000
+Critical Race Theory in Education,Social Sciences,Social Sciences,2,1,1,0.500,2.680
+Crystallization and Solubility Studies,Materials Science,Physical Sciences,2,0,0,0.000,0.902
+Crystallography and molecular interactions,Chemistry,Physical Sciences,2,0,2,1.000,4.750
+Cybercrime and Law Enforcement Studies,Computer Science,Physical Sciences,2,1,1,0.500,1.595
+DNA Repair Mechanisms,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,1.050
+Data Analysis with R,Computer Science,Physical Sciences,2,0,0,0.000,0.358
+Dental Erosion and Treatment,Dentistry,Health Sciences,2,0,0,0.000,0.000
+Dental Research and COVID-19,Dentistry,Health Sciences,2,1,0,0.000,2.436
+Dermatological diseases and infestations,Medicine,Health Sciences,2,0,0,0.000,0.282
+Digestive system and related health,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.910
+Digital Imaging for Blood Diseases,Computer Science,Physical Sciences,2,0,0,0.000,0.000
+Digital Rights Management and Security,Computer Science,Physical Sciences,2,0,0,0.000,0.000
+Distributed and Parallel Computing Systems,Computer Science,Physical Sciences,2,0,0,0.000,0.000
+Ecology and Vegetation Dynamics Studies,Environmental Science,Physical Sciences,2,0,0,0.000,1.459
+Economic Sanctions and International Relations,"Economics, Econometrics and Finance",Social Sciences,2,0,0,0.000,0.000
+Economic and Environmental Valuation,"Economics, Econometrics and Finance",Social Sciences,2,0,2,1.000,4.724
+Ectopic Pregnancy Diagnosis and Management,Medicine,Health Sciences,2,1,1,0.500,2.081
+Education Discipline and Inequality,Social Sciences,Social Sciences,2,1,1,0.500,4.953
+Educational Leadership and Practices,Social Sciences,Social Sciences,2,1,0,0.000,0.000
+Educator Training and Historical Pedagogy,Social Sciences,Social Sciences,2,0,1,0.500,1.694
+Electrocatalysts for Energy Conversion,Energy,Physical Sciences,2,0,0,0.000,1.395
+Electromagnetic Fields and Biological Effects,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,2,0,0.000,0.000
+Emergency Medicine Education and Research,Medicine,Health Sciences,2,1,1,0.500,4.776
+Endometriosis Research and Treatment,Medicine,Health Sciences,2,1,0,0.000,0.786
+Energy Load and Power Forecasting,Engineering,Physical Sciences,2,0,0,0.000,0.000
+Engineering Applied Research,Engineering,Physical Sciences,2,0,0,0.000,0.000
+Engineering Diagnostics and Reliability,Engineering,Physical Sciences,2,0,0,0.000,0.000
+Engineering and Technology Innovations,Engineering,Physical Sciences,2,2,0,0.000,0.000
+Evolution and Paleontology Studies,Earth and Planetary Sciences,Physical Sciences,2,0,1,0.500,6.157
+Exercise and Physiological Responses,Medicine,Health Sciences,2,1,1,0.500,13.003
+FOXO transcription factor regulation,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,1,0.500,0.349
+Facilities and Workplace Management,Psychology,Social Sciences,2,0,0,0.000,0.105
+Fermentation and Sensory Analysis,Agricultural and Biological Sciences,Life Sciences,2,0,1,0.500,2.026
+Flavonoids in Medical Research,Medicine,Health Sciences,2,0,1,0.500,3.777
+Fluid Dynamics and Turbulent Flows,Engineering,Physical Sciences,2,0,0,0.000,0.000
+Free Radicals and Antioxidants,Chemistry,Physical Sciences,2,0,0,0.000,1.305
+Fungal Biology and Applications,Medicine,Health Sciences,2,0,1,0.500,6.325
+Fuzzy Logic and Control Systems,Computer Science,Physical Sciences,2,0,0,0.000,0.000
+Gamma-ray bursts and supernovae,Physics and Astronomy,Physical Sciences,2,0,0,0.000,0.000
+"Gender, Feminism, and Media",Social Sciences,Social Sciences,2,0,1,0.500,2.582
+"Gender, Security, and Conflict",Social Sciences,Social Sciences,2,0,1,0.500,1.706
+Gene Regulatory Network Analysis,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.000
+Gene expression and cancer classification,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,1.014
+Generational Differences and Trends,Social Sciences,Social Sciences,2,2,0,0.000,0.000
+Geological Studies and Exploration,Earth and Planetary Sciences,Physical Sciences,2,0,0,0.000,0.000
+Geological and Geophysical Studies,Earth and Planetary Sciences,Physical Sciences,2,0,0,0.000,0.000
+Geophysics and Gravity Measurements,Earth and Planetary Sciences,Physical Sciences,2,0,0,0.000,0.588
+Geotechnical Engineering and Underground Structures,Engineering,Physical Sciences,2,0,2,1.000,2.806
+Global Public Health Policies and Epidemiology,"Business, Management and Accounting",Social Sciences,2,0,0,0.000,0.000
+HIV/AIDS Impact and Responses,"Economics, Econometrics and Finance",Social Sciences,2,0,0,0.000,0.000
+Hallucinations in medical conditions,Neuroscience,Life Sciences,2,0,1,0.500,6.500
+Health Promotion and Cardiovascular Prevention,Medicine,Health Sciences,2,0,0,0.000,0.203
+Healthcare Quality and Management,Health Professions,Health Sciences,2,1,0,0.000,0.257
+Healthcare Systems and Practices,Health Professions,Health Sciences,2,0,0,0.000,0.153
+Healthcare and Venom Research,Medicine,Health Sciences,2,0,0,0.000,0.162
+Heavy metals in environment,Environmental Science,Physical Sciences,2,0,1,0.500,1.899
+Hemoglobin structure and function,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.584
+Heterotopic Ossification and Related Conditions,Medicine,Health Sciences,2,0,0,0.000,0.942
+Higher Education Learning Practices,Social Sciences,Social Sciences,2,0,1,0.500,9.576
+Higher Education Research Studies,Social Sciences,Social Sciences,2,0,1,0.500,2.371
+Histiocytic Disorders and Treatments,Medicine,Health Sciences,2,1,0,0.000,0.310
+Hormonal and reproductive studies,Medicine,Health Sciences,2,1,0,0.000,0.135
+Human Health and Disease,Medicine,Health Sciences,2,0,0,0.000,0.380
+Hydrogen's biological and therapeutic effects,Medicine,Health Sciences,2,1,0,0.000,0.866
+Hypothalamic control of reproductive hormones,Medicine,Health Sciences,2,0,0,0.000,2.354
+"Identity, Memory, and Therapy",Psychology,Social Sciences,2,1,0,0.000,0.000
+Imbalanced Data Classification Techniques,Computer Science,Physical Sciences,2,0,0,0.000,0.858
+Indian and Buddhist Studies,Arts and Humanities,Social Sciences,2,0,0,0.000,0.000
+"Indigenous Health, Education, and Rights",Social Sciences,Social Sciences,2,0,0,0.000,0.271
+Infant Health and Development,Health Professions,Health Sciences,2,1,0,0.000,0.000
+Insect Resistance and Genetics,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.000
+Insect and Arachnid Ecology and Behavior,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.413
+Insect and Pesticide Research,Agricultural and Biological Sciences,Life Sciences,2,0,0,0.000,1.276
+"Insurance, Mortality, Demography, Risk Management",Social Sciences,Social Sciences,2,0,0,0.000,0.000
+Interdisciplinary Research and Collaboration,Decision Sciences,Social Sciences,2,0,1,0.500,0.000
+Intramuscular injections and effects,Medicine,Health Sciences,2,2,1,0.500,0.000
+Islamic Studies and History,Social Sciences,Social Sciences,2,0,0,0.000,0.000
+Liquid Crystal Research Advancements,Materials Science,Physical Sciences,2,0,1,0.500,3.351
+Lymphadenopathy Diagnosis and Analysis,Medicine,Health Sciences,2,2,0,0.000,0.589
+Macrophage Migration Inhibitory Factor,Immunology and Microbiology,Life Sciences,2,0,0,0.000,0.000
+Magnesium in Health and Disease,Nursing,Health Sciences,2,1,0,0.000,0.506
+Male Breast Health Studies,Medicine,Health Sciences,2,0,0,0.000,0.260
+Manufacturing Process and Optimization,Engineering,Physical Sciences,2,0,0,0.000,0.000
+Marine Toxins and Detection Methods,Environmental Science,Physical Sciences,2,0,0,0.000,2.101
+Market Dynamics and Volatility,"Economics, Econometrics and Finance",Social Sciences,2,0,1,0.500,7.012
+Media Studies and Communication,Social Sciences,Social Sciences,2,0,0,0.000,0.486
+Medical Research and Practices,Health Professions,Health Sciences,2,1,2,1.000,11.188
+Medical and Biological Ozone Research,Medicine,Health Sciences,2,0,0,0.000,0.242
+Membrane-based Ion Separation Techniques,Engineering,Physical Sciences,2,0,1,0.500,1.414
+Memory Processes and Influences,Neuroscience,Life Sciences,2,0,0,0.000,0.000
+Mercury impact and mitigation studies,Environmental Science,Physical Sciences,2,0,1,0.500,4.691
+Methemoglobinemia and Tumor Lysis Syndrome,Medicine,Health Sciences,2,1,0,0.000,0.073
+Micro and Nano Robotics,Physics and Astronomy,Physical Sciences,2,0,0,0.000,0.193
+Microbial Natural Products and Biosynthesis,Medicine,Health Sciences,2,1,1,0.500,7.130
+Migration and Labor Dynamics,Social Sciences,Social Sciences,2,0,0,0.000,0.000
+Military and Defense Studies,Social Sciences,Social Sciences,2,0,0,0.000,0.000
+Muscle metabolism and nutrition,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.496
+Musicians’ Health and Performance,Medicine,Health Sciences,2,1,0,0.000,1.219
+NF-κB Signaling Pathways,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.771
+Neural Networks and Applications,Computer Science,Physical Sciences,2,0,1,0.500,4.457
+Neuroendocrine regulation and behavior,Psychology,Social Sciences,2,0,0,0.000,1.211
+"Neuroscience, Education and Cognitive Function",Neuroscience,Life Sciences,2,1,0,0.000,0.000
+Neutrino Physics Research,Physics and Astronomy,Physical Sciences,2,0,0,0.000,0.000
+Occupational health in dentistry,Health Professions,Health Sciences,2,1,0,0.000,0.000
+Oil and Gas Production Techniques,Engineering,Physical Sciences,2,0,0,0.000,0.562
+Optical Coatings and Gratings,Materials Science,Physical Sciences,2,0,1,0.500,3.506
+Optical properties and cooling technologies in crystalline materials,Physics and Astronomy,Physical Sciences,2,0,1,0.500,3.280
+Orbital Angular Momentum in Optics,Physics and Astronomy,Physical Sciences,2,0,0,0.000,0.075
+Paranormal Experiences and Beliefs,Psychology,Social Sciences,2,0,0,0.000,0.332
+Parasitic infections in humans and animals,Medicine,Health Sciences,2,0,0,0.000,2.199
+Pesticide Exposure and Toxicity,Agricultural and Biological Sciences,Life Sciences,2,2,0,0.000,0.222
+Phagocytosis and Immune Regulation,Immunology and Microbiology,Life Sciences,2,0,0,0.000,1.193
+Pharmacological Effects of Natural Compounds,"Pharmacology, Toxicology and Pharmaceutics",Life Sciences,2,0,0,0.000,0.000
+Photoacoustic and Ultrasonic Imaging,Engineering,Physical Sciences,2,1,0,0.000,0.297
+Planarian Biology and Electrostimulation,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,1,0,0.000,0.118
+Plant Gene Expression Analysis,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,1,0.500,1.794
+Plant Pathogenic Bacteria Studies,Agricultural and Biological Sciences,Life Sciences,2,0,0,0.000,0.000
+Plant nutrient uptake and metabolism,Agricultural and Biological Sciences,Life Sciences,2,0,0,0.000,0.000
+Plant responses to elevated CO2,Agricultural and Biological Sciences,Life Sciences,2,0,1,0.500,4.211
+"Pneumothorax, Barotrauma, Emphysema",Medicine,Health Sciences,2,0,0,0.000,0.151
+Polyamine Metabolism and Applications,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.000
+Polysaccharides Composition and Applications,Agricultural and Biological Sciences,Life Sciences,2,0,0,0.000,0.813
+Prenatal Screening and Diagnostics,Medicine,Health Sciences,2,0,2,1.000,3.294
+"Privacy, Security, and Data Protection",Social Sciences,Social Sciences,2,0,0,0.000,0.379
+Privacy-Preserving Technologies in Data,Computer Science,Physical Sciences,2,0,1,0.500,2.928
+Probiotics and Fermented Foods,Agricultural and Biological Sciences,Life Sciences,2,0,0,0.000,0.080
+Prosthetics and Rehabilitation Robotics,Engineering,Physical Sciences,2,0,0,0.000,0.000
+Protein Degradation and Inhibitors,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,1.213
+Protein Kinase Regulation and GTPase Signaling,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.489
+Psychology of Moral and Emotional Judgment,Neuroscience,Life Sciences,2,0,0,0.000,0.085
+Psychometric Methodologies and Testing,Decision Sciences,Social Sciences,2,0,1,0.500,6.682
+"Psychopathy, Forensic Psychiatry, Sexual Offending",Psychology,Social Sciences,2,1,1,0.500,2.031
+Psychotherapy Techniques and Applications,Psychology,Social Sciences,2,1,0,0.000,0.754
+Quality and Safety in Healthcare,Health Professions,Health Sciences,2,1,0,0.000,0.000
+Quantum Computing Algorithms and Architecture,Computer Science,Physical Sciences,2,0,0,0.000,0.000
+Rare-earth and actinide compounds,Physics and Astronomy,Physical Sciences,2,0,0,0.000,0.096
+Reconstructive Facial Surgery Techniques,Medicine,Health Sciences,2,1,0,0.000,0.784
+Research on Leishmaniasis Studies,Medicine,Health Sciences,2,1,1,0.500,6.138
+Reservoir Engineering and Simulation Methods,Engineering,Physical Sciences,2,0,0,0.000,0.000
+Retinoids in leukemia and cellular processes,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.814
+Retinopathy of Prematurity Studies,Medicine,Health Sciences,2,0,0,0.000,0.000
+Risk and Safety Analysis,Decision Sciences,Social Sciences,2,0,2,1.000,6.319
+Robot Manipulation and Learning,Engineering,Physical Sciences,2,0,1,0.500,6.340
+Science Education and Pedagogy,Social Sciences,Social Sciences,2,1,1,0.500,2.365
+Seed and Plant Biochemistry,Agricultural and Biological Sciences,Life Sciences,2,0,0,0.000,0.000
+Selenium in Biological Systems,Nursing,Health Sciences,2,0,0,0.000,0.165
+Semiconductor materials and devices,Engineering,Physical Sciences,2,0,0,0.000,1.302
+Service-Learning and Community Engagement,Social Sciences,Social Sciences,2,0,1,0.500,1.788
+"Shakespeare, Adaptation, and Literary Criticism",Arts and Humanities,Social Sciences,2,0,1,0.500,11.641
+Signaling Pathways in Disease,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.204
+Social Work Education and Practice,Social Sciences,Social Sciences,2,0,0,0.000,0.667
+Software Engineering Techniques and Practices,Computer Science,Physical Sciences,2,0,0,0.000,0.000
+Soil Carbon and Nitrogen Dynamics,Agricultural and Biological Sciences,Life Sciences,2,0,1,0.500,2.867
+Space Science and Extraterrestrial Life,Physics and Astronomy,Physical Sciences,2,0,0,0.000,0.000
+Spatial Neglect and Hemispheric Dysfunction,Neuroscience,Life Sciences,2,1,0,0.000,0.604
+Species Distribution and Climate Change,Environmental Science,Physical Sciences,2,0,0,0.000,0.000
+Spectroscopy and Quantum Chemical Studies,Physics and Astronomy,Physical Sciences,2,1,0,0.000,0.199
+Sports and Physical Education Research,Health Professions,Health Sciences,2,0,0,0.000,0.939
+"Stellar, planetary, and galactic studies",Physics and Astronomy,Physical Sciences,2,0,0,0.000,0.000
+Stochastic Gradient Optimization Techniques,Computer Science,Physical Sciences,2,0,1,0.500,0.000
+Stock Market Forecasting Methods,Decision Sciences,Social Sciences,2,0,1,0.500,5.283
+Subtitles and Audiovisual Media,Arts and Humanities,Social Sciences,2,1,0,0.000,0.000
+Supercapacitor Materials and Fabrication,Materials Science,Physical Sciences,2,1,0,0.000,0.670
+Surface Modification and Superhydrophobicity,Materials Science,Physical Sciences,2,0,0,0.000,0.885
+TGF-β signaling in diseases,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,0,0.000,0.173
+Technology and Human Factors in Education and Health,Medicine,Health Sciences,2,0,0,0.000,0.000
+Telecommunications and Broadcasting Technologies,Engineering,Physical Sciences,2,0,0,0.000,0.000
+Text Readability and Simplification,Computer Science,Physical Sciences,2,0,0,0.000,0.593
+Theology and Philosophy of Evil,Arts and Humanities,Social Sciences,2,0,0,0.000,0.000
+Therapeutic Uses of Natural Elements,Health Professions,Health Sciences,2,0,0,0.000,0.000
+Topic Modeling,Computer Science,Physical Sciences,2,0,0,0.000,0.000
+Toxin Mechanisms and Immunotoxins,Immunology and Microbiology,Life Sciences,2,1,0,0.000,0.696
+Trace Elements in Health,Nursing,Health Sciences,2,1,1,0.500,1.694
+Traffic and Road Safety,Engineering,Physical Sciences,2,0,2,1.000,3.144
+Travel-related health issues,Medicine,Health Sciences,2,1,0,0.000,2.094
+Tribology and Wear Analysis,Engineering,Physical Sciences,2,1,0,0.000,0.264
+Trypanosoma species research and implications,Medicine,Health Sciences,2,1,0,0.000,0.469
+Underwater Vehicles and Communication Systems,Engineering,Physical Sciences,2,0,0,0.000,0.224
+"Urban, Neighborhood, and Segregation Studies",Social Sciences,Social Sciences,2,1,0,0.000,0.537
+Urinary and Genital Oncology Studies,Medicine,Health Sciences,2,0,1,0.500,2.118
+Vehicle Noise and Vibration Control,Engineering,Physical Sciences,2,0,0,0.000,0.093
+Venomous Animal Envenomation and Studies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,2,0,1,0.500,2.481
+Viral gastroenteritis research and epidemiology,Medicine,Health Sciences,2,2,0,0.000,0.000
+Visual Attention and Saliency Detection,Computer Science,Physical Sciences,2,0,0,0.000,0.118
+Wheat and Barley Genetics and Pathology,Agricultural and Biological Sciences,Life Sciences,2,0,1,0.500,4.526
+Wildlife Ecology and Conservation,Environmental Science,Physical Sciences,2,0,0,0.000,0.476
+X-ray Diffraction in Crystallography,Materials Science,Physical Sciences,2,0,0,0.000,0.000
+3D IC and TSV technologies,Engineering,Physical Sciences,1,0,0,0.000,0.000
+3D Shape Modeling and Analysis,Engineering,Physical Sciences,1,0,1,1.000,0.000
+AI and HR Technologies,"Business, Management and Accounting",Social Sciences,1,0,0,0.000,0.000
+ATP Synthase and ATPases Research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Academic Freedom and Politics,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Academic integrity and plagiarism,Social Sciences,Social Sciences,1,1,0,0.000,0.000
+Acoustic Wave Resonator Technologies,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Action Observation and Synchronization,Psychology,Social Sciences,1,0,1,1.000,7.991
+Additive Manufacturing and 3D Printing Technologies,Engineering,Physical Sciences,1,0,1,1.000,4.657
+Adult and Continuing Education Topics,Social Sciences,Social Sciences,1,0,1,1.000,15.755
+Advanced Adaptive Filtering Techniques,Engineering,Physical Sciences,1,0,0,0.000,1.173
+Advanced Control Systems Optimization,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Advanced DC-DC Converters,Engineering,Physical Sciences,1,0,0,0.000,0.587
+Advanced Data Processing Techniques,Engineering,Physical Sciences,1,1,0,0.000,0.000
+Advanced Data Storage Technologies,Computer Science,Physical Sciences,1,0,1,1.000,5.862
+Advanced Database Systems and Queries,Computer Science,Physical Sciences,1,0,0,0.000,0.668
+Advanced Differential Geometry Research,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.150
+Advanced Electrical Measurement Techniques,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Advanced Image and Video Retrieval Techniques,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Advanced MEMS and NEMS Technologies,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Advanced Machining and Optimization Techniques,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Advanced Malware Detection Techniques,Computer Science,Physical Sciences,1,0,0,0.000,0.446
+Advanced Memory and Neural Computing,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Advanced Multi-Objective Optimization Algorithms,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Advanced Numerical Methods in Computational Mathematics,Engineering,Physical Sciences,1,0,0,0.000,0.827
+Advanced Vision and Imaging,Computer Science,Physical Sciences,1,1,1,1.000,7.406
+Advancements in Transdermal Drug Delivery,"Pharmacology, Toxicology and Pharmaceutics",Life Sciences,1,0,0,0.000,0.382
+Aerodynamics and Acoustics in Jet Flows,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Aerospace Engineering and Energy Systems,Engineering,Physical Sciences,1,0,0,0.000,0.000
+African Education and Politics,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+African history and culture analysis,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+"Agriculture, Soil, Plant Science",Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Aldose Reductase and Taurine,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,2.393
+Alexander von Humboldt Studies,Immunology and Microbiology,Life Sciences,1,0,0,0.000,0.000
+Algal biology and biofuel production,Energy,Physical Sciences,1,0,0,0.000,0.670
+Aluminum toxicity and tolerance in plants and animals,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+American Constitutional Law and Politics,Social Sciences,Social Sciences,1,0,1,1.000,7.598
+American Environmental and Regional History,Environmental Science,Physical Sciences,1,0,0,0.000,0.000
+Amoebic Infections and Treatments,Medicine,Health Sciences,1,0,0,0.000,0.000
+Anaerobic Digestion and Biogas Production,Engineering,Physical Sciences,1,0,1,1.000,3.648
+Analog and Mixed-Signal Circuit Design,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Analytical Methods in Pharmaceuticals,Chemistry,Physical Sciences,1,0,0,0.000,0.000
+Ancient and Medieval Archaeology Studies,Arts and Humanities,Social Sciences,1,0,0,0.000,0.000
+Animal Behavior and Reproduction,Agricultural and Biological Sciences,Life Sciences,1,0,1,1.000,42.521
+Animal Ecology and Behavior Studies,Environmental Science,Physical Sciences,1,0,0,0.000,2.765
+Animal Vocal Communication and Behavior,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,1.422
+Anodic Oxide Films and Nanostructures,Materials Science,Physical Sciences,1,0,0,0.000,0.000
+Anthropological Studies and Insights,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Antimicrobial agents and applications,Chemistry,Physical Sciences,1,0,0,0.000,0.000
+"Antioxidants, Aging, Portulaca oleracea",Neuroscience,Life Sciences,1,0,0,0.000,0.305
+Aquaculture Nutrition and Growth,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,1.900
+Archaeology and ancient environmental studies,Earth and Planetary Sciences,Physical Sciences,1,0,0,0.000,0.000
+Arduino and IoT Applications,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Assisted Reproductive Technology and Twin Pregnancy,Medicine,Health Sciences,1,1,0,0.000,0.000
+Astronomical and nuclear sciences,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Astrophysical Phenomena and Observations,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Atmospheric Ozone and Climate,Earth and Planetary Sciences,Physical Sciences,1,0,1,1.000,6.744
+Automated Road and Building Extraction,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Autonomous Vehicle Technology and Safety,Engineering,Physical Sciences,1,0,0,0.000,0.190
+Bacterial Genetics and Biotechnology,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Bacterial biofilms and quorum sensing,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,1,1,1.000,8.671
+Bacteriophages and microbial interactions,Environmental Science,Physical Sciences,1,0,0,0.000,0.000
+Bee Products Chemical Analysis,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Bioactive Compounds and Antitumor Agents,"Pharmacology, Toxicology and Pharmaceutics",Life Sciences,1,0,0,0.000,0.629
+Bioactive Natural Diterpenoids Research,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Biochemical and biochemical processes,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,1,1.000,3.553
+Bioeconomy and Sustainability Development,Agricultural and Biological Sciences,Life Sciences,1,0,1,1.000,3.963
+Biofuel production and bioconversion,Engineering,Physical Sciences,1,0,1,1.000,6.111
+Biological Research and Disease Studies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,1,1.000,3.299
+Biomedical Research and Pathophysiology,Medicine,Health Sciences,1,0,0,0.000,0.151
+Biosensors and Analytical Detection,Engineering,Physical Sciences,1,0,0,0.000,0.574
+Biotechnology and Related Fields,Medicine,Health Sciences,1,0,0,0.000,0.000
+Biotin and Related Studies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Black Holes and Theoretical Physics,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Blind Source Separation Techniques,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Bluetooth and Wireless Communication Technologies,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Cancer Research and Treatment,Medicine,Health Sciences,1,0,0,0.000,0.000
+Carbon Nanotubes in Composites,Materials Science,Physical Sciences,1,0,0,0.000,0.000
+Carbon and Quantum Dots Applications,Materials Science,Physical Sciences,1,0,0,0.000,0.918
+Case Reports on Hematomas,Medicine,Health Sciences,1,0,0,0.000,0.000
+"Categorization, perception, and language",Psychology,Social Sciences,1,0,0,0.000,0.000
+Caveolin-1 and cellular processes,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,1.828
+Cephalopods and Marine Biology,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Chaos-based Image/Signal Encryption,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Chemical Synthesis and Characterization,Environmental Science,Physical Sciences,1,0,0,0.000,0.000
+Chemical Synthesis and Reactions,Chemistry,Physical Sciences,1,0,0,0.000,2.331
+Chemotherapy-induced organ toxicity mitigation,Medicine,Health Sciences,1,0,1,1.000,3.644
+Child Abuse and Related Trauma,Medicine,Health Sciences,1,1,0,0.000,0.000
+Child Therapy and Development,Psychology,Social Sciences,1,1,0,0.000,0.000
+Chromatin Remodeling and Cancer,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Civil and Structural Engineering Research,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Climate Change Communication and Perception,Social Sciences,Social Sciences,1,0,1,1.000,9.574
+Climate Change Policy and Economics,"Economics, Econometrics and Finance",Social Sciences,1,0,0,0.000,0.000
+Cloud Computing and Resource Management,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Clusterin in disease pathology,Medicine,Health Sciences,1,0,1,1.000,10.611
+Coal and Coke Industries Research,Energy,Physical Sciences,1,0,0,0.000,0.000
+Coastal and Marine Dynamics,Earth and Planetary Sciences,Physical Sciences,1,0,1,1.000,2.969
+Coastal and Marine Management,Environmental Science,Physical Sciences,1,0,0,0.000,0.000
+Cognitive and developmental aspects of mathematical skills,Mathematics,Physical Sciences,1,0,1,1.000,8.926
+Cold Fusion and Nuclear Reactions,Earth and Planetary Sciences,Physical Sciences,1,0,0,0.000,0.000
+Color Science and Applications,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Color perception and design,Psychology,Social Sciences,1,0,0,0.000,2.270
+Communication in Education and Healthcare,Psychology,Social Sciences,1,0,0,0.000,0.000
+"Communism, Protests, Social Movements",Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Commutative Algebra and Its Applications,Mathematics,Physical Sciences,1,0,1,1.000,3.148
+Comparative constitutional jurisprudence studies,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Competency Development and Evaluation,Psychology,Social Sciences,1,1,1,1.000,3.579
+Composting and Vermicomposting Techniques,Agricultural and Biological Sciences,Life Sciences,1,0,1,1.000,6.114
+Conducting polymers and applications,Materials Science,Physical Sciences,1,0,1,1.000,9.852
+Congenital limb and hand anomalies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,1,0,0.000,0.000
+Connexins and lens biology,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.883
+Consumer Market Behavior and Pricing,"Business, Management and Accounting",Social Sciences,1,0,0,0.000,0.000
+Coral and Marine Ecosystems Studies,Environmental Science,Physical Sciences,1,0,0,0.000,3.096
+Corneal Surgery and Treatments,Medicine,Health Sciences,1,0,0,0.000,1.202
+Corporate Governance and Law,"Business, Management and Accounting",Social Sciences,1,0,0,0.000,0.273
+Corrosion Behavior and Inhibition,Materials Science,Physical Sciences,1,0,0,0.000,0.948
+"Counseling, Therapy, and Family Dynamics",Psychology,Social Sciences,1,1,0,0.000,0.000
+Cultural Heritage Materials Analysis,Arts and Humanities,Social Sciences,1,0,0,0.000,0.000
+Customer Service Quality and Loyalty,"Business, Management and Accounting",Social Sciences,1,0,0,0.000,0.327
+Cyclone Separators and Fluid Dynamics,Engineering,Physical Sciences,1,0,0,0.000,0.371
+Dark Matter and Cosmic Phenomena,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Data Analysis and Archiving,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Data Management and Algorithms,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Data Quality and Management,Decision Sciences,Social Sciences,1,0,0,0.000,0.461
+Death Anxiety and Social Exclusion,Psychology,Social Sciences,1,0,0,0.000,2.210
+Decision-Making and Behavioral Economics,Decision Sciences,Social Sciences,1,0,0,0.000,1.183
+Demographic Trends and Gender Preferences,Social Sciences,Social Sciences,1,0,1,1.000,0.000
+Dental Anxiety and Anesthesia Techniques,Dentistry,Health Sciences,1,0,0,0.000,2.550
+Design Education and Practice,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Developmental and Educational Neuropsychology,Psychology,Social Sciences,1,0,0,0.000,0.000
+Dielectric materials and actuators,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Digital Accessibility for Disabilities,Social Sciences,Social Sciences,1,0,1,1.000,4.944
+Digital Games and Media,Social Sciences,Social Sciences,1,0,0,0.000,2.245
+Digital Storytelling and Education,Health Professions,Health Sciences,1,1,1,1.000,3.395
+Digital Transformation in Law,"Economics, Econometrics and Finance",Social Sciences,1,0,0,0.000,0.000
+"Diphtheria, Corynebacterium, and Tetanus","Biochemistry, Genetics and Molecular Biology",Life Sciences,1,1,0,0.000,0.880
+Disaster Management and Resilience,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Discourse Analysis and Cultural Communication,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Diverse Educational Innovations Studies,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Diverse Interdisciplinary Research Innovations,Decision Sciences,Social Sciences,1,0,0,0.000,0.000
+Diverse Topics in Contemporary Research,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Doctoral Education Challenges and Solutions,Health Professions,Health Sciences,1,0,0,0.000,0.000
+Drug-Induced Ocular Toxicity,Medicine,Health Sciences,1,0,0,0.000,0.000
+Dupuytren's Contracture and Treatments,Medicine,Health Sciences,1,0,0,0.000,0.000
+E-Learning and COVID-19,Social Sciences,Social Sciences,1,1,0,0.000,0.000
+Earthquake and Disaster Impact Studies,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Economic Theory and Policy,"Economics, Econometrics and Finance",Social Sciences,1,0,0,0.000,0.000
+Education Systems and Policy,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Education and Islamic Studies,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Education and Learning Interventions,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Education and Technology Integration,Social Sciences,Social Sciences,1,0,1,1.000,14.434
+Educational Assessment and Pedagogy,Social Sciences,Social Sciences,1,0,1,1.000,5.204
+Educational Games and Gamification,Psychology,Social Sciences,1,0,0,0.000,0.426
+Educational Methods and Media Use,Computer Science,Physical Sciences,1,1,0,0.000,0.000
+Educational Reforms and Innovations,Environmental Science,Physical Sciences,1,0,0,0.000,0.663
+Educational Robotics and Engineering,Computer Science,Physical Sciences,1,1,0,0.000,0.000
+Educational Technology and Assessment,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Educational Technology and Optimization,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Educational Technology and Pedagogy,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Educational methodologies and cognitive development,Psychology,Social Sciences,1,0,0,0.000,0.000
+Effects of Environmental Stressors on Livestock,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Effects of Radiation Exposure,Medicine,Health Sciences,1,0,0,0.000,0.000
+Efficiency Analysis Using DEA,Decision Sciences,Social Sciences,1,0,1,1.000,3.417
+Electric Motor Design and Analysis,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Electrical Contact Performance and Analysis,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Electrical and Bioimpedance Tomography,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Electrochemical sensors and biosensors,Engineering,Physical Sciences,1,0,0,0.000,0.100
+Electrodeposition and Electroless Coatings,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Electrokinetic Soil Remediation Techniques,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Electromagnetic Launch and Propulsion Technology,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Electrophoretic Deposition in Materials Science,Engineering,Physical Sciences,1,1,0,0.000,0.000
+Embedded Systems Design Techniques,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Emotional Labor in Professions,Social Sciences,Social Sciences,1,1,0,0.000,0.000
+Emotions and Moral Behavior,Psychology,Social Sciences,1,0,1,1.000,2.982
+Energy Efficient Wireless Sensor Networks,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+"Energy, Environment, Economic Growth","Economics, Econometrics and Finance",Social Sciences,1,0,1,1.000,1.686
+"Energy, Environment, and Transportation Policies",Energy,Physical Sciences,1,1,0,0.000,0.000
+Engineering Education and Curriculum Development,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Entomopathogenic Microorganisms in Pest Control,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.494
+Environmental Education and Sustainability,Environmental Science,Physical Sciences,1,0,1,1.000,13.842
+Environmental Impact and Sustainability,Environmental Science,Physical Sciences,1,0,0,0.000,1.675
+Environmental Toxicology and Ecotoxicology,Environmental Science,Physical Sciences,1,0,0,0.000,2.153
+Enzyme Production and Characterization,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Enzyme function and inhibition,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.244
+Erythropoietin and Anemia Treatment,Medicine,Health Sciences,1,0,0,0.000,0.000
+Escherichia coli research studies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,1,1.000,7.830
+Ethics and Social Impacts of AI,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Ethics in Business and Education,Decision Sciences,Social Sciences,1,0,0,0.000,0.000
+Evacuation and Crowd Dynamics,Engineering,Physical Sciences,1,0,0,0.000,0.348
+Evaluation of Teaching Practices,Social Sciences,Social Sciences,1,1,1,1.000,13.114
+Evolution and Genetic Dynamics,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Evolutionary Psychology and Human Behavior,Psychology,Social Sciences,1,0,0,0.000,0.000
+Experimental and Theoretical Physics Studies,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Explainable Artificial Intelligence (XAI),Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Extraction and Separation Processes,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Facial Trauma and Fracture Management,Medicine,Health Sciences,1,1,0,0.000,1.089
+Family Caregiving in Mental Illness,Psychology,Social Sciences,1,0,0,0.000,0.000
+Fashion and Cultural Textiles,Arts and Humanities,Social Sciences,1,1,0,0.000,0.000
+Fatigue and fracture mechanics,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Fault Detection and Control Systems,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Fecal contamination and water quality,Environmental Science,Physical Sciences,1,0,0,0.000,0.000
+Ferrocene Chemistry and Applications,Chemistry,Physical Sciences,1,0,0,0.000,0.000
+Ferroelectric and Negative Capacitance Devices,Engineering,Physical Sciences,1,0,0,0.000,1.250
+Ferroelectric and Piezoelectric Materials,Materials Science,Physical Sciences,1,0,0,0.000,0.000
+Financial Markets and Investment Strategies,"Economics, Econometrics and Finance",Social Sciences,1,0,0,0.000,1.142
+Fire effects on ecosystems,Environmental Science,Physical Sciences,1,1,0,0.000,0.000
+Flow Experience in Various Fields,Psychology,Social Sciences,1,0,0,0.000,0.000
+Focus Groups and Qualitative Methods,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Food Chemistry and Fat Analysis,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Food Industry and Aquatic Biology,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.289
+Food Quality and Safety Studies,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Food Science and Nutritional Studies,Nursing,Health Sciences,1,0,0,0.000,0.167
+Food Waste Reduction and Sustainability,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,1.932
+Forecasting Techniques and Applications,Decision Sciences,Social Sciences,1,0,0,0.000,0.000
+French Historical and Cultural Studies,Arts and Humanities,Social Sciences,1,0,0,0.000,0.000
+Fusion materials and technologies,Materials Science,Physical Sciences,1,0,0,0.000,0.000
+GDF15 and Related Biomarkers,Medicine,Health Sciences,1,0,0,0.000,0.769
+Gait Recognition and Analysis,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Game Theory and Voting Systems,"Economics, Econometrics and Finance",Social Sciences,1,1,0,0.000,0.000
+Garlic and Onion Studies,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Gas Sensing Nanomaterials and Sensors,Engineering,Physical Sciences,1,0,1,1.000,10.722
+Gear and Bearing Dynamics Analysis,Engineering,Physical Sciences,1,0,1,1.000,0.000
+Gender Roles and Identity Studies,Social Sciences,Social Sciences,1,1,0,0.000,0.000
+Gender Studies and Social Issues,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Gender and Technology in Education,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+"Gender, Labor, and Family Dynamics",Social Sciences,Social Sciences,1,1,0,0.000,0.000
+Generative Adversarial Networks and Image Synthesis,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Genetic Mapping and Diversity in Plants and Animals,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Genetic and Kidney Cyst Diseases,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,1,0,0.000,0.000
+Genetic and phenotypic traits in livestock,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,1,1.000,2.748
+Genetic diversity and population structure,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Genetically Modified Organisms Research,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+"Genomics, phytochemicals, and oxidative stress","Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.889
+Geological Modeling and Analysis,Earth and Planetary Sciences,Physical Sciences,1,0,0,0.000,0.000
+Geomagnetism and Paleomagnetism Studies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Geophysical Methods and Applications,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Geophysics and Sensor Technology,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Geotechnical Engineering and Soil Stabilization,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Gestational Trophoblastic Disease Studies,Medicine,Health Sciences,1,0,0,0.000,1.656
+Global Financial Crisis and Policies,"Economics, Econometrics and Finance",Social Sciences,1,0,0,0.000,0.000
+Global Peace and Security Dynamics,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Glutathione Transferases and Polymorphisms,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Graphene research and applications,Materials Science,Physical Sciences,1,0,0,0.000,1.611
+Groundwater flow and contamination studies,Environmental Science,Physical Sciences,1,0,0,0.000,1.760
+Hand Gesture Recognition Systems,Computer Science,Physical Sciences,1,0,0,0.000,0.512
+Hate Speech and Cyberbullying Detection,Computer Science,Physical Sciences,1,0,1,1.000,2.980
+Health Education and Validation,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+"Health, Education, and Physical Culture",Psychology,Social Sciences,1,0,0,0.000,0.000
+Healthcare Education and Workforce Issues,Nursing,Health Sciences,1,0,0,0.000,1.447
+Healthcare Quality and Satisfaction,Health Professions,Health Sciences,1,0,0,0.000,0.000
+Healthcare Technology and Patient Monitoring,Medicine,Health Sciences,1,0,0,0.000,0.000
+Healthcare and Environmental Waste Management,Medicine,Health Sciences,1,1,1,1.000,4.215
+Healthcare during COVID-19 Pandemic,Computer Science,Physical Sciences,1,1,0,0.000,0.000
+Healthcare innovation and challenges,Social Sciences,Social Sciences,1,0,1,1.000,4.824
+Heat Transfer and Boiling Studies,Engineering,Physical Sciences,1,1,0,0.000,0.000
+Heat Transfer and Numerical Methods,Engineering,Physical Sciences,1,1,0,0.000,0.361
+Heavy Metals in Plants,Chemistry,Physical Sciences,1,0,0,0.000,0.999
+Helminth infection and control,Veterinary,Health Sciences,1,0,0,0.000,0.000
+Heme Oxygenase-1 and Carbon Monoxide,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,1.790
+Herbal Medicine Research Studies,Medicine,Health Sciences,1,0,0,0.000,0.000
+Hermeneutics and Narrative Identity,Arts and Humanities,Social Sciences,1,1,0,0.000,0.000
+High voltage insulation and dielectric phenomena,Materials Science,Physical Sciences,1,0,0,0.000,0.000
+High-pressure geophysics and materials,Earth and Planetary Sciences,Physical Sciences,1,0,0,0.000,0.000
+Higher Education and Employability,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Historical Psychiatry and Medical Practices,Psychology,Social Sciences,1,0,0,0.000,0.000
+Historical Studies and Socio-cultural Analysis,Arts and Humanities,Social Sciences,1,0,0,0.000,0.000
+"Historical Studies on Reproduction, Gender, Health, and Societal Changes",Arts and Humanities,Social Sciences,1,0,0,0.000,0.000
+Historical and Modern Theater Studies,Psychology,Social Sciences,1,0,0,0.000,0.000
+Historical and Religious Studies of Rome,Arts and Humanities,Social Sciences,1,0,0,0.000,0.000
+"History, Medicine, and Leadership",Social Sciences,Social Sciences,1,1,0,0.000,0.000
+"Homicide, Infanticide, and Child Abuse",Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Horticultural and Viticultural Research,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,1.464
+Hospitality and Tourism Education,"Business, Management and Accounting",Social Sciences,1,0,0,0.000,0.000
+Human Resource Development and Performance Evaluation,Psychology,Social Sciences,1,0,0,0.000,0.747
+Human-Animal Interaction Studies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,1,1.000,5.954
+Human-Automation Interaction and Safety,Psychology,Social Sciences,1,0,1,1.000,10.779
+Humor Studies and Applications,Psychology,Social Sciences,1,0,0,0.000,0.000
+Hydraulic and Pneumatic Systems,Engineering,Physical Sciences,1,0,0,0.000,0.398
+Hydrogen embrittlement and corrosion behaviors in metals,Materials Science,Physical Sciences,1,0,0,0.000,0.195
+"Hydropower, Displacement, Environmental Impact",Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Image Retrieval and Classification Techniques,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Image and Video Quality Assessment,Computer Science,Physical Sciences,1,0,0,0.000,0.209
+Immunotoxicology and immune responses,Immunology and Microbiology,Life Sciences,1,0,0,0.000,0.573
+Impact of Light on Environment and Health,Environmental Science,Physical Sciences,1,1,1,1.000,3.447
+Indoor Air Quality and Microbial Exposure,Environmental Science,Physical Sciences,1,0,0,0.000,1.524
+Industrial Gas Emission Control,Engineering,Physical Sciences,1,0,1,1.000,3.548
+Information Systems Education and Curriculum Development,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Infrared Thermography in Medicine,Medicine,Health Sciences,1,1,0,0.000,1.532
+Infrastructure Maintenance and Monitoring,Engineering,Physical Sciences,1,0,0,0.000,0.995
+Injury Epidemiology and Prevention,Medicine,Health Sciences,1,0,0,0.000,0.979
+Innovation and Knowledge Management,"Business, Management and Accounting",Social Sciences,1,0,0,0.000,0.000
+Innovation and Socioeconomic Development,"Business, Management and Accounting",Social Sciences,1,0,0,0.000,0.470
+Innovation in Digital Healthcare Systems,Health Professions,Health Sciences,1,0,0,0.000,1.631
+Innovations in Concrete and Construction Materials,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Innovative Approaches in Technology and Social Development,"Business, Management and Accounting",Social Sciences,1,0,0,0.000,0.000
+Innovative Energy Harvesting Technologies,Engineering,Physical Sciences,1,0,0,0.000,0.473
+Innovative Teaching and Learning Methods,Psychology,Social Sciences,1,0,1,1.000,2.986
+Insect Pest Control Strategies,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Insect Utilization and Effects,Agricultural and Biological Sciences,Life Sciences,1,0,1,1.000,5.634
+Insect behavior and control techniques,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Intellectual Property Rights and Media,Social Sciences,Social Sciences,1,0,1,1.000,0.000
+Intelligent Tutoring Systems and Adaptive Learning,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Interconnection Networks and Systems,Computer Science,Physical Sciences,1,0,1,1.000,3.248
+Intergenerational and Educational Inequality Studies,Social Sciences,Social Sciences,1,0,1,1.000,2.117
+Intraperitoneal and Appendiceal Malignancies,Medicine,Health Sciences,1,1,0,0.000,0.000
+Italy: Economic History and Contemporary Issues,"Economics, Econometrics and Finance",Social Sciences,1,1,1,1.000,11.752
+Job Satisfaction and Organizational Behavior,"Business, Management and Accounting",Social Sciences,1,0,0,0.000,1.121
+Knowledge Management and Sharing,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Landslides and related hazards,Environmental Science,Physical Sciences,1,0,0,0.000,0.000
+"Language, Communication, and Linguistic Studies",Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Laser Applications in Dentistry and Medicine,Medicine,Health Sciences,1,0,0,0.000,0.000
+Latin American and Latino Studies,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Lattice Boltzmann Simulation Studies,Engineering,Physical Sciences,1,0,0,0.000,0.356
+"Law, logistics, and international trade","Business, Management and Accounting",Social Sciences,1,0,1,1.000,0.000
+Leadership and Management in Organizations,"Business, Management and Accounting",Social Sciences,1,0,0,0.000,0.000
+Legal and Policy Issues,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+"Legal, Health, Environmental and COVID-19 Challenges",Medicine,Health Sciences,1,0,1,1.000,0.000
+Leptospirosis research and findings,Immunology and Microbiology,Life Sciences,1,1,0,0.000,0.000
+Library Collection Development and Digital Resources,Computer Science,Physical Sciences,1,1,0,0.000,0.899
+Lightning and Electromagnetic Phenomena,Physics and Astronomy,Physical Sciences,1,0,1,1.000,11.303
+Linguistic research and analysis,Arts and Humanities,Social Sciences,1,1,0,0.000,0.000
+Lipid metabolism and biosynthesis,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,1,1.000,19.560
+Listeria monocytogenes in Food Safety,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Literature Analysis and Criticism,Medicine,Health Sciences,1,0,0,0.000,0.000
+Livestock and Poultry Management,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.136
+Lubricants and Their Additives,Engineering,Physical Sciences,1,0,0,0.000,0.000
+MXene and MAX Phase Materials,Materials Science,Physical Sciences,1,0,0,0.000,0.000
+Machine Fault Diagnosis Techniques,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Magnesium Alloys: Properties and Applications,Materials Science,Physical Sciences,1,0,1,1.000,28.387
+Magnetic and Electromagnetic Effects,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Magnetic confinement fusion research,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Magneto-Optical Properties and Applications,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Magnolia and Illicium research,Medicine,Health Sciences,1,0,0,0.000,1.893
+Marine Biology and Environmental Chemistry,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Marine and coastal ecosystems,Earth and Planetary Sciences,Physical Sciences,1,0,0,0.000,0.000
+Marine animal studies overview,Environmental Science,Physical Sciences,1,0,0,0.000,0.000
+Maritime Navigation and Safety,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Markov Chains and Monte Carlo Methods,Mathematics,Physical Sciences,1,0,0,0.000,0.000
+Mathematical and Theoretical Epidemiology and Ecology Models,Medicine,Health Sciences,1,0,0,0.000,0.288
+Meat and Animal Product Quality,Agricultural and Biological Sciences,Life Sciences,1,0,1,1.000,0.000
+Media Influence and Politics,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Medical Case Reports and Studies,Medicine,Health Sciences,1,1,0,0.000,0.000
+Medical Research and Treatments,Medicine,Health Sciences,1,1,0,0.000,0.000
+Medical and Agricultural Research Studies,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Medical research and treatments,Medicine,Health Sciences,1,0,0,0.000,0.000
+Medieval European History and Architecture,Arts and Humanities,Social Sciences,1,0,0,0.000,0.000
+Meromorphic and Entire Functions,Mathematics,Physical Sciences,1,0,0,0.000,0.000
+Metal and Thin Film Mechanics,Engineering,Physical Sciences,1,1,1,1.000,4.271
+Microbial Fuel Cells and Bioremediation,Environmental Science,Physical Sciences,1,0,0,0.000,0.000
+Microbial Metabolites in Food Biotechnology,Nursing,Health Sciences,1,0,0,0.000,0.000
+Microbial bioremediation and biosurfactants,Environmental Science,Physical Sciences,1,0,0,0.000,0.000
+Microbial infections and disease research,Immunology and Microbiology,Life Sciences,1,0,0,0.000,0.000
+Microfluidic and Capillary Electrophoresis Applications,Engineering,Physical Sciences,1,0,0,0.000,0.594
+Middle East Politics and Society,Social Sciences,Social Sciences,1,0,0,0.000,1.181
+Military Technology and Strategies,Engineering,Physical Sciences,1,0,0,0.000,0.000
+"Military, Security, and Education Studies",Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Mind wandering and attention,Neuroscience,Life Sciences,1,0,0,0.000,0.118
+Mine drainage and remediation techniques,Environmental Science,Physical Sciences,1,0,0,0.000,0.336
+Mineral Processing and Grinding,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Mobile Learning in Education,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Molecular Junctions and Nanostructures,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Mollusks and Parasites Studies,Agricultural and Biological Sciences,Life Sciences,1,1,0,0.000,0.785
+Monetary Policy and Economic Impact,"Economics, Econometrics and Finance",Social Sciences,1,1,0,0.000,0.000
+Multi-Agent Systems and Negotiation,Computer Science,Physical Sciences,1,1,0,0.000,0.000
+Multiferroics and related materials,Materials Science,Physical Sciences,1,0,0,0.000,0.731
+Multimedia Communication and Technology,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Music History and Culture,Arts and Humanities,Social Sciences,1,1,1,1.000,16.422
+Nail Diseases and Treatments,Medicine,Health Sciences,1,1,0,0.000,0.000
+"Names, Identity, and Discrimination Research",Social Sciences,Social Sciences,1,0,1,1.000,2.773
+Nanocluster Synthesis and Applications,Materials Science,Physical Sciences,1,0,0,0.000,0.000
+Nanocomposite Films for Food Packaging,Materials Science,Physical Sciences,1,0,0,0.000,0.000
+Nanoparticles: synthesis and applications,Materials Science,Physical Sciences,1,0,0,0.000,2.179
+Natural Compounds in Disease Treatment,Medicine,Health Sciences,1,0,1,1.000,8.463
+Natural Language Processing Techniques,Computer Science,Physical Sciences,1,0,0,0.000,0.707
+Neural dynamics and brain function,Neuroscience,Life Sciences,1,0,0,0.000,1.306
+Nitrogen and Sulfur Effects on Brassica,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.081
+Non-Destructive Testing Techniques,Engineering,Physical Sciences,1,0,1,1.000,3.751
+Nonlinear Dynamics and Pattern Formation,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Nonlinear Optical Materials Studies,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Nonlinear Waves and Solitons,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Nonprofit Sector and Volunteering,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Nuclear Structure and Function,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,1,0,0.000,0.087
+Nuclear physics research studies,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Numerical methods for differential equations,Mathematics,Physical Sciences,1,1,0,0.000,0.320
+Occupational Health and Burnout,Health Professions,Health Sciences,1,0,0,0.000,0.000
+Oceanographic and Atmospheric Processes,Earth and Planetary Sciences,Physical Sciences,1,0,0,0.000,1.748
+Online Learning and Analytics,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Open Education and E-Learning,Computer Science,Physical Sciences,1,1,0,0.000,0.657
+Ophthalmology and Visual Impairment Studies,Medicine,Health Sciences,1,0,1,1.000,24.143
+Optical Coherence Tomography Applications,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Optimization and Packing Problems,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Optimization and Variational Analysis,Computer Science,Physical Sciences,1,0,0,0.000,0.152
+Organ and Tissue Transplantation Research,Medicine,Health Sciences,1,0,1,1.000,4.044
+Organoselenium and organotellurium chemistry,"Pharmacology, Toxicology and Pharmaceutics",Life Sciences,1,0,0,0.000,0.209
+Origins and Evolution of Life,Physics and Astronomy,Physical Sciences,1,1,0,0.000,0.000
+Paleontology and Evolutionary Biology,Earth and Planetary Sciences,Physical Sciences,1,0,1,1.000,12.129
+Paleontology and Stratigraphy of Fossils,Earth and Planetary Sciences,Physical Sciences,1,0,0,0.000,0.000
+Paraoxonase enzyme and polymorphisms,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.711
+Parental Involvement in Education,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Parkinson's Disease and Spinal Disorders,Medicine,Health Sciences,1,0,0,0.000,0.000
+Participatory Visual Research Methods,Social Sciences,Social Sciences,1,0,1,1.000,0.000
+Particle Dynamics in Fluid Flows,Engineering,Physical Sciences,1,0,0,0.000,2.171
+Parvovirus B19 Infection Studies,Medicine,Health Sciences,1,1,0,0.000,0.000
+Pathogenesis and Treatment of Hiccups,Medicine,Health Sciences,1,1,0,0.000,1.429
+Personal Information Management and User Behavior,Decision Sciences,Social Sciences,1,1,1,1.000,2.332
+Personality Disorders and Psychopathology,Psychology,Social Sciences,1,1,0,0.000,2.377
+Pesticide and Herbicide Environmental Studies,Environmental Science,Physical Sciences,1,0,0,0.000,0.444
+Pharmacogenetics and Drug Metabolism,"Pharmacology, Toxicology and Pharmaceutics",Life Sciences,1,0,1,1.000,3.943
+Pharmacological Effects of Medicinal Plants,Medicine,Health Sciences,1,0,0,0.000,0.000
+Pharmacological Receptor Mechanisms and Effects,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,1,0,0.000,0.000
+Pharmacy and Medical Practices,"Pharmacology, Toxicology and Pharmaceutics",Life Sciences,1,0,0,0.000,0.000
+Phenothiazines and Benzothiazines Synthesis and Activities,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.081
+Phonetics and Phonology Research,Psychology,Social Sciences,1,0,0,0.000,0.000
+Photonic Crystal and Fiber Optics,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Photovoltaic System Optimization Techniques,Energy,Physical Sciences,1,0,0,0.000,0.000
+Physiological and biochemical adaptations,Environmental Science,Physical Sciences,1,0,1,1.000,6.092
+Phytochemical Studies and Bioactivities,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Phytochemistry and Biological Activities,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Phytoestrogen effects and research,Medicine,Health Sciences,1,0,0,0.000,0.000
+Plant Ecology and Soil Science,Environmental Science,Physical Sciences,1,0,0,0.000,0.000
+Plant Micronutrient Interactions and Effects,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.546
+Plant Physiology and Cultivation Studies,Agricultural and Biological Sciences,Life Sciences,1,0,1,1.000,5.264
+Plant Reproductive Biology,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Plant Stress Responses and Tolerance,Agricultural and Biological Sciences,Life Sciences,1,0,1,1.000,8.223
+Plant Virus Research Studies,Agricultural and Biological Sciences,Life Sciences,1,0,1,1.000,7.320
+Plant and Biological Electrophysiology Studies,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Plant and Fungal Species Descriptions,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Plant pathogens and resistance mechanisms,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Plant responses to water stress,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,1.663
+Plant tissue culture and regeneration,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.080
+Plant-based Medicinal Research,"Pharmacology, Toxicology and Pharmaceutics",Life Sciences,1,0,0,0.000,0.000
+Plasma Applications and Diagnostics,Medicine,Health Sciences,1,0,1,1.000,18.824
+Plasma and Flow Control in Aerodynamics,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Pleistocene-Era Hominins and Archaeology,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Political Conflict and Governance,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Political Economy and Marxism,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Polymer Nanocomposite Synthesis and Irradiation,Materials Science,Physical Sciences,1,0,0,0.000,0.000
+Polysaccharides and Plant Cell Walls,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+"Populism, Right-Wing Movements",Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Porphyrin Metabolism and Disorders,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Post-Soviet Geopolitical Dynamics,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Postharvest Quality and Shelf Life Management,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Power System Reliability and Maintenance,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Pregnancy-related medical research,Medicine,Health Sciences,1,1,0,0.000,0.000
+Probabilistic and Robust Engineering Design,Decision Sciences,Social Sciences,1,0,0,0.000,0.000
+Problem and Project Based Learning,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Process Optimization and Integration,Engineering,Physical Sciences,1,0,0,0.000,0.639
+Protein Hydrolysis and Bioactive Peptides,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Psychiatric care and mental health services,Psychology,Social Sciences,1,1,0,0.000,0.640
+Psychology of Social Influence,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Psychosocial Factors Impacting Youth,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Public Health and Nutrition,Medicine,Health Sciences,1,1,0,0.000,0.000
+Pulsars and Gravitational Waves Research,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Qualitative Comparative Analysis Research,Social Sciences,Social Sciences,1,1,1,1.000,5.943
+Quantum Mechanics and Applications,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.149
+Quantum and electron transport phenomena,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+"Quantum, superfluid, helium dynamics",Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+RFID technology advancements,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Radar Systems and Signal Processing,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Radiation Detection and Scintillator Technologies,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Radio Frequency Integrated Circuit Design,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Radio Wave Propagation Studies,Engineering,Physical Sciences,1,0,0,0.000,0.000
+"Radio, Podcasts, and Digital Media",Social Sciences,Social Sciences,1,1,0,0.000,0.492
+"Recreation, Leisure, Wilderness Management",Psychology,Social Sciences,1,0,1,1.000,3.046
+Reflective Practices in Education,Social Sciences,Social Sciences,1,1,1,1.000,2.821
+Reformation and Early Modern Christianity,Arts and Humanities,Social Sciences,1,0,0,0.000,0.000
+Refrigeration and Air Conditioning Technologies,Engineering,Physical Sciences,1,0,1,1.000,5.529
+Regional Development and Environment,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Reliability and Maintenance Optimization,Engineering,Physical Sciences,1,0,0,0.000,1.240
+Remote Sensing and Land Use,Earth and Planetary Sciences,Physical Sciences,1,0,0,0.000,0.000
+Remote Sensing and LiDAR Applications,Environmental Science,Physical Sciences,1,0,0,0.000,0.502
+Remote-Sensing Image Classification,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Reproductive Biology and Fertility,Medicine,Health Sciences,1,0,0,0.000,0.000
+Reproductive System and Pregnancy,Immunology and Microbiology,Life Sciences,1,0,1,1.000,4.006
+Research in Social Sciences,Social Sciences,Social Sciences,1,0,1,1.000,28.824
+Retinal Development and Disorders,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,1,1.000,3.558
+Romani and Gypsy Studies,Health Professions,Health Sciences,1,0,0,0.000,0.000
+Ruminant Nutrition and Digestive Physiology,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,1.593
+SAS software applications and methods,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Safety Systems Engineering in Autonomy,Engineering,Physical Sciences,1,0,0,0.000,0.207
+Scheduling and Optimization Algorithms,Engineering,Physical Sciences,1,0,0,0.000,1.327
+Scientific Research Methodologies and Applications,Environmental Science,Physical Sciences,1,0,0,0.000,0.000
+Scientific Research and Discoveries,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Scientific and Engineering Research Topics,Dentistry,Health Sciences,1,0,1,1.000,0.000
+Second Language Learning and Teaching,Arts and Humanities,Social Sciences,1,0,0,0.000,0.000
+Security and Verification in Computing,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Sentiment Analysis and Opinion Mining,Computer Science,Physical Sciences,1,0,1,1.000,1.979
+Service-Oriented Architecture and Web Services,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Smart Cities and Technologies,Engineering,Physical Sciences,1,0,0,0.000,0.226
+Smart Systems and Machine Learning,Computer Science,Physical Sciences,1,0,0,0.000,0.201
+Social Robot Interaction and HRI,Psychology,Social Sciences,1,0,0,0.000,1.306
+Social Sciences and Governance,Social Sciences,Social Sciences,1,1,0,0.000,0.000
+Social and Behavioral Studies,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Social and Intergroup Psychology,Social Sciences,Social Sciences,1,0,0,0.000,0.759
+Soft tissue tumors and treatment,Medicine,Health Sciences,1,1,0,0.000,0.000
+Software Engineering Research,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Software-Defined Networks and 5G,Computer Science,Physical Sciences,1,0,0,0.000,0.196
+Soil Science and Environmental Management,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+South Asian Studies and Diaspora,Arts and Humanities,Social Sciences,1,0,1,1.000,45.300
+Space Exploration and Technology,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Space Satellite Systems and Control,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Spacecraft Design and Technology,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Speech Recognition and Synthesis,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Speech and dialogue systems,Computer Science,Physical Sciences,1,0,0,0.000,0.980
+Sport Psychology and Performance,Psychology,Social Sciences,1,0,0,0.000,0.894
+"Sports, Gender, and Society",Social Sciences,Social Sciences,1,1,0,0.000,0.000
+Statistical Distribution Estimation and Applications,Mathematics,Physical Sciences,1,0,0,0.000,1.233
+Statistical Methods in Epidemiology,Mathematics,Physical Sciences,1,0,0,0.000,0.000
+Statistics Education and Methodologies,Mathematics,Physical Sciences,1,0,0,0.000,0.000
+Stochastic processes and statistical mechanics,Mathematics,Physical Sciences,1,0,0,0.000,0.000
+Strong Light-Matter Interactions,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Structural Analysis and Optimization,Engineering,Physical Sciences,1,1,0,0.000,0.000
+Studies on Chitinases and Chitosanases,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.000
+Study of Mite Species,Agricultural and Biological Sciences,Life Sciences,1,1,0,0.000,2.902
+Sugarcane Cultivation and Processing,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Superconductivity in MgB2 and Alloys,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+Supramolecular Self-Assembly in Materials,Materials Science,Physical Sciences,1,1,0,0.000,0.000
+Surfactants and Colloidal Systems,Chemistry,Physical Sciences,1,0,0,0.000,0.000
+Survey Sampling and Estimation Techniques,Mathematics,Physical Sciences,1,0,0,0.000,0.000
+T-cell and Retrovirus Studies,Immunology and Microbiology,Life Sciences,1,0,0,0.000,0.480
+Technology Adoption and User Behaviour,Decision Sciences,Social Sciences,1,0,0,0.000,0.000
+Technology and Data Analysis,Computer Science,Physical Sciences,1,1,0,0.000,0.000
+Theology and Canon Law Studies,Arts and Humanities,Social Sciences,1,0,0,0.000,0.000
+Thermodynamic properties of mixtures,Chemical Engineering,Physical Sciences,1,1,0,0.000,0.316
+Time Series Analysis and Forecasting,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Topological Materials and Phenomena,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.623
+"Torture, Ethics, and Law",Social Sciences,Social Sciences,1,0,1,1.000,6.350
+"Tourism, Volunteerism, and Development",Social Sciences,Social Sciences,1,1,0,0.000,0.000
+Traffic Prediction and Management Techniques,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Transport and Economic Policies,"Business, Management and Accounting",Social Sciences,1,0,0,0.000,0.000
+Transportation Planning and Optimization,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Transportation Safety and Impact Analysis,Engineering,Physical Sciences,1,0,0,0.000,0.132
+Tumors and Oncological Cases,Medicine,Health Sciences,1,1,0,0.000,0.000
+Turbomachinery Performance and Optimization,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Turkey's Politics and Society,Social Sciences,Social Sciences,1,0,1,1.000,7.598
+Twentieth Century Scientific Developments,Arts and Humanities,Social Sciences,1,0,0,0.000,0.000
+UAV Applications and Optimization,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Undergraduate Neuroscience Education and Research,Neuroscience,Life Sciences,1,1,0,0.000,1.594
+Underground infrastructure and sustainability,Engineering,Physical Sciences,1,0,0,0.000,0.712
+Underwater Acoustics Research,Earth and Planetary Sciences,Physical Sciences,1,0,0,0.000,0.195
+Urban Design and Spatial Analysis,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Urban and Rural Development Challenges,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Urologic and reproductive health conditions,Medicine,Health Sciences,1,0,0,0.000,0.000
+User Authentication and Security Systems,Computer Science,Physical Sciences,1,0,1,1.000,3.187
+VLSI and Analog Circuit Testing,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Vanadium and Halogenation Chemistry,Chemistry,Physical Sciences,1,0,0,0.000,0.475
+Vector-Borne Animal Diseases,Agricultural and Biological Sciences,Life Sciences,1,0,0,0.000,0.000
+Veterinary Equine Medical Research,Veterinary,Health Sciences,1,0,0,0.000,0.000
+Veterinary Medicine and Surgery,Veterinary,Health Sciences,1,0,1,1.000,22.601
+Veterinary medicine and infectious diseases,Veterinary,Health Sciences,1,0,0,0.000,0.000
+Video Coding and Compression Technologies,Computer Science,Physical Sciences,1,0,0,0.000,0.000
+Visual perception and processing mechanisms,Neuroscience,Life Sciences,1,0,0,0.000,0.000
+Water Systems and Optimization,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Whipple's Disease and Interleukins,Medicine,Health Sciences,1,1,0,0.000,0.248
+Wildlife-Road Interactions and Conservation,Environmental Science,Physical Sciences,1,0,0,0.000,0.000
+Williams Syndrome Research,Neuroscience,Life Sciences,1,0,0,0.000,0.000
+Wireless Body Area Networks,Engineering,Physical Sciences,1,0,0,0.000,0.000
+Work-Family Balance Challenges,Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Workplace Spirituality and Leadership,Social Sciences,Social Sciences,1,0,1,1.000,3.946
+"World Wars: History, Literature, and Impact",Social Sciences,Social Sciences,1,0,0,0.000,0.000
+Yeasts and Rust Fungi Studies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,0.437
+"Yersinia bacterium, plague, ectoparasites research","Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,1.513
+ZnO doping and properties,Materials Science,Physical Sciences,1,0,0,0.000,0.000
+demographic modeling and climate adaptation,Decision Sciences,Social Sciences,1,0,0,0.000,0.000
+dental development and anomalies,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,1,1,1.000,0.000
+earthquake and tectonic studies,Earth and Planetary Sciences,Physical Sciences,1,0,0,0.000,1.710
+nanoparticles nucleation surface interactions,Earth and Planetary Sciences,Physical Sciences,1,0,0,0.000,0.000
+stochastic dynamics and bifurcation,Physics and Astronomy,Physical Sciences,1,0,0,0.000,0.000
+thermodynamics and calorimetric analyses,Chemistry,Physical Sciences,1,1,0,0.000,1.996
+vaccines and immunoinformatics approaches,"Biochemistry, Genetics and Molecular Biology",Life Sciences,1,0,0,0.000,2.280

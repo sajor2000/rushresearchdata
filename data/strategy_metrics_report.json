@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-05-15T09:22:58.666415",
+  "year_window": "2021-2026",
+  "faculty_rows": 1688,
+  "faculty_work_rows": 26645,
+  "unique_works": 19197,
+  "openalex_work_metrics_rows": 19197,
+  "openalex_missing_work_rows": 105,
+  "top10_impact_work_rows": 3656,
+  "topic_rows": 1847,
+  "cross_department_unique_works": 1646,
+  "rush_led_cross_department_unique_works": 1073,
+  "nih_reporter_project_pi_year_rows": 773,
+  "nih_reporter_exact_pi_matches": 492,
+  "nih_reporter_unmatched_pi_rows": 276,
+  "nih_reporter_ambiguous_pi_rows": 5,
+  "outputs": {
+    "work_metrics": "data/work_strategy_metrics.csv",
+    "department_strategy": "data/department_strategy_metrics.csv",
+    "topic_strategy": "data/topic_strategy_metrics.csv",
+    "team_science": "data/department_team_science.csv",
+    "team_pairs": "data/department_team_science_pairs.csv",
+    "nih_awards": "data/nih_reporter_awards.csv",
+    "nih_department": "data/department_nih_funding.csv"
+  }
+}

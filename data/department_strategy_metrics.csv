@@ -1,0 +1,29 @@
+rush_dept,unique_recent_works,mean_fwci,top10_impact_works,top10_impact_share,top_topic,top_topic_works,openalex_awarded_works,nih_awarded_works
+Anatomy & Cell Biology,387,1.800,56,0.145,Microtubule and mitosis dynamics,17,80,57
+Anesthesiology,197,3.015,49,0.249,Diversity and Career in Medicine,20,16,13
+Behavioral Sciences,13,4.021,2,0.154,Early Childhood Education and Development,4,4,0
+Cardiovascular & Thoracic Surgery,216,1.071,23,0.106,Lung Cancer Diagnosis and Treatment,35,21,5
+College of Health Sciences,1024,2.414,216,0.211,"Religion, Spirituality, and Psychology",52,215,80
+College of Nursing,615,1.283,89,0.145,Physical Activity and Health,29,82,64
+Dermatology,311,0.983,25,0.080,Autoimmune Bullous Skin Diseases,51,39,25
+Diagnostic Radiology & Nuclear Medicine,531,1.589,81,0.153,Dementia and Cognitive Impairment Research,54,82,75
+Emergency Medicine,773,2.469,190,0.246,Innovations in Medical Education,51,65,25
+Family & Preventive Medicine,533,2.574,116,0.218,Dementia and Cognitive Impairment Research,44,162,135
+Internal Medicine,5619,2.244,1041,0.185,Dementia and Cognitive Impairment Research,108,1149,788
+Microbial Pathogens & Immunity,132,1.675,29,0.220,HIV Research and Treatment,15,64,55
+Neurological Sciences,2695,3.032,651,0.242,Dementia and Cognitive Impairment Research,350,985,795
+Neurological Surgery,537,2.668,105,0.196,Acute Ischemic Stroke Management,62,35,28
+Obstetrics & Gynecology,194,1.768,33,0.170,Endometrial and Cervical Cancer Treatments,12,44,25
+Ophthalmology,174,1.792,32,0.184,Retinal and Macular Surgery,35,10,5
+Orthopedic Surgery,2125,1.739,396,0.186,Spine and Intervertebral Disc Pathology,227,202,131
+Otorhinolaryngology - Head & Neck Surgery,315,1.369,41,0.130,Head and Neck Surgical Oncology,42,8,4
+Pathology,775,2.872,193,0.249,Dementia and Cognitive Impairment Research,93,270,202
+Pediatrics,900,2.209,187,0.208,Genetics and Neurodevelopmental Disorders,98,162,112
+Physical Medicine & Rehabilitation,151,1.128,19,0.126,Hip disorders and treatments,30,15,10
+Physiology & Biophysics,172,1.186,11,0.064,Cardiac electrophysiology and arrhythmias,18,76,36
+Preventive Medicine,0,0.000,0,0.000,,0,0,0
+Psychiatry & Behavioral Sciences,1048,1.911,205,0.196,Sleep and related disorders,102,376,285
+Radiation Oncology,310,1.252,34,0.110,Advances in Oncology and Radiotherapy,45,33,11
+Surgery,951,2.443,168,0.177,Pancreatic and Hepatic Oncology Research,52,64,31
+Unclassified,0,0.000,0,0.000,,0,0,0
+Urology,601,2.323,128,0.213,Renal cell carcinoma treatment,192,16,7

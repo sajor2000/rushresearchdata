@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-05-15T09:22:59.552785",
+  "blocking_issue_count": 0,
+  "review_issue_count": 3,
+  "row_counts": {
+    "faculty_summary": 1688,
+    "faculty_work_rows": 26645,
+    "unique_authorship_works": 19197,
+    "work_strategy_metrics": 19197,
+    "department_strategy_metrics": 28,
+    "topic_strategy_metrics": 1847,
+    "department_team_science": 26,
+    "department_team_science_pairs": 151,
+    "nih_reporter_awards": 773,
+    "department_nih_funding": 28
+  },
+  "openalex_metadata_missingness": {
+    "missing_primary_topic_rows": 105,
+    "missing_fwci_rows": 1224,
+    "missing_primary_topic_share": 0.0055,
+    "missing_fwci_share": 0.0638
+  },
+  "nih_match_counts": {
+    "exact_first_last": 492,
+    "unmatched": 276,
+    "ambiguous_first_last": 5
+  },
+  "reconciliation": {
+    "faculty_top10_mismatches": 0,
+    "active_nih_department_sum": 84,
+    "active_nih_faculty_sum": 93
+  }
+}
