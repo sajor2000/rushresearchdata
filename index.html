@@ -190,7 +190,7 @@
     <ul>
       <li><strong>H-Index</strong> &mdash; A researcher with h-index <em>h</em> has published at least <em>h</em> papers, each cited at least <em>h</em> times. It captures sustained impact over a career, not just volume.</li>
       <li><strong>Rush 5yr</strong> &mdash; Publications from 2021&ndash;2026 where at least one author lists a Rush affiliation. This is the best available measure of recent institutional research activity.</li>
-      <li><strong>Senior Author 5yr</strong> &mdash; Publications from 2021&ndash;2026 where the faculty member appears as last author in OpenAlex. This is a proxy for likely research ownership or senior leadership, not a judgment about authorship appropriateness.</li>
+      <li><strong>Senior Author 5yr</strong> &mdash; Publications from 2021&ndash;2026 where the faculty member appears as last author in OpenAlex. This is a proxy for senior leadership patterns, not proof that the faculty member owned the study or a judgment about authorship appropriateness.</li>
       <li><strong>2yr Citedness</strong> &mdash; Average citations per paper published in the last two years. Captures how much attention a researcher&rsquo;s recent work is attracting from the field.</li>
       <li><strong>Important:</strong> H-indices are <u>not comparable across disciplines</u>. An h-index of 15 in nursing represents a different level of achievement than h&nbsp;=&nbsp;15 in molecular biology. Any cross-department comparison should account for field-specific citation norms.</li>
       <li><strong>Data source:</strong> Faculty names from the Rush University directory (rushu.rush.edu). Publication metrics from OpenAlex, an open scholarly database. Some faculty may be unmatched or misattributed&mdash;see Methodology on the Faculty Directory tab for details.</li>
@@ -343,7 +343,7 @@
         <button type="button" class="segment-btn" id="lens-first" onclick="setAuthorshipLens('first')">First author</button>
       </div>
     </div>
-    <div class="lens-note" id="authorship-lens-note">Last-author view emphasizes senior ownership and program leadership. Use first-author view to surface early-career and hands-on scholarly leadership.</div>
+    <div class="lens-note" id="authorship-lens-note">Last-author view emphasizes a senior-leadership proxy based on authorship order. Use first-author view to surface early-career and hands-on scholarly leadership.</div>
   </div>
 
   <div class="chart-card">
@@ -706,7 +706,7 @@ const methodologyHTML = `
     <ul>
       <li><strong>H-Index:</strong> A researcher has h-index <em>h</em> if <em>h</em> of their papers have each been cited at least <em>h</em> times.</li>
       <li><strong>Rush 5yr:</strong> Publications from 2021&ndash;2026 where at least one author lists Rush as their affiliation, sourced from OpenAlex filtered by institution ID and date. Faculty matched via API name search may show 0 even if they have recent Rush publications&mdash;see &ldquo;Match Type Caveat&rdquo; below.</li>
-      <li><strong>Senior Author 5yr:</strong> Publications from 2021&ndash;2026 where the faculty member appears as last author in OpenAlex. Last authorship is a proxy for likely study ownership or senior leadership, not proof of contribution quality.</li>
+      <li><strong>Senior Author 5yr:</strong> Publications from 2021&ndash;2026 where the faculty member appears as last author in OpenAlex. Last authorship is a proxy for senior leadership patterns, not proof that the faculty member owned the study or a measure of contribution quality.</li>
       <li><strong>Contributing Author 5yr:</strong> Publications from 2021&ndash;2026 where the faculty member appears as a middle author in OpenAlex. Middle authorship can reflect important collaboration, methods, recruitment, samples, or analytic work.</li>
       <li><strong>External Contributor 5yr:</strong> Middle-author publications where OpenAlex does not show a Rush affiliation anywhere in the work authorship data. This identifies externally led collaborative work and should not be read as inappropriate authorship.</li>
       <li><strong>Mean 2yr Citedness:</strong> Average citations per work published in the last two years. Measures how much attention a researcher&rsquo;s recent output is receiving. Same API-search caveat applies.</li>
@@ -1277,7 +1277,7 @@ const AUTHORSHIP_LENSES = {
     tableTitle: 'Department Rank Changes Under the Senior-Author Lens',
     tableSub: 'Compare current Rush-affiliated publication volume rank with rank by senior-author publications.',
     tableInterpret: '<strong>How to read this:</strong> Positive rank change means a department ranks higher when publications are weighted by last authorship than by raw Rush-affiliated volume. Negative change means high publication volume is more often driven by middle-author collaboration or non-senior roles.',
-    note: 'Last-author view emphasizes senior ownership and program leadership. Use first-author view to surface early-career and hands-on scholarly leadership.',
+    note: 'Last-author view emphasizes a senior-leadership proxy based on authorship order. Use first-author view to surface early-career and hands-on scholarly leadership.',
     rankHeader: 'Senior Rank',
     countHeader: 'Senior 5yr',
     rushHeader: 'Rush Senior 5yr',

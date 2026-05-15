@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-15T10:26:06.999864",
+  "timestamp": "2026-05-15T11:12:08.047884",
   "scope": "top 200 by CSV h_index",
   "h_index_source": "OpenAlex author summary_stats.h_index by exact openalex_id",
   "department_source": "Rush University public faculty directory; directory was discovered with Tavily MCP and scraped for repeatability",

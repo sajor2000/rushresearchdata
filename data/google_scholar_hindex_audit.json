@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-15T10:43:15.117357",
+  "timestamp": "2026-05-15T11:14:56.265289",
   "scope": "top 20 by CSV/OpenAlex h_index",
   "source_role": "Google Scholar via unofficial scholarly package, secondary comparison only",
   "primary_h_index_source": "OpenAlex author summary_stats.h_index by exact openalex_id",
