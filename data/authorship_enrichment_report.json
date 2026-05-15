@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-05-15T06:48:39.377635",
+  "year_filter": "2021-2026",
+  "eligible_profiles": 1088,
+  "processed_profiles": 1088,
+  "work_rows": 26645,
+  "position_totals": {
+    "first": 2884,
+    "middle": 17079,
+    "last": 6095,
+    "single": 587,
+    "ambiguous": 0
+  },
+  "senior_author_works": 6095,
+  "external_contributor_works": 5894,
+  "failures": []
+}
