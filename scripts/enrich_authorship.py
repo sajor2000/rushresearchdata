@@ -167,14 +167,14 @@ def write_rows(rows, fieldnames):
         if field not in fieldnames:
             fieldnames.append(field)
     with CSV_PATH.open("w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
 
 def write_work_audit(work_rows):
     with WORK_AUDIT_PATH.open("w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=WORK_FIELDS)
+        writer = csv.DictWriter(f, fieldnames=WORK_FIELDS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(work_rows)
 
