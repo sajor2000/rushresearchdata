@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-05-15T07:14:38.199926",
+  "summary_rows": 1688,
+  "work_rows": 26645,
+  "blocking_issue_count": 0,
+  "review_issue_count": 48,
+  "duplicate_checks": {
+    "duplicate_normalized_faculty_names": 0,
+    "duplicate_normalized_faculty_name_department": 0,
+    "duplicate_openalex_author_ids": 0,
+    "duplicate_faculty_author_work_rows": 0
+  },
+  "reconciliation": {
+    "summary_recent_author_works_5yr": 26645,
+    "work_audit_rows": 26645,
+    "position_total_rows": 26645,
+    "summary_mismatches": 0,
+    "leadership_ratio_mismatches": 0
+  },
+  "author_position_confidence": {
+    "basis": "OpenAlex authorship rows matched by exact OpenAlex author ID; author_position is taken directly from the work authorship object.",
+    "first_author_rows": 2884,
+    "last_author_rows": 6095,
+    "first_or_last_rows": 8979,
+    "high_confidence_first_or_last_rows": 8979,
+    "single_author_or_ambiguous_rows": 587
+  },
+  "known_review_caveats": {
+    "lower_confidence_faculty_matches_with_recent_authorship_rows": 48,
+    "authorship_rows_inherited_from_lower_confidence_matches": 1038,
+    "multi_faculty_same_work_is_expected_not_duplicate": 3958,
+    "max_faculty_rows_for_one_work": 12
+  },
+  "source_dataset_preservation": {
+    "available": true,
+    "baseline_fields_checked": [
+      "name",
+      "h_index",
+      "i10_index",
+      "works_count",
+      "cited_by_count",
+      "rush_works_5yr",
+      "two_year_mean_citedness",
+      "rush_dept",
+      "college",
+      "match_type",
+      "orcid",
+      "openalex_id"
+    ],
+    "pre_existing_field_changes": 0,
+    "example_changes": []
+  }
+}
