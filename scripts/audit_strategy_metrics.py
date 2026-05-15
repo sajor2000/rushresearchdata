@@ -35,13 +35,6 @@ def int_field(row, key):
         return 0
 
 
-def float_field(row, key):
-    try:
-        return float(row.get(key) or 0)
-    except ValueError:
-        return 0.0
-
-
 def add_flag(flags, severity, check, detail, row=None):
     flags.append({
         "severity": severity,

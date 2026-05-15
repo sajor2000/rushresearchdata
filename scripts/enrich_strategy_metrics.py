@@ -99,13 +99,6 @@ def int_field(row, key):
         return 0
 
 
-def float_field(row, key):
-    try:
-        return float(row.get(key) or 0)
-    except ValueError:
-        return 0.0
-
-
 def norm_name(value):
     return re.sub(r"[^a-z ]+", " ", (value or "").lower()).strip()
 
@@ -161,7 +154,6 @@ def openalex_works_by_ids(work_ids, batch_size=80, limit_batches=None):
         "fwci",
         "citation_normalized_percentile",
         "primary_topic",
-        "topics",
         "awards",
     ])
     batches = list(batch_items(work_ids, batch_size))
@@ -333,6 +325,33 @@ def normalize_activity(activity):
     return (activity or "").strip().upper()
 
 
+def project_id(project):
+    return project.get("core_project_num") or project.get("project_num") or ""
+
+
+def project_ids(projects, predicate=None):
+    ids = set()
+    for project in projects:
+        if predicate and not predicate(project):
+            continue
+        value = project_id(project)
+        if value:
+            ids.add(value)
+    return ids
+
+
+def total_award_amount(projects):
+    return sum(int(float(project.get("award_amount") or 0)) for project in projects)
+
+
+def is_active_project(project):
+    return bool(project.get("is_active"))
+
+
+def is_r01_project(project):
+    return normalize_activity(project.get("activity_code")) == "R01"
+
+
 def nih_award_rows(projects, faculty_rows):
     by_key = defaultdict(list)
     for row in faculty_rows:
@@ -449,18 +468,11 @@ def summarize_strategy(faculty_rows, authorship_rows, work_metrics, work_flags, 
 
         grants = faculty_grants.get(row["name"], [])
         if grants:
-            core_projects = {g.get("core_project_num") or g.get("project_num") for g in grants}
-            active_projects = {g.get("core_project_num") or g.get("project_num") for g in grants if g.get("is_active")}
-            r01_projects = {
-                g.get("core_project_num") or g.get("project_num")
-                for g in grants
-                if normalize_activity(g.get("activity_code")) == "R01"
-            }
             row["nih_project_years_5yr"] = str(len(grants))
-            row["nih_unique_projects_5yr"] = str(len(core_projects))
-            row["nih_active_projects"] = str(len(active_projects))
-            row["nih_r01_projects_5yr"] = str(len(r01_projects))
-            row["nih_total_cost_5yr"] = str(sum(int(float(g.get("award_amount") or 0)) for g in grants))
+            row["nih_unique_projects_5yr"] = str(len(project_ids(grants)))
+            row["nih_active_projects"] = str(len(project_ids(grants, is_active_project)))
+            row["nih_r01_projects_5yr"] = str(len(project_ids(grants, is_r01_project)))
+            row["nih_total_cost_5yr"] = str(total_award_amount(grants))
             row["nih_pi_match_type"] = "exact_first_last"
 
 
@@ -506,9 +518,10 @@ def build_department_outputs(faculty_rows, authorship_rows, work_metrics, facult
             if int(metric.get("nih_awards_count") or 0):
                 dept_nih_awarded[dept] += 1
 
+    faculty_dept_by_name = {row["name"]: row["rush_dept"] for row in faculty_rows}
     grant_by_dept = defaultdict(list)
     for faculty_name, grants in faculty_grants.items():
-        dept = next((row["rush_dept"] for row in faculty_rows if row["name"] == faculty_name), "")
+        dept = faculty_dept_by_name.get(faculty_name, "")
         grant_by_dept[dept].extend(grants)
 
     dept_rows = []
@@ -533,16 +546,13 @@ def build_department_outputs(faculty_rows, authorship_rows, work_metrics, facult
         })
 
         grants = grant_by_dept.get(dept, [])
-        cores = {g.get("core_project_num") or g.get("project_num") for g in grants}
-        active = {g.get("core_project_num") or g.get("project_num") for g in grants if g.get("is_active")}
-        r01 = {g.get("core_project_num") or g.get("project_num") for g in grants if normalize_activity(g.get("activity_code")) == "R01"}
         nih_rows.append({
             "rush_dept": dept,
             "nih_project_years_5yr": len(grants),
-            "nih_unique_projects_5yr": len(cores),
-            "nih_active_projects": len(active),
-            "nih_r01_projects_5yr": len(r01),
-            "nih_total_cost_5yr": sum(int(float(g.get("award_amount") or 0)) for g in grants),
+            "nih_unique_projects_5yr": len(project_ids(grants)),
+            "nih_active_projects": len(project_ids(grants, is_active_project)),
+            "nih_r01_projects_5yr": len(project_ids(grants, is_r01_project)),
+            "nih_total_cost_5yr": total_award_amount(grants),
         })
 
     topic_rows = []
@@ -575,6 +585,9 @@ def main():
 
     authorship_rows = read_csv(AUTHORSHIP_WORKS_CSV)
     unique_work_ids = sorted({row["work_id"] for row in authorship_rows if row.get("work_id")})
+    authorship_by_work = {}
+    for row in authorship_rows:
+        authorship_by_work.setdefault(row["work_id"], row)
 
     print("Rush strategy metric enrichment")
     print(f"  Faculty rows: {len(faculty_rows)}")
@@ -590,7 +603,7 @@ def main():
         work_metrics = openalex_works_by_ids(unique_work_ids, limit_batches=args.limit_openalex_batches)
     for work_id in unique_work_ids:
         if work_id not in work_metrics:
-            matching = next((row for row in authorship_rows if row["work_id"] == work_id), {})
+            matching = authorship_by_work.get(work_id, {})
             work_metrics[work_id] = {
                 "work_id": work_id,
                 "publication_year": matching.get("publication_year", ""),
