@@ -80,6 +80,16 @@
   .search-box { padding: 7px 12px; border: 1.5px solid #ccc; border-radius: 6px; font-size: 13px; width: 240px; font-family: Arial, Helvetica, sans-serif; }
   .search-box:focus { outline: none; border-color: var(--rush-green); }
 
+  /* SEGMENTED CONTROLS */
+  .segmented-control { display: inline-flex; align-items: center; border: 1.5px solid var(--rush-green); border-radius: 7px; overflow: hidden; background: white; }
+  .segment-btn { border: 0; border-right: 1px solid #c8ead8; background: white; color: var(--rush-green); padding: 8px 14px; min-width: 112px; font-size: 12px; font-weight: 700; cursor: pointer; font-family: Arial, Helvetica, sans-serif; }
+  .segment-btn:last-child { border-right: 0; }
+  .segment-btn:hover { background: var(--rush-green-pale); }
+  .segment-btn.active { background: var(--rush-green); color: white; }
+  .lens-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 0 0 18px; flex-wrap: wrap; }
+  .lens-toolbar-label { font-size: 12px; color: var(--rush-gray); font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; }
+  .lens-note { font-size: 12px; color: var(--rush-gray); line-height: 1.6; max-width: 760px; }
+
   /* WARN ICON */
   .warn-icon { color: var(--rush-yellow); font-size: 13px; margin-right: 4px; }
   .orcid-link { color: var(--rush-teal); text-decoration: none; font-size: 11px; }
@@ -136,6 +146,19 @@
 
   /* PLOTLY overrides */
   .js-plotly-plot .plotly .modebar { opacity: 0.3; } .js-plotly-plot .plotly .modebar:hover { opacity: 1; }
+
+  @media (max-width: 900px) {
+    .header { padding: 12px 16px; flex-wrap: wrap; }
+    .header-meta { width: 100%; text-align: left; }
+    .tab-bar { overflow-x: auto; padding: 0 12px; }
+    .tab { padding: 12px 14px; }
+    .page { padding: 16px 12px; }
+    .kpi-grid, .two-col, .three-col { grid-template-columns: 1fr; }
+    .chart-card { padding: 16px 14px; overflow-x: auto; }
+    .lens-toolbar { align-items: flex-start; }
+    .lens-note { max-width: 100%; }
+    .segment-btn { min-width: 104px; }
+  }
 </style>
 </head>
 <body>
@@ -304,10 +327,22 @@
     <h3>How to Read the Leadership Lens</h3>
     <ul>
       <li><strong>Last authorship</strong> is used as the primary senior-author signal. In many biomedical fields, this often reflects lab, program, or study leadership, but conventions vary by field and paper type.</li>
+      <li><strong>First authorship</strong> is available as an emerging-leadership signal, especially for early-career faculty, trainees, and faculty building independent scholarly identity. It is not interchangeable with last authorship.</li>
       <li><strong>Middle authorship</strong> is labeled as contributing authorship here. It can represent important collaboration, samples, methods, recruitment, or analytic support, but it is a different signal than first- or last-author leadership.</li>
       <li><strong>External contributor</strong> means a middle-author work where no Rush affiliation was detected anywhere in the OpenAlex authorship data. This is useful for spotting externally led collaborations, not for discounting legitimate contributions.</li>
       <li><strong>Denominator:</strong> These metrics count faculty-authorship records, not unique papers. If two Rush faculty appear on the same paper, each faculty-paper attribution is counted once.</li>
     </ul>
+  </div>
+
+  <div class="lens-toolbar" aria-label="Authorship lens controls">
+    <div>
+      <div class="lens-toolbar-label">Ranked view</div>
+      <div class="segmented-control" role="group" aria-label="Select authorship lens">
+        <button type="button" class="segment-btn active" id="lens-last" onclick="setAuthorshipLens('last')">Last author</button>
+        <button type="button" class="segment-btn" id="lens-first" onclick="setAuthorshipLens('first')">First author</button>
+      </div>
+    </div>
+    <div class="lens-note" id="authorship-lens-note">Last-author view emphasizes senior ownership and program leadership. Use first-author view to surface early-career and hands-on scholarly leadership.</div>
   </div>
 
   <div class="chart-card">
@@ -320,41 +355,41 @@
 
   <div class="two-col">
     <div class="chart-card">
-      <div class="chart-title">Top Faculty by Senior-Author Publications</div>
-      <div class="chart-sub">Last-author publications from 2021&ndash;2026, with Rush-affiliated senior works shown in green</div>
+      <div class="chart-title" id="top-authorship-title">Top Faculty by Senior-Author Publications</div>
+      <div class="chart-sub" id="top-authorship-sub">Last-author publications from 2021&ndash;2026, with Rush-affiliated senior works shown in green</div>
       <div id="chart-senior-top20" style="height:520px"></div>
-      <div class="chart-interpret"><strong>How to read this:</strong> These are faculty whose recent publication records most strongly show the senior-author pattern. The darker segment is senior-authored work with Rush detected in the work&rsquo;s affiliation data.</div>
+      <div class="chart-interpret" id="top-authorship-interpret"><strong>How to read this:</strong> These are faculty whose recent publication records most strongly show the senior-author pattern. The darker segment is senior-authored work with Rush detected in the work&rsquo;s affiliation data.</div>
       <div class="chart-source">Source: OpenAlex authorship-position data · Rush faculty directory · May 2026</div>
     </div>
     <div class="chart-card">
-      <div class="chart-title">Departments Differ in Senior-Led vs Contributor-Led Output</div>
-      <div class="chart-sub">Horizontal = total recent faculty works. Vertical = share that are last-author works.</div>
+      <div class="chart-title" id="lens-scatter-title">Departments Differ in Senior-Led vs Contributor-Led Output</div>
+      <div class="chart-sub" id="lens-scatter-sub">Horizontal = total recent faculty works. Vertical = share that are last-author works.</div>
       <div id="chart-leadership-scatter" style="height:520px"></div>
-      <div class="chart-interpret"><strong>How to read this:</strong> Higher departments have a larger share of recent works where Rush faculty are last authors. Far-right departments have higher recent publication volume overall. Bubble size reflects faculty count.</div>
+      <div class="chart-interpret" id="lens-scatter-interpret"><strong>How to read this:</strong> Higher departments have a larger share of recent works where Rush faculty are last authors. Far-right departments have higher recent publication volume overall. Bubble size reflects faculty count.</div>
       <div class="chart-source">Source: OpenAlex authorship-position data · May 2026</div>
     </div>
   </div>
 
   <div class="chart-card">
-    <div class="chart-title">Department Rank Changes Under the Senior-Author Lens</div>
-    <div class="chart-sub">Compare current Rush-affiliated publication volume rank with rank by senior-author publications.</div>
+    <div class="chart-title" id="lens-table-title">Department Rank Changes Under the Senior-Author Lens</div>
+    <div class="chart-sub" id="lens-table-sub">Compare current Rush-affiliated publication volume rank with rank by senior-author publications.</div>
     <div class="data-table-wrap">
       <table class="data-table" id="leadership-table">
         <thead><tr>
-          <th onclick="sortLeadershipTable(0)">Senior Rank <span class="sort-icon">&#9660;</span></th>
+          <th onclick="sortLeadershipTable(0)" id="lens-rank-header">Senior Rank <span class="sort-icon">&#9660;</span></th>
           <th onclick="sortLeadershipTable(1)">Department <span class="sort-icon"></span></th>
           <th onclick="sortLeadershipTable(2)">Rush Volume Rank <span class="sort-icon"></span></th>
           <th onclick="sortLeadershipTable(3)">Rank Change <span class="sort-icon"></span></th>
-          <th onclick="sortLeadershipTable(4)">Senior 5yr <span class="sort-icon"></span></th>
-          <th onclick="sortLeadershipTable(5)">Rush Senior 5yr <span class="sort-icon"></span></th>
+          <th onclick="sortLeadershipTable(4)" id="lens-count-header">Senior 5yr <span class="sort-icon"></span></th>
+          <th onclick="sortLeadershipTable(5)" id="lens-rush-header">Rush Senior 5yr <span class="sort-icon"></span></th>
           <th onclick="sortLeadershipTable(6)">Recent Works <span class="sort-icon"></span></th>
-          <th onclick="sortLeadershipTable(7)">Senior Share <span class="sort-icon"></span></th>
+          <th onclick="sortLeadershipTable(7)" id="lens-share-header">Senior Share <span class="sort-icon"></span></th>
           <th onclick="sortLeadershipTable(8)">External Contributor <span class="sort-icon"></span></th>
         </tr></thead>
         <tbody id="leadership-table-body"></tbody>
       </table>
     </div>
-    <div class="chart-interpret"><strong>How to read this:</strong> Positive rank change means a department ranks higher when publications are weighted by last authorship than by raw Rush-affiliated volume. Negative change means high publication volume is more often driven by middle-author collaboration or non-senior roles.</div>
+    <div class="chart-interpret" id="lens-table-interpret"><strong>How to read this:</strong> Positive rank change means a department ranks higher when publications are weighted by last authorship than by raw Rush-affiliated volume. Negative change means high publication volume is more often driven by middle-author collaboration or non-senior roles.</div>
   </div>
 
   <div id="methodology-3"></div>
@@ -387,10 +422,11 @@
           <th onclick="sortDir(5)">Citations <span class="sort-icon"></span></th>
           <th onclick="sortDir(6)">Rush 5yr <span class="sort-icon"></span></th>
           <th onclick="sortDir(7)">Senior 5yr <span class="sort-icon"></span></th>
-          <th onclick="sortDir(8)">Contrib 5yr <span class="sort-icon"></span></th>
-          <th onclick="sortDir(9)">Leader % <span class="sort-icon"></span></th>
-          <th onclick="sortDir(10)">Department <span class="sort-icon"></span></th>
-          <th onclick="sortDir(11)">College <span class="sort-icon"></span></th>
+          <th onclick="sortDir(8)">First 5yr <span class="sort-icon"></span></th>
+          <th onclick="sortDir(9)">Contrib 5yr <span class="sort-icon"></span></th>
+          <th onclick="sortDir(10)">Leader % <span class="sort-icon"></span></th>
+          <th onclick="sortDir(11)">Department <span class="sort-icon"></span></th>
+          <th onclick="sortDir(12)">College <span class="sort-icon"></span></th>
         </tr></thead>
         <tbody id="dir-table-body"></tbody>
       </table>
@@ -517,8 +553,9 @@ function buildDeptStats() {
     const totalExternalContrib5 = all.reduce((a,r)=>a+(r.externalContrib5||0),0);
     const medSenior5 = median(all.map(r=>r.senior5||0));
     const seniorShare5 = totalRecent5 ? totalSenior5 / totalRecent5 : 0;
+    const firstShare5 = totalRecent5 ? totalFirst5 / totalRecent5 : 0;
     const college = all[0]?.college || '';
-    return { dept, total, pubs: pubs.length, activePct, medH, maxH, medR5, meanCy2Pubs, gini: g, totalCites, totalR5, totalRecent5, totalSenior5, totalFirst5, totalRushSenior5, totalContrib5, totalAmbiguous5, totalExternalContrib5, medSenior5, seniorShare5, college };
+    return { dept, total, pubs: pubs.length, activePct, medH, maxH, medR5, meanCy2Pubs, gini: g, totalCites, totalR5, totalRecent5, totalSenior5, totalFirst5, totalRushSenior5, totalContrib5, totalAmbiguous5, totalExternalContrib5, medSenior5, seniorShare5, firstShare5, college };
   });
 }
 const DEPT_STATS = buildDeptStats();
@@ -537,7 +574,11 @@ const DEPT_STATS = buildDeptStats();
   DEPT_STATS.forEach((d,i)=>d.rank=i+1);
   [...DEPT_STATS].sort((a,b)=>b.totalR5-a.totalR5).forEach((d,i)=>d.rushVolumeRank=i+1);
   [...DEPT_STATS].sort((a,b)=>b.totalSenior5-a.totalSenior5).forEach((d,i)=>d.seniorRank=i+1);
-  DEPT_STATS.forEach(d=>{ d.seniorRankChange = d.rushVolumeRank - d.seniorRank; });
+  [...DEPT_STATS].sort((a,b)=>b.totalFirst5-a.totalFirst5).forEach((d,i)=>d.firstRank=i+1);
+  DEPT_STATS.forEach(d=>{
+    d.seniorRankChange = d.rushVolumeRank - d.seniorRank;
+    d.firstRankChange = d.rushVolumeRank - d.firstRank;
+  });
 })();
 
 // =============================================
@@ -1143,22 +1184,119 @@ function drawTop20() {
 let leadershipSortCol = 0;
 let leadershipSortAsc = true;
 let leadershipTableData = null;
+let activeAuthorshipLens = 'last';
+
+const AUTHORSHIP_LENSES = {
+  last: {
+    buttonId: 'lens-last',
+    topTitle: 'Top Faculty by Senior-Author Publications',
+    topSub: 'Last-author publications from 2021-2026, with Rush-affiliated senior works shown in green',
+    topInterpret: '<strong>How to read this:</strong> These are faculty whose recent publication records most strongly show the senior-author pattern. The darker segment is senior-authored work with Rush detected in the work&rsquo;s affiliation data.',
+    scatterTitle: 'Departments Differ in Senior-Led vs Contributor-Led Output',
+    scatterSub: 'Horizontal = total recent faculty works. Vertical = share that are last-author works.',
+    scatterInterpret: '<strong>How to read this:</strong> Higher departments have a larger share of recent works where Rush faculty are last authors. Far-right departments have higher recent publication volume overall. Bubble size reflects faculty count.',
+    tableTitle: 'Department Rank Changes Under the Senior-Author Lens',
+    tableSub: 'Compare current Rush-affiliated publication volume rank with rank by senior-author publications.',
+    tableInterpret: '<strong>How to read this:</strong> Positive rank change means a department ranks higher when publications are weighted by last authorship than by raw Rush-affiliated volume. Negative change means high publication volume is more often driven by middle-author collaboration or non-senior roles.',
+    note: 'Last-author view emphasizes senior ownership and program leadership. Use first-author view to surface early-career and hands-on scholarly leadership.',
+    rankHeader: 'Senior Rank',
+    countHeader: 'Senior 5yr',
+    rushHeader: 'Rush Senior 5yr',
+    shareHeader: 'Senior Share',
+    facultyMetric: 'senior5',
+    deptMetric: 'totalSenior5',
+    deptContextMetric: 'totalRushSenior5',
+    deptShare: 'seniorShare5',
+    deptRank: 'seniorRank',
+    deptRankChange: 'seniorRankChange',
+    kpiLabel: 'Senior-Author Works',
+    facultyKpiLabel: 'Faculty With Senior Works',
+    xTitle: 'Last-author publications (2021-2026)',
+    yTitle: 'Senior-author share, %',
+    hoverLabel: 'Senior 5yr',
+  },
+  first: {
+    buttonId: 'lens-first',
+    topTitle: 'Top Faculty by First-Author Publications',
+    topSub: 'First-author publications from 2021-2026. This view helps recognize early-career and hands-on scholarly leadership.',
+    topInterpret: '<strong>How to read this:</strong> These are faculty whose recent records most strongly show the first-author pattern. First authorship often reflects primary drafting, analysis, execution, or project-driving work, especially for early-career faculty, but conventions vary.',
+    scatterTitle: 'Departments Differ in First-Author vs Contributor-Led Output',
+    scatterSub: 'Horizontal = total recent faculty works. Vertical = share that are first-author works.',
+    scatterInterpret: '<strong>How to read this:</strong> Higher departments have a larger share of recent works where Rush faculty are first authors. Far-right departments have higher recent publication volume overall. Bubble size reflects faculty count.',
+    tableTitle: 'Department Rank Changes Under the First-Author Lens',
+    tableSub: 'Compare current Rush-affiliated publication volume rank with rank by first-author publications.',
+    tableInterpret: '<strong>How to read this:</strong> Positive rank change means a department ranks higher when publications are weighted by first authorship than by raw Rush-affiliated volume. This can surface departments with emerging investigators and faculty doing primary scholarly work.',
+    note: 'First-author view recognizes early-career and hands-on scholarly leadership. It complements, but does not replace, last-author senior-leadership ranking.',
+    rankHeader: 'First-Author Rank',
+    countHeader: 'First 5yr',
+    rushHeader: 'Senior 5yr',
+    shareHeader: 'First Share',
+    facultyMetric: 'first5',
+    deptMetric: 'totalFirst5',
+    deptContextMetric: 'totalSenior5',
+    deptShare: 'firstShare5',
+    deptRank: 'firstRank',
+    deptRankChange: 'firstRankChange',
+    kpiLabel: 'First-Author Works',
+    facultyKpiLabel: 'Faculty With First Works',
+    xTitle: 'First-author publications (2021-2026)',
+    yTitle: 'First-author share, %',
+    hoverLabel: 'First 5yr',
+  }
+};
 
 function initPageLeadership() {
+  setAuthorshipLens(activeAuthorshipLens);
+  drawAuthorshipRoleMix();
+}
+
+function setAuthorshipLens(lensKey) {
+  activeAuthorshipLens = lensKey;
+  Object.values(AUTHORSHIP_LENSES).forEach(lens=>{
+    document.getElementById(lens.buttonId).classList.toggle('active', lens===AUTHORSHIP_LENSES[lensKey]);
+  });
+  updateAuthorshipLensText();
+  updateLeadershipKpis();
+  drawSeniorTop20();
+  drawLeadershipScatter();
+  buildLeadershipTable(0, true);
+}
+
+function updateAuthorshipLensText() {
+  const lens = AUTHORSHIP_LENSES[activeAuthorshipLens];
+  document.getElementById('authorship-lens-note').textContent = lens.note;
+  document.getElementById('top-authorship-title').textContent = lens.topTitle;
+  document.getElementById('top-authorship-sub').textContent = lens.topSub;
+  document.getElementById('top-authorship-interpret').innerHTML = lens.topInterpret;
+  document.getElementById('lens-scatter-title').textContent = lens.scatterTitle;
+  document.getElementById('lens-scatter-sub').textContent = lens.scatterSub;
+  document.getElementById('lens-scatter-interpret').innerHTML = lens.scatterInterpret;
+  document.getElementById('lens-table-title').textContent = lens.tableTitle;
+  document.getElementById('lens-table-sub').textContent = lens.tableSub;
+  document.getElementById('lens-table-interpret').innerHTML = lens.tableInterpret;
+  document.getElementById('lens-rank-header').innerHTML = `${lens.rankHeader} <span class="sort-icon">&#9660;</span>`;
+  document.getElementById('lens-count-header').innerHTML = `${lens.countHeader} <span class="sort-icon"></span>`;
+  document.getElementById('lens-rush-header').innerHTML = `${lens.rushHeader} <span class="sort-icon"></span>`;
+  document.getElementById('lens-share-header').innerHTML = `${lens.shareHeader} <span class="sort-icon"></span>`;
+}
+
+function updateLeadershipKpis() {
+  const lens = AUTHORSHIP_LENSES[activeAuthorshipLens];
   const totalRecent = RAW.reduce((a,r)=>a+(r.recent5||0),0);
+  const totalLens = RAW.reduce((a,r)=>a+(r[lens.facultyMetric]||0),0);
   const totalSenior = RAW.reduce((a,r)=>a+(r.senior5||0),0);
   const totalContrib = RAW.reduce((a,r)=>a+(r.contrib5||0),0);
   const totalRushSenior = RAW.reduce((a,r)=>a+(r.rushSenior5||0),0);
   const totalExternal = RAW.reduce((a,r)=>a+(r.externalContrib5||0),0);
-  const facultyWithSenior = RAW.filter(r=>(r.senior5||0)>0).length;
+  const facultyWithLens = RAW.filter(r=>(r[lens.facultyMetric]||0)>0).length;
   const kpis = [
     {label:'Recent Author Works', value:fmt(totalRecent), sub:'all matched faculty, 2021-2026'},
-    {label:'Senior-Author Works', value:fmt(totalSenior), sub:`${pct(totalSenior,totalRecent)}% of recent works`},
+    {label:lens.kpiLabel, value:fmt(totalLens), sub:`${pct(totalLens,totalRecent)}% of recent works`},
     {label:'Rush Senior Works', value:fmt(totalRushSenior), sub:'last-author works with Rush detected'},
     {label:'Contributing Works', value:fmt(totalContrib), sub:'middle-author recent works'},
     {label:'External Contributor', value:fmt(totalExternal), sub:'middle-author works without Rush detected'},
-    {label:'Faculty With Senior Works', value:fmt(facultyWithSenior), sub:`${pct(facultyWithSenior,RAW.length)}% of all faculty`},
-    {label:'Median Dept Senior Share', value:fmt(median(DEPT_STATS.map(d=>d.seniorShare5))*100,1)+'%', sub:'department-level median'},
+    {label:lens.facultyKpiLabel, value:fmt(facultyWithLens), sub:`${pct(facultyWithLens,RAW.length)}% of all faculty`},
+    {label:`Median Dept ${activeAuthorshipLens==='first'?'First':'Senior'} Share`, value:fmt(median(DEPT_STATS.map(d=>d[lens.deptShare]))*100,1)+'%', sub:'department-level median'},
     {label:'Departments Tracked', value:fmt(DEPT_STATS.length), sub:'same department roster as main dashboard'},
   ];
   document.getElementById('leadership-kpi-grid').innerHTML = kpis.map(k=>`
@@ -1167,36 +1305,45 @@ function initPageLeadership() {
       <div class="kpi-value">${k.value}</div>
       <div class="kpi-sub">${k.sub}</div>
     </div>`).join('');
-
-  drawSeniorTop20();
-  drawAuthorshipRoleMix();
-  drawLeadershipScatter();
-  buildLeadershipTable(0, true);
 }
 
 function drawSeniorTop20() {
-  const sorted = [...RAW].filter(r=>(r.senior5||0)>0).sort((a,b)=>(b.senior5||0)-(a.senior5||0)).slice(0,20).reverse();
-  const rushSenior = sorted.map(r=>r.rushSenior5||0);
-  const otherSenior = sorted.map(r=>Math.max((r.senior5||0)-(r.rushSenior5||0),0));
-  Plotly.newPlot('chart-senior-top20', [
-    {
+  const lens = AUTHORSHIP_LENSES[activeAuthorshipLens];
+  const sorted = [...RAW].filter(r=>(r[lens.facultyMetric]||0)>0).sort((a,b)=>(b[lens.facultyMetric]||0)-(a[lens.facultyMetric]||0)).slice(0,20).reverse();
+  let traces;
+  if (activeAuthorshipLens === 'last') {
+    const rushSenior = sorted.map(r=>r.rushSenior5||0);
+    const otherSenior = sorted.map(r=>Math.max((r.senior5||0)-(r.rushSenior5||0),0));
+    traces = [
+      {
       type:'bar', orientation:'h', name:'Rush-affiliated senior',
       x:rushSenior, y:sorted.map(r=>r.name),
       marker:{color:RUSH_GREEN},
-      customdata:sorted.map(r=>[r.dept,r.senior5||0,r.rushSenior5||0,r.contrib5||0,Math.round((r.leadershipRatio5||0)*100)]),
-      hovertemplate:'<b>%{y}</b><br>Dept: %{customdata[0]}<br>Senior 5yr: %{customdata[1]}<br>Rush senior: %{customdata[2]}<br>Contributing 5yr: %{customdata[3]}<br>Leadership ratio: %{customdata[4]}%<extra></extra>',
-    },
-    {
+      customdata:sorted.map(r=>[r.dept,r.senior5||0,r.rushSenior5||0,r.first5||0,r.contrib5||0,Math.round((r.leadershipRatio5||0)*100)]),
+      hovertemplate:'<b>%{y}</b><br>Dept: %{customdata[0]}<br>Senior 5yr: %{customdata[1]}<br>Rush senior: %{customdata[2]}<br>First 5yr: %{customdata[3]}<br>Contributing 5yr: %{customdata[4]}<br>Leadership ratio: %{customdata[5]}%<extra></extra>',
+      },
+      {
       type:'bar', orientation:'h', name:'Other senior',
       x:otherSenior, y:sorted.map(r=>r.name),
       marker:{color:'#b0b0b0'},
-      customdata:sorted.map(r=>[r.dept,r.senior5||0,r.rushSenior5||0,r.contrib5||0,Math.round((r.leadershipRatio5||0)*100)]),
-      hovertemplate:'<b>%{y}</b><br>Dept: %{customdata[0]}<br>Senior 5yr: %{customdata[1]}<br>Rush senior: %{customdata[2]}<br>Contributing 5yr: %{customdata[3]}<br>Leadership ratio: %{customdata[4]}%<extra></extra>',
-    }
-  ], {
+      customdata:sorted.map(r=>[r.dept,r.senior5||0,r.rushSenior5||0,r.first5||0,r.contrib5||0,Math.round((r.leadershipRatio5||0)*100)]),
+      hovertemplate:'<b>%{y}</b><br>Dept: %{customdata[0]}<br>Senior 5yr: %{customdata[1]}<br>Rush senior: %{customdata[2]}<br>First 5yr: %{customdata[3]}<br>Contributing 5yr: %{customdata[4]}<br>Leadership ratio: %{customdata[5]}%<extra></extra>',
+      }
+    ];
+  } else {
+    traces = [{
+      type:'bar', orientation:'h', name:'First author',
+      x:sorted.map(r=>r.first5||0),
+      y:sorted.map(r=>r.name),
+      marker:{color:RUSH_TEAL},
+      customdata:sorted.map(r=>[r.dept,r.first5||0,r.senior5||0,r.contrib5||0,r.recent5||0]),
+      hovertemplate:'<b>%{y}</b><br>Dept: %{customdata[0]}<br>First 5yr: %{customdata[1]}<br>Senior 5yr: %{customdata[2]}<br>Contributing 5yr: %{customdata[3]}<br>Recent author works: %{customdata[4]}<extra></extra>',
+    }];
+  }
+  Plotly.newPlot('chart-senior-top20', traces, {
     barmode:'stack',
     margin:{l:180,r:40,t:40,b:70},
-    xaxis:{title:'Last-author publications (2021-2026)', showgrid:true, gridcolor:'#f0f0f0', zeroline:false},
+    xaxis:{title:lens.xTitle, showgrid:true, gridcolor:'#f0f0f0', zeroline:false},
     yaxis:{tickfont:{size:11}},
     legend:{orientation:'h',y:-0.16,x:0},
     plot_bgcolor:'white', paper_bgcolor:'white',
@@ -1238,23 +1385,25 @@ function drawAuthorshipRoleMix() {
 }
 
 function drawLeadershipScatter() {
+  const lens = AUTHORSHIP_LENSES[activeAuthorshipLens];
+  const maxShare = Math.max(...DEPT_STATS.map(d=>d[lens.deptShare]*100));
   const trace = {
     type:'scatter', mode:'markers',
     x:DEPT_STATS.map(d=>d.totalRecent5),
-    y:DEPT_STATS.map(d=>d.seniorShare5*100),
+    y:DEPT_STATS.map(d=>d[lens.deptShare]*100),
     marker:{
       size:DEPT_STATS.map(d=>Math.min(Math.sqrt(d.total)*10, 60)),
       color:DEPT_STATS.map(d=>COLLEGE_COLORS[d.college]||RUSH_GREEN),
       line:{width:1.5,color:'white'},
       opacity:0.7,
     },
-    customdata:DEPT_STATS.map(d=>[d.dept,d.totalSenior5,d.totalRushSenior5,d.totalContrib5,d.totalExternalContrib5,d.seniorRank,d.rushVolumeRank]),
-    hovertemplate:'<b>%{customdata[0]}</b><br>Recent works: %{x}<br>Senior share: %{y:.1f}%<br>Senior 5yr: %{customdata[1]}<br>Rush senior 5yr: %{customdata[2]}<br>Contributing 5yr: %{customdata[3]}<br>External contributor 5yr: %{customdata[4]}<br>Senior rank: %{customdata[5]} | Rush volume rank: %{customdata[6]}<extra></extra>',
+    customdata:DEPT_STATS.map(d=>[d.dept,d[lens.deptMetric],d.totalSenior5,d.totalFirst5,d.totalContrib5,d.totalExternalContrib5,d[lens.deptRank],d.rushVolumeRank]),
+    hovertemplate:'<b>%{customdata[0]}</b><br>Recent works: %{x}<br>'+lens.hoverLabel+' share: %{y:.1f}%<br>'+lens.hoverLabel+': %{customdata[1]}<br>Senior 5yr: %{customdata[2]}<br>First 5yr: %{customdata[3]}<br>Contributing 5yr: %{customdata[4]}<br>External contributor 5yr: %{customdata[5]}<br>'+lens.rankHeader+': %{customdata[6]} | Rush volume rank: %{customdata[7]}<extra></extra>',
   };
   Plotly.newPlot('chart-leadership-scatter',[trace],{
     margin:{l:70,r:40,t:20,b:70},
     xaxis:{title:'Recent faculty-author works (2021-2026)',showgrid:true,gridcolor:'#f0f0f0',zeroline:false},
-    yaxis:{title:'Senior-author share, %',showgrid:true,gridcolor:'#f0f0f0',zeroline:false,range:[0,Math.max(20,Math.max(...DEPT_STATS.map(d=>d.seniorShare5*100))*1.2)]},
+    yaxis:{title:lens.yTitle,showgrid:true,gridcolor:'#f0f0f0',zeroline:false,range:[0,Math.max(20,maxShare*1.2)]},
     plot_bgcolor:'white',paper_bgcolor:'white',
     font:{family:'Arial,Helvetica,sans-serif',size:11},
     showlegend:false,
@@ -1262,11 +1411,12 @@ function drawLeadershipScatter() {
 }
 
 function buildLeadershipTable(col, reset) {
+  const lens = AUTHORSHIP_LENSES[activeAuthorshipLens];
   if (reset) {
-    leadershipTableData = [...DEPT_STATS].sort((a,b)=>a.seniorRank-b.seniorRank).map(d=>[
-      d.seniorRank, d.dept, d.rushVolumeRank, d.seniorRankChange,
-      d.totalSenior5, d.totalRushSenior5, d.totalRecent5,
-      +(d.seniorShare5*100).toFixed(1), d.totalExternalContrib5
+    leadershipTableData = [...DEPT_STATS].sort((a,b)=>a[lens.deptRank]-b[lens.deptRank]).map(d=>[
+      d[lens.deptRank], d.dept, d.rushVolumeRank, d[lens.deptRankChange],
+      d[lens.deptMetric], d[lens.deptContextMetric], d.totalRecent5,
+      +(d[lens.deptShare]*100).toFixed(1), d.totalExternalContrib5
     ]);
     leadershipSortCol = 0;
     leadershipSortAsc = true;
@@ -1358,10 +1508,11 @@ function applyDirectoryFilters() {
       case 5: av=a.cites;bv=b.cites;break;
       case 6: av=a.r5;bv=b.r5;break;
       case 7: av=a.senior5||0;bv=b.senior5||0;break;
-      case 8: av=a.contrib5||0;bv=b.contrib5||0;break;
-      case 9: av=a.leadershipRatio5||0;bv=b.leadershipRatio5||0;break;
-      case 10: av=a.dept;bv=b.dept;break;
-      case 11: av=a.college;bv=b.college;break;
+      case 8: av=a.first5||0;bv=b.first5||0;break;
+      case 9: av=a.contrib5||0;bv=b.contrib5||0;break;
+      case 10: av=a.leadershipRatio5||0;bv=b.leadershipRatio5||0;break;
+      case 11: av=a.dept;bv=b.dept;break;
+      case 12: av=a.college;bv=b.college;break;
     }
     if (typeof av==='number') return dirSortAsc?av-bv:bv-av;
     return dirSortAsc?String(av).localeCompare(String(bv)):String(bv).localeCompare(String(av));
@@ -1404,6 +1555,7 @@ function renderDirTable(data) {
       <td>${fmt(r.cites)}</td>
       <td>${r.r5}</td>
       <td>${r.senior5||0}</td>
+      <td>${r.first5||0}</td>
       <td>${r.contrib5||0}</td>
       <td>${Math.round((r.leadershipRatio5||0)*100)}%</td>
       <td>${r.dept}</td>
