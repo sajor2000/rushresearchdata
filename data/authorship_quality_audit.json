@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-05-15T11:09:57.726239",
+  "timestamp": "2026-05-18T23:01:35.827622",
   "summary_rows": 1688,
   "work_rows": 26645,
   "blocking_issue_count": 0,
-  "review_issue_count": 48,
+  "review_issue_count": 49,
   "duplicate_checks": {
     "duplicate_normalized_faculty_names": 0,
     "duplicate_normalized_faculty_name_department": 0,
@@ -26,10 +26,17 @@
     "single_author_or_ambiguous_rows": 587
   },
   "known_review_caveats": {
-    "lower_confidence_faculty_matches_with_recent_authorship_rows": 48,
-    "authorship_rows_inherited_from_lower_confidence_matches": 1038,
+    "lower_confidence_faculty_matches_with_recent_authorship_rows": 49,
+    "authorship_rows_inherited_from_lower_confidence_matches": 1063,
     "multi_faculty_same_work_is_expected_not_duplicate": 3958,
     "max_faculty_rows_for_one_work": 12
+  },
+  "identity_overrides": {
+    "override_rows": 1,
+    "status_counts": {
+      "split_profile_review": 1
+    },
+    "duplicate_override_keys": 0
   },
   "source_dataset_preservation": {
     "available": true,
@@ -47,7 +54,14 @@
       "orcid",
       "openalex_id"
     ],
-    "pre_existing_field_changes": 0,
-    "example_changes": []
+    "pre_existing_field_changes": 1,
+    "example_changes": [
+      {
+        "row": 539,
+        "field": "match_type",
+        "old": "matched(ns=13,rw=22)",
+        "new": "split_profile_review(primary=A5102980347;possible=A5043572409|A5122848926)"
+      }
+    ]
   }
 }

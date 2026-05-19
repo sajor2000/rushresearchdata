@@ -109,9 +109,9 @@ Desktop and mobile checks confirmed:
 
 ## Caveats to Preserve
 
-- The 48 lower-confidence faculty matches with recent authorship rows remain review caveats.
-- The 1,038 authorship rows inherited from lower-confidence matches should not be described as fully identity-verified.
+- The 49 lower-confidence or split-profile faculty matches with recent authorship rows remain review caveats.
+- The 1,063 authorship rows inherited from lower-confidence or split-profile matches should not be described as fully identity-verified.
+- Carlos A. Q. Santos is now explicitly flagged as an OpenAlex split-profile review case through `data/faculty_identity_overrides.csv`; see `docs/audits/carlos-santos-openalex-profile-audit-2026-05-15.md`.
 - Multiple Rush faculty can appear on the same OpenAlex work; this is expected coauthorship, not a duplicate error.
 - Missing Rush directory matches should not be auto-corrected without source evidence.
 - Google Scholar should not overwrite OpenAlex h-index values.
-

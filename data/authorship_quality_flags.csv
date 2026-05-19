@@ -27,6 +27,7 @@ review,lower_confidence_author_match_inherits_to_authorship,collision_resolved,J
 review,lower_confidence_author_match_inherits_to_authorship,collision_resolved,Jeehyun Lee,Internal Medicine,https://openalex.org/A5100646584,
 review,lower_confidence_author_match_inherits_to_authorship,api_search,Richard I. Abrams,Internal Medicine,https://openalex.org/A5082903583,
 review,lower_confidence_author_match_inherits_to_authorship,api_search,Ken Tatebe,Radiation Oncology,https://openalex.org/A5072921772,
+review,lower_confidence_author_match_inherits_to_authorship,split_profile_review(primary=A5102980347;possible=A5043572409|A5122848926),Carlos A. Q. Santos,Internal Medicine,https://openalex.org/A5102980347,
 review,lower_confidence_author_match_inherits_to_authorship,api_search,Sharon Foley,College of Health Sciences,https://openalex.org/A5110806994,
 review,lower_confidence_author_match_inherits_to_authorship,api_search,Kelsey Gonring,Pediatrics,https://openalex.org/A5039533998,
 review,lower_confidence_author_match_inherits_to_authorship,api_search,Zachary Grelewicz,Radiation Oncology,https://openalex.org/A5066701930,

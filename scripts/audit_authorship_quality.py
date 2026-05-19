@@ -13,6 +13,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SUMMARY_CSV = REPO_ROOT / "data" / "rush_researcher_h_index.csv"
 WORK_CSV = REPO_ROOT / "data" / "faculty_authorship_works.csv"
+OVERRIDES_CSV = REPO_ROOT / "data" / "faculty_identity_overrides.csv"
 REPORT_PATH = REPO_ROOT / "data" / "authorship_quality_audit.json"
 FLAGS_PATH = REPO_ROOT / "data" / "authorship_quality_flags.csv"
 
@@ -28,7 +29,15 @@ LOWER_CONFIDENCE_MATCH_MARKERS = (
     "api_search",
     "wrong_person",
     "collision",
+    "split_profile_review",
 )
+
+ALLOWED_OVERRIDE_STATUSES = {
+    "confirmed_primary",
+    "split_profile_review",
+    "wrong_person_review",
+    "do_not_merge",
+}
 
 BASELINE_FIELDS = [
     "name",
@@ -58,6 +67,8 @@ def int_field(row, key):
 
 
 def read_csv(path):
+    if not path.exists():
+        return []
     with path.open(newline="") as f:
         return list(csv.DictReader(f))
 
@@ -105,9 +116,18 @@ def add_flag(flags, severity, check, detail, row=None):
     })
 
 
+def override_flag_row(row):
+    return {
+        "name": row.get("faculty_name", ""),
+        "rush_dept": row.get("rush_dept", ""),
+        "openalex_id": row.get("primary_openalex_id", ""),
+    }
+
+
 def main():
     summary = read_csv(SUMMARY_CSV)
     works = read_csv(WORK_CSV)
+    overrides = read_csv(OVERRIDES_CSV)
     flags = []
 
     by_name = defaultdict(list)
@@ -128,6 +148,75 @@ def main():
     for openalex_id, values in by_openalex.items():
         if len(values) > 1:
             add_flag(flags, "blocker", "duplicate_openalex_author_id", f"{openalex_id}: {len(values)} faculty rows")
+
+    summary_keys = {(row.get("name", ""), row.get("rush_dept", "")): row for row in summary}
+    override_keys = defaultdict(list)
+    override_status_counts = Counter()
+    for idx, row in enumerate(overrides, start=2):
+        faculty_key = (row.get("faculty_name", ""), row.get("rush_dept", ""))
+        override_key = (
+            row.get("faculty_name", ""),
+            row.get("rush_dept", ""),
+            row.get("primary_openalex_id", ""),
+            row.get("status", ""),
+        )
+        override_keys[override_key].append(idx)
+        override_status_counts[row.get("status", "")] += 1
+
+        if row.get("status") not in ALLOWED_OVERRIDE_STATUSES:
+            add_flag(
+                flags,
+                "blocker",
+                "invalid_identity_override_status",
+                f"row {idx}: {row.get('status', '')}",
+                override_flag_row(row),
+            )
+        if faculty_key not in summary_keys:
+            add_flag(
+                flags,
+                "blocker",
+                "identity_override_missing_faculty_row",
+                f"row {idx}: {faculty_key}",
+                override_flag_row(row),
+            )
+        else:
+            summary_row = summary_keys[faculty_key]
+            if row.get("primary_openalex_id") and row.get("primary_openalex_id") != summary_row.get("openalex_id"):
+                detail = (
+                    f"row {idx}: override={row.get('primary_openalex_id')} "
+                    f"summary={summary_row.get('openalex_id')}"
+                )
+                add_flag(flags, "blocker", "identity_override_primary_id_mismatch", detail, summary_row)
+
+        if row.get("status") == "split_profile_review":
+            if not row.get("alternate_openalex_ids"):
+                add_flag(
+                    flags,
+                    "blocker",
+                    "split_profile_override_missing_alternate_ids",
+                    f"row {idx}",
+                    override_flag_row(row),
+                )
+            if not row.get("review_match_type", "").startswith("split_profile_review("):
+                add_flag(
+                    flags,
+                    "blocker",
+                    "split_profile_override_missing_review_match_type",
+                    f"row {idx}",
+                    override_flag_row(row),
+                )
+            if not row.get("source_urls"):
+                add_flag(
+                    flags,
+                    "blocker",
+                    "identity_override_missing_source_urls",
+                    f"row {idx}",
+                    override_flag_row(row),
+                )
+
+    for override_key, row_numbers in override_keys.items():
+        if len(row_numbers) > 1:
+            add_flag(flags, "blocker", "duplicate_identity_override", f"{override_key}: rows {row_numbers}")
 
     faculty_author_work_keys = [(w["faculty_name"], w["openalex_author_id"], w["work_id"]) for w in works]
     duplicate_work_rows = len(faculty_author_work_keys) - len(set(faculty_author_work_keys))
@@ -220,6 +309,11 @@ def main():
             "authorship_rows_inherited_from_lower_confidence_matches": lower_confidence_authorship_rows,
             "multi_faculty_same_work_is_expected_not_duplicate": multi_faculty_works,
             "max_faculty_rows_for_one_work": max_faculty_per_work,
+        },
+        "identity_overrides": {
+            "override_rows": len(overrides),
+            "status_counts": dict(override_status_counts),
+            "duplicate_override_keys": sum(1 for values in override_keys.values() if len(values) > 1),
         },
         "source_dataset_preservation": compare_to_git_baseline(summary),
     }
