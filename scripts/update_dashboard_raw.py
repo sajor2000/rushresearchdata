@@ -14,6 +14,12 @@ TOPIC_STRATEGY_PATH = REPO_ROOT / "data" / "topic_strategy_metrics.csv"
 TEAM_SCIENCE_PATH = REPO_ROOT / "data" / "department_team_science.csv"
 TEAM_PAIRS_PATH = REPO_ROOT / "data" / "department_team_science_pairs.csv"
 NIH_DEPT_PATH = REPO_ROOT / "data" / "department_nih_funding.csv"
+IDENTITY_QUEUE_PATH = REPO_ROOT / "data" / "identity_review_queue.csv"
+TOP_ALTMETRIC_WORKS_PATH = REPO_ROOT / "data" / "top_altmetric_works.csv"
+DEPT_ALTMETRICS_PATH = REPO_ROOT / "data" / "department_altmetric_summary.csv"
+EXTERNAL_FUNDING_PATH = REPO_ROOT / "data" / "external_funding_benchmarks.csv"
+BRIMR_RANKINGS_PATH = REPO_ROOT / "data" / "brimr_department_rankings.csv"
+EXTERNAL_REPORT_PATH = REPO_ROOT / "data" / "external_benchmark_report.json"
 
 
 def int_field(row, key):
@@ -159,9 +165,105 @@ def build_nih_department_rows():
     ]
 
 
+def build_identity_review_rows():
+    return [
+        {
+            "facultyName": row.get("faculty_name", ""),
+            "dept": row.get("rush_dept", ""),
+            "status": row.get("status", ""),
+            "confidence": row.get("confidence", ""),
+            "primaryOpenalexId": row.get("primary_openalex_id", ""),
+            "alternateOpenalexIds": row.get("alternate_openalex_ids", ""),
+            "lastChecked": row.get("last_checked", ""),
+            "notes": row.get("notes", ""),
+        }
+        for row in read_rows(IDENTITY_QUEUE_PATH)
+    ]
+
+
+def build_top_altmetric_rows(limit=40):
+    rows = read_rows(TOP_ALTMETRIC_WORKS_PATH)
+    rows.sort(key=lambda row: float_field(row, "altmetric_score", 3), reverse=True)
+    return [
+        {
+            "workId": row.get("work_id", ""),
+            "doi": row.get("doi", ""),
+            "title": row.get("title", ""),
+            "year": int_field(row, "publication_year"),
+            "score": float_field(row, "altmetric_score", 3),
+            "news": int_field(row, "news_mentions"),
+            "policy": int_field(row, "policy_mentions"),
+            "social": int_field(row, "social_mentions"),
+            "mendeley": int_field(row, "mendeley_readers"),
+            "facultyCount": int_field(row, "faculty_count"),
+            "facultyNames": row.get("faculty_names", ""),
+            "departments": row.get("departments", ""),
+            "source": row.get("source", ""),
+        }
+        for row in rows[:limit]
+    ]
+
+
+def build_department_altmetric_rows():
+    return [
+        {
+            "dept": row.get("rush_dept", ""),
+            "matchedWorks": int_field(row, "matched_works"),
+            "score": float_field(row, "altmetric_score", 3),
+            "news": int_field(row, "news_mentions"),
+            "policy": int_field(row, "policy_mentions"),
+            "social": int_field(row, "social_mentions"),
+            "mendeley": int_field(row, "mendeley_readers"),
+        }
+        for row in read_rows(DEPT_ALTMETRICS_PATH)
+    ]
+
+
+def build_external_funding_rows():
+    return [
+        {
+            "year": int_field(row, "year"),
+            "source": row.get("source", ""),
+            "organization": row.get("organization", ""),
+            "category": row.get("department_or_category", ""),
+            "nihDollars": int_field(row, "nih_dollars"),
+            "rank": int_field(row, "rank"),
+            "activeProjects": int_field(row, "active_projects"),
+            "r01Count": int_field(row, "r01_count"),
+            "sourceUrl": row.get("source_url", ""),
+            "lastChecked": row.get("last_checked", ""),
+            "notes": row.get("notes", ""),
+        }
+        for row in read_rows(EXTERNAL_FUNDING_PATH)
+    ]
+
+
+def build_brimr_rows():
+    return [
+        {
+            "year": int_field(row, "year"),
+            "organization": row.get("organization", ""),
+            "category": row.get("brimr_category", ""),
+            "rank": int_field(row, "rank"),
+            "totalNihFunding": int_field(row, "total_nih_funding"),
+            "peerCount": int_field(row, "peer_count"),
+            "sourceUrl": row.get("source_url", ""),
+            "lastChecked": row.get("last_checked", ""),
+            "notes": row.get("notes", ""),
+        }
+        for row in read_rows(BRIMR_RANKINGS_PATH)
+    ]
+
+
+def build_external_report():
+    if not EXTERNAL_REPORT_PATH.exists():
+        return {}
+    return json.loads(EXTERNAL_REPORT_PATH.read_text())
+
+
 def replace_const(html, name, value):
     json_value = json.dumps(value, ensure_ascii=False, separators=(",", ": "))
-    pattern = rf"const {name} = \[.*?\];"
+    pattern = rf"const {name} = (?:\[.*?\]|\{{.*?\}});"
     replacement = f"const {name} = {json_value};"
     next_html, count = re.subn(pattern, replacement, html, count=1, flags=re.S)
     if count:
@@ -173,21 +275,18 @@ def replace_const(html, name, value):
 def main():
     raw_rows = build_raw_rows()
     html = INDEX_PATH.read_text()
-    raw_json = json.dumps(raw_rows, ensure_ascii=False, separators=(",", ": "))
-    next_html, count = re.subn(
-        r"const RAW = \[.*?\];\n\n// =============================================\n// CONSTANTS",
-        f"const RAW = {raw_json};\n\n// =============================================\n// CONSTANTS",
-        html,
-        count=1,
-        flags=re.S,
-    )
-    if count != 1:
-        raise RuntimeError("Could not replace RAW data block in index.html")
+    next_html = replace_const(html, "RAW", raw_rows)
     next_html = replace_const(next_html, "STRATEGY_DEPT", build_department_strategy_rows())
     next_html = replace_const(next_html, "STRATEGY_TOPICS", build_topic_strategy_rows())
     next_html = replace_const(next_html, "TEAM_SCIENCE", build_team_science_rows())
     next_html = replace_const(next_html, "TEAM_PAIRS", build_team_pair_rows())
     next_html = replace_const(next_html, "NIH_DEPT", build_nih_department_rows())
+    next_html = replace_const(next_html, "IDENTITY_REVIEW_QUEUE", build_identity_review_rows())
+    next_html = replace_const(next_html, "TOP_ALTMETRIC_WORKS", build_top_altmetric_rows())
+    next_html = replace_const(next_html, "DEPT_ALTMETRICS", build_department_altmetric_rows())
+    next_html = replace_const(next_html, "EXTERNAL_FUNDING_BENCHMARKS", build_external_funding_rows())
+    next_html = replace_const(next_html, "BRIMR_RANKINGS", build_brimr_rows())
+    next_html = replace_const(next_html, "EXTERNAL_BENCHMARK_REPORT", build_external_report())
     INDEX_PATH.write_text(next_html)
     print(f"Updated RAW data block with {len(raw_rows)} faculty rows.")
 

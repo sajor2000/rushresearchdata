@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-05-18T23:41:01.070958",
+  "identity_override_rows": 1,
+  "identity_review_queue_rows": 1,
+  "altmetric_import_rows": 0,
+  "altmetric_matched_rows": 0,
+  "altmetric_unmatched_rows": 0,
+  "faculty_altmetric_summary_rows": 0,
+  "department_altmetric_summary_rows": 0,
+  "top_altmetric_work_rows": 0,
+  "external_funding_benchmark_rows": 0,
+  "brimr_department_ranking_rows": 0,
+  "source_mode": "csv_import"
+}

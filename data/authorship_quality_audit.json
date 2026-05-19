@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-18T23:01:35.827622",
+  "timestamp": "2026-05-18T23:41:01.569236",
   "summary_rows": 1688,
   "work_rows": 26645,
   "blocking_issue_count": 0,
@@ -54,13 +54,25 @@
       "orcid",
       "openalex_id"
     ],
-    "pre_existing_field_changes": 1,
+    "pre_existing_field_changes": 3,
     "example_changes": [
       {
-        "row": 539,
-        "field": "match_type",
-        "old": "matched(ns=13,rw=22)",
-        "new": "split_profile_review(primary=A5102980347;possible=A5043572409|A5122848926)"
+        "row": 43,
+        "field": "h_index",
+        "old": "61",
+        "new": "62"
+      },
+      {
+        "row": 80,
+        "field": "h_index",
+        "old": "49",
+        "new": "50"
+      },
+      {
+        "row": 87,
+        "field": "h_index",
+        "old": "48",
+        "new": "49"
       }
     ]
   }

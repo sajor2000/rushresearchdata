@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-05-18T23:41:02.079758",
+  "blocking_issue_count": 0,
+  "review_issue_count": 3,
+  "row_counts": {
+    "identity_overrides": 1,
+    "identity_review_queue": 1,
+    "work_altmetrics": 0,
+    "faculty_altmetric_summary": 0,
+    "department_altmetric_summary": 0,
+    "top_altmetric_works": 0,
+    "external_funding_benchmarks": 0,
+    "brimr_department_rankings": 0
+  },
+  "duplicate_checks": {
+    "duplicate_identity_override_keys": 0,
+    "duplicate_altmetric_keys": 0,
+    "duplicate_external_funding_keys": 0,
+    "duplicate_brimr_keys": 0
+  },
+  "join_coverage": {
+    "altmetric_rows_matched_to_faculty_work": 0,
+    "altmetric_rows_unmatched_to_faculty_work": 0
+  },
+  "source_mode": "csv_import"
+}

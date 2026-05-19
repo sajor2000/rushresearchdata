@@ -1,0 +1,4 @@
+severity,check,detail,faculty_name,rush_dept,work_id,source
+review,no_altmetric_rows_imported,work_altmetrics.csv has headers only; dashboard will show no imported attention data,,,,
+review,no_external_funding_rows_imported,external_funding_benchmarks.csv has headers only,,,,
+review,no_brimr_rows_imported,brimr_department_rankings.csv has headers only,,,,
